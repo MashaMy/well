@@ -1,0 +1,61 @@
+/* void grid admin css */
+
+.void-grid-review{
+	background : #FFFFFF ;
+	padding : 10px;
+	margin-top : 40px;
+	margin-bottom: 10px;
+	line-height: 1.5;
+	font-size: 16px;
+	border-left: 5px solid #006799;
+	-webkit-box-shadow: 1px 1px 1px 1px #d3d3d3;
+	box-shadow: 1px 1px 1px 1px #d3d3d3;
+}
+.void-grid-review-btn{
+	padding-top: 5px;
+}
+.void-grid-review-done{
+	float: right;
+	text-decoration: none;
+}
+
+/* notice css start */
+.void-grid-message-inner {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.void-grid-message-icon,
+.void-grid-message-icon > img{
+	height: 50px;
+	width: 50px;
+}
+.void-grid-message-content{
+	padding: 0 20px;
+}
+.void-grid-message-content p{
+	padding: 0;
+    margin: 0;
+}
+.void-grid-message-action{
+	text-align: center;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    margin-left: auto;
+}
+.void-grid-message-action .void-grid-button{
+	background-color: #d30c5c;
+    color: #fff;
+    border-color: #7c1337;
+    -webkit-box-shadow: 0 1px 0 #7c1337;
+    box-shadow: 0 1px 0 #7c1337;
+    padding: 5px 30px;
+    height: auto;
+    line-height: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+    border-radius: 5px;
+}
+/* notice css end */

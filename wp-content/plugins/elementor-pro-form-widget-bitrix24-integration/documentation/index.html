@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Elementor Pro Form Widget - Bitrix24 CRM - Integration</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">
+			&ldquo;Elementor Pro Form Widget - Bitrix24 CRM - Integration&rdquo; Documentation by &ldquo;itgalaxycompany&rdquo; v1.0.0
+		</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Elementor Pro Form Widget - Bitrix24 CRM - Integration&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 08/05/2018<br>
+					By: itgalaxycompany<br>
+					Site: <a href="https://codecanyon.net/user/itgalaxycompany">itgalaxycompany</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file, please feel free to comments in page <a href="https://codecanyon.net/user/itgalaxycompany">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="top" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#about">About</a></li>
+			<li><a href="#step-1">Step 1 - Settings in CRM</a></li>
+			<li><a href="#step-2">Step 2 - Integration</a></li>
+			<li><a href="#step-3">Step 3 - Form action after submit</a></li>
+			<li><a href="#additional">Additional information</a></li>
+		</ol>
+
+		<hr>
+
+		<h3 id="about"><strong>A) About</strong> - <a href="#top">top</a></h3>
+		<p>
+			The main task of this plugin is send you `Elementor Pro Form Widget - Bitrix24 CRM - Integration` forms directly to your Bitrix24 account.
+        </p>
+
+		<img src="assets/images/about.jpg" alt="about.jpg" />
+
+		<hr>
+
+		<h3 id="step-1"><strong>B) Step 1 - Settings in CRM</strong> - <a href="#top">top</a></h3>
+
+		<p>
+			Go to your `Bitrix24` -> `Applications` -> `Web hooks`.<br>
+			https://your_bitrix24/marketplace/hook/
+		</p>
+
+		<p>
+			Click `ADD WEB HOOK`. Choose `Inbound web hook`.
+		</p>
+
+		<img src="assets/images/step1.jpg" alt="step1.jpg" />
+
+		<p>
+			Check `Tasks`, `Tasks (extended permissions)`, `CRM` and `Chat and Notifications (im)`. Click the button `SAVE`.
+		</p>
+
+		<img src="assets/images/step1_1.jpg" alt="step1_1.jpg" />
+
+		<p>
+			Copy value from `REST call example URL` without `profile/`.
+		</p>
+
+		<img src="assets/images/step1_2.jpg" alt="step1_2.jpg" />
+
+    <hr>
+
+		<h3 id="step-2"><strong>C) Step 2 - Integration</strong> - <a href="#top">top</a></h3>
+
+		<p>
+      Go to the `Elementor` -> `Bitrix24`
+		</p>
+
+		<p>
+			Insert in the field `Inbound web hook` copied value.
+		</p>
+
+		<p>
+      Validate webhook.
+		</p>
+
+		<img src="assets/images/step2.jpg" alt="step2.jpg" />
+
+		<hr>
+
+		<h3 id="step-3"><strong>D) Step 3 - Form action after submit</strong> - <a href="#top">top</a></h3>
+
+		<p>
+      Open to edit the page with the form that you want to send to the Bitrix24.
+		</p>
+
+		<p>
+      Click on the form and click on section `Actions After Submit` on the left.
+      Click in the `Add action` field and select the type you need "Lead, Deal, Task, Company or Contact".
+		</p>
+
+		<img src="assets/images/step3.jpg" alt="step3.jpg" />
+
+    <p>
+      After selecting a section will appear with fields to fill.
+    </p>
+
+    <img src="assets/images/step3_1.jpg" alt="step3_1.jpg" />
+
+		<p>
+			Below is an example of the filled-in fields.
+		</p>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>
+		        <img src="assets/images/step3_3.jpg" alt="step3_3.jpg" />
+          </td>
+          <td>
+		        <img src="assets/images/step3_4.jpg" alt="step3_4.jpg" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      Fill fields and click "Update" button.
+    </p>
+
+    <img src="assets/images/step3_2.jpg" alt="step3_2.jpg" />
+
+    <p>
+      When sending the form, the data will be transferred to Bitrix24.
+    </p>
+
+    <hr>
+
+		<h3 id="additional"><strong>E) Additional information</strong> - <a href="#top">top</a></h3>
+
+		<h4>
+      <strong>Where can I find the shortcode field to insert?</strong>
+		</h4>
+
+    <p>
+      Open section `Form Fields`, click on the desired field, switch to the tab `Advanced`. In the field `Shortcode` there is a shortcode that can be inserted into the fields for the Bitrix24.
+    </p>
+
+    <img src="assets/images/get-shortcode.jpg" alt="get-shortcode.jpg" />
+
+    <h4>
+      <strong>Additional shortcodes</strong>
+    </h4>
+
+    <ul>
+      <li>[utm_source]</li>
+      <li>[utm_medium]</li>
+      <li>[utm_campaign]</li>
+      <li>[utm_term]</li>
+      <li>[utm_content]</li>
+      <li>[roistat_visit]</li>
+      <li>[gaClientID]</li>
+    </ul>
+
+		<hr>
+
+		<p class="append-bottom alt large"><strong>itgalaxycompany</strong></p>
+		<p><a href="#top">Go To Table of Contents</a></p>
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

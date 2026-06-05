@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-02-02 11:55+0300\n"
+"PO-Revision-Date: 2020-02-02 11:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/Admin.php:30 admin/Admin.php:44 admin/Admin.php:45
+#: admin/widgets/header/views/widget.php:14
+msgid "Scripts"
+msgstr ""
+
+#: admin/controllers/ItemController.php:144
+msgid "Code Deleted"
+msgstr ""
+
+#: admin/controllers/ItemController.php:144
+msgid "Hide"
+msgstr ""
+
+#: admin/forms/item/ItemForm.php:41
+msgid "Caption"
+msgstr ""
+
+#: admin/forms/item/ItemForm.php:42
+msgid "Body"
+msgstr ""
+
+#: admin/views/item/_modal_add.php:13 admin/views/item/_modal_add.php:52
+#: admin/views/item/_modal_delete_confirm.php:12
+#: admin/views/item/_modal_delete_confirm.php:34
+#: admin/views/item/_modal_edit.php:13 admin/views/item/_modal_edit.php:52
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/item/_modal_add.php:14
+msgid "New Code"
+msgstr ""
+
+#: admin/views/item/_modal_add.php:55
+msgid "Add"
+msgstr ""
+
+#: admin/views/item/_modal_delete_confirm.php:13
+msgid "Confirmation"
+msgstr ""
+
+#: admin/views/item/_modal_delete_confirm.php:28
+msgid "Are you sure to delete this code?"
+msgstr ""
+
+#: admin/views/item/_modal_delete_confirm.php:37
+#: admin/widgets/itemRow/views/row.php:24
+msgid "Delete"
+msgstr ""
+
+#: admin/views/item/_modal_edit.php:14
+msgid "Edit Code"
+msgstr ""
+
+#: admin/views/item/_modal_edit.php:55
+msgid "Save"
+msgstr ""
+
+#: admin/views/rate/notice.php:9
+msgid "Hello!"
+msgstr ""
+
+#: admin/views/rate/notice.php:12
+#, php-format
+msgid "We are very pleased that you are using the %s plugin within a few days."
+msgstr ""
+
+#: admin/views/rate/notice.php:16
+msgid "Please rate plugin. It will help us a lot."
+msgstr ""
+
+#: admin/views/rate/notice.php:19
+msgid "Rate the plugin"
+msgstr ""
+
+#: admin/views/rate/notice.php:26
+msgid "Remind later"
+msgstr ""
+
+#: admin/views/rate/notice.php:32
+msgid "I've already rated the plugin"
+msgstr ""
+
+#: admin/views/rate/notice.php:40
+msgid "Thank you very much!"
+msgstr ""
+
+#: admin/views/scripts/index.php:30 admin/views/scripts/index.php:47
+#: admin/views/scripts/index.php:62
+msgid "Add Code"
+msgstr ""
+
+#: admin/views/scripts/index.php:51
+msgid "page content"
+msgstr ""
+
+#: admin/widgets/header/views/widget.php:18
+msgid "Settings"
+msgstr ""
+
+#: admin/widgets/header/views/widget.php:21
+#, php-format
+msgid "Leave a %s plugin review on WordPress.org"
+msgstr ""
+
+#: admin/widgets/itemRow/views/row.php:19
+msgid "Disable"
+msgstr ""
+
+#: admin/widgets/itemRow/views/row.php:21 config/settings.php:17
+msgid "Enable"
+msgstr ""
+
+#: admin/widgets/itemRow/views/row.php:23
+msgid "Edit"
+msgstr ""
+
+#: config/settings.php:11
+#, php-format
+msgid "Use hook %s"
+msgstr ""
+
+#: config/settings.php:21
+#, php-format
+msgid "Check if your theme support hook %s"
+msgstr ""
+
+#: core/admin/AdminController.php:50
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: core/validators/RequiredValidator.php:18
+#, php-format
+msgid "%s cannot be blank."
+msgstr ""
+
+#: plugin/Plugin.php:27
+msgid ""
+"A great way to insert and manage custom code (CSS, JS, meta tags, etc.) into "
+"website before &lt;/head&gt;, after &lt;body&gt; or before &lt;/body&gt;."
+msgstr ""

@@ -1,0 +1,412 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mega Posts Display for Elementor\n"
+"POT-Creation-Date: 2019-05-31 16:55+0200\n"
+"PO-Revision-Date: 2019-05-22 10:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: support@ad-theme.com\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: megapostsdisplayelementor.php:132
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: megapostsdisplayelementor.php:133 megapostsdisplayelementor.php:155
+#: megapostsdisplayelementor.php:179
+msgid "Mega Posts Display For Elementor"
+msgstr ""
+
+#: megapostsdisplayelementor.php:134 megapostsdisplayelementor.php:156
+msgid "Elementor"
+msgstr ""
+
+#: megapostsdisplayelementor.php:154 megapostsdisplayelementor.php:178
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: megapostsdisplayelementor.php:180
+msgid "PHP"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:46
+msgid "Carousel"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:164
+#: widgets/MegaPostsDisplay/news-ticker.php:164
+#: widgets/MegaPostsDisplay/posts-display.php:164
+msgid "Content"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:171
+msgid "Carousel Type"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:185
+#: widgets/MegaPostsDisplay/posts-display.php:187
+msgid "Show Excerpt"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:189
+#: widgets/MegaPostsDisplay/carousel.php:217
+#: widgets/MegaPostsDisplay/carousel.php:258
+#: widgets/MegaPostsDisplay/carousel.php:274
+#: widgets/MegaPostsDisplay/carousel.php:290
+#: widgets/MegaPostsDisplay/carousel.php:306
+#: widgets/MegaPostsDisplay/carousel.php:350
+#: widgets/MegaPostsDisplay/carousel.php:363
+#: widgets/MegaPostsDisplay/news-ticker.php:212
+#: widgets/MegaPostsDisplay/news-ticker.php:253
+#: widgets/MegaPostsDisplay/news-ticker.php:269
+#: widgets/MegaPostsDisplay/news-ticker.php:285
+#: widgets/MegaPostsDisplay/news-ticker.php:301
+#: widgets/MegaPostsDisplay/posts-display.php:191
+#: widgets/MegaPostsDisplay/posts-display.php:217
+#: widgets/MegaPostsDisplay/posts-display.php:255
+#: widgets/MegaPostsDisplay/posts-display.php:268
+#: widgets/MegaPostsDisplay/posts-display.php:281
+#: widgets/MegaPostsDisplay/posts-display.php:294
+msgid "Show"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:190
+#: widgets/MegaPostsDisplay/carousel.php:218
+#: widgets/MegaPostsDisplay/carousel.php:259
+#: widgets/MegaPostsDisplay/carousel.php:275
+#: widgets/MegaPostsDisplay/carousel.php:291
+#: widgets/MegaPostsDisplay/carousel.php:307
+#: widgets/MegaPostsDisplay/carousel.php:351
+#: widgets/MegaPostsDisplay/carousel.php:364
+#: widgets/MegaPostsDisplay/news-ticker.php:213
+#: widgets/MegaPostsDisplay/news-ticker.php:254
+#: widgets/MegaPostsDisplay/news-ticker.php:270
+#: widgets/MegaPostsDisplay/news-ticker.php:286
+#: widgets/MegaPostsDisplay/news-ticker.php:302
+#: widgets/MegaPostsDisplay/posts-display.php:192
+#: widgets/MegaPostsDisplay/posts-display.php:218
+#: widgets/MegaPostsDisplay/posts-display.php:256
+#: widgets/MegaPostsDisplay/posts-display.php:269
+#: widgets/MegaPostsDisplay/posts-display.php:282
+#: widgets/MegaPostsDisplay/posts-display.php:295
+msgid "Hidden"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:201
+#: widgets/MegaPostsDisplay/news-ticker.php:196
+#: widgets/MegaPostsDisplay/posts-display.php:201
+msgid "Number Experpt"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:213
+#: widgets/MegaPostsDisplay/news-ticker.php:208
+#: widgets/MegaPostsDisplay/posts-display.php:213
+msgid "Show Date"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:229
+#: widgets/MegaPostsDisplay/news-ticker.php:224
+#: widgets/MegaPostsDisplay/posts-display.php:226
+msgid "Date Format"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:233
+#: widgets/MegaPostsDisplay/news-ticker.php:228
+#: widgets/MegaPostsDisplay/posts-display.php:230
+msgid "November 6, 2010 12:50 am"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:234
+#: widgets/MegaPostsDisplay/news-ticker.php:229
+#: widgets/MegaPostsDisplay/posts-display.php:231
+msgid "November 6, 2010"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:235
+#: widgets/MegaPostsDisplay/news-ticker.php:230
+#: widgets/MegaPostsDisplay/posts-display.php:232
+msgid "November, 2010"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:236
+#: widgets/MegaPostsDisplay/news-ticker.php:231
+#: widgets/MegaPostsDisplay/posts-display.php:233
+msgid "12:50 am"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:237
+#: widgets/MegaPostsDisplay/news-ticker.php:232
+#: widgets/MegaPostsDisplay/posts-display.php:234
+msgid "12:50:48 am"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:238
+#: widgets/MegaPostsDisplay/news-ticker.php:233
+#: widgets/MegaPostsDisplay/posts-display.php:235
+msgid "Saturday, November 6th, 2010"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:239
+#: widgets/MegaPostsDisplay/news-ticker.php:234
+#: widgets/MegaPostsDisplay/posts-display.php:236
+msgid "Nov 6, 2010 @ 0:50"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:240
+#: widgets/MegaPostsDisplay/news-ticker.php:235
+#: widgets/MegaPostsDisplay/posts-display.php:237
+msgid "2010/11/06 at 12:50 AM"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:241
+#: widgets/MegaPostsDisplay/news-ticker.php:236
+#: widgets/MegaPostsDisplay/posts-display.php:238
+msgid "2010/11/06 at 12:50am"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:242
+#: widgets/MegaPostsDisplay/news-ticker.php:237
+#: widgets/MegaPostsDisplay/posts-display.php:239
+msgid "2010/11/06 12:50:48 AM"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:243
+#: widgets/MegaPostsDisplay/news-ticker.php:238
+#: widgets/MegaPostsDisplay/posts-display.php:240
+msgid "2010/11/06"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:254
+#: widgets/MegaPostsDisplay/news-ticker.php:249
+#: widgets/MegaPostsDisplay/posts-display.php:251
+msgid "Show Comments"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:270
+#: widgets/MegaPostsDisplay/news-ticker.php:265
+#: widgets/MegaPostsDisplay/posts-display.php:264
+msgid "Show Author"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:286
+#: widgets/MegaPostsDisplay/news-ticker.php:281
+#: widgets/MegaPostsDisplay/posts-display.php:277
+msgid "Show Category"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:302
+#: widgets/MegaPostsDisplay/news-ticker.php:297
+#: widgets/MegaPostsDisplay/posts-display.php:290
+msgid "Show Views"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:320
+msgid "Carousel Settings"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:327
+msgid "Number Item Show"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:346
+msgid "Navigation"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:359
+#: widgets/MegaPostsDisplay/posts-display.php:425
+msgid "Pagination"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:372
+msgid "Autoplay (ms) - ex 1000 (Insert 0 if you want disable autoplay)"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:384
+#: widgets/MegaPostsDisplay/news-ticker.php:315
+#: widgets/MegaPostsDisplay/posts-display.php:328
+msgid "QUERY"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:391
+#: widgets/MegaPostsDisplay/news-ticker.php:322
+#: widgets/MegaPostsDisplay/posts-display.php:335
+msgid "Source"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:395
+#: widgets/MegaPostsDisplay/news-ticker.php:326
+#: widgets/MegaPostsDisplay/posts-display.php:339
+msgid "Wordpress Posts"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:396
+#: widgets/MegaPostsDisplay/news-ticker.php:327
+#: widgets/MegaPostsDisplay/posts-display.php:340
+msgid "Custom Posts Type"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:404
+#: widgets/MegaPostsDisplay/news-ticker.php:335
+#: widgets/MegaPostsDisplay/posts-display.php:348
+msgid "All Posts/Sticky posts"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:408
+#: widgets/MegaPostsDisplay/news-ticker.php:339
+#: widgets/MegaPostsDisplay/posts-display.php:352
+msgid "All Posts"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:409
+#: widgets/MegaPostsDisplay/news-ticker.php:340
+#: widgets/MegaPostsDisplay/posts-display.php:353
+msgid "Only Sticky Posts"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:420
+#: widgets/MegaPostsDisplay/news-ticker.php:351
+#: widgets/MegaPostsDisplay/posts-display.php:364
+msgid "Select Post Type Source"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:432
+#: widgets/MegaPostsDisplay/news-ticker.php:363
+#: widgets/MegaPostsDisplay/posts-display.php:376
+msgid "Categories"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:445
+#: widgets/MegaPostsDisplay/news-ticker.php:376
+#: widgets/MegaPostsDisplay/posts-display.php:389
+msgid "Order"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:458
+#: widgets/MegaPostsDisplay/news-ticker.php:389
+#: widgets/MegaPostsDisplay/posts-display.php:402
+msgid "Order By"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:479
+#: widgets/MegaPostsDisplay/news-ticker.php:410
+#: widgets/MegaPostsDisplay/posts-display.php:438
+msgid "Number Posts"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:490
+#: widgets/MegaPostsDisplay/news-ticker.php:421
+#: widgets/MegaPostsDisplay/posts-display.php:481
+msgid "Animations"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:497
+#: widgets/MegaPostsDisplay/news-ticker.php:428
+#: widgets/MegaPostsDisplay/posts-display.php:488
+msgid "Animate"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:510
+#: widgets/MegaPostsDisplay/news-ticker.php:441
+#: widgets/MegaPostsDisplay/posts-display.php:501
+msgid "Animate Effects"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:571
+#: widgets/MegaPostsDisplay/news-ticker.php:502
+#: widgets/MegaPostsDisplay/posts-display.php:562
+msgid "Animate Delay (ms)"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:586
+#: widgets/MegaPostsDisplay/news-ticker.php:517
+#: widgets/MegaPostsDisplay/posts-display.php:577
+msgid "Style"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:594
+#: widgets/MegaPostsDisplay/news-ticker.php:525
+#: widgets/MegaPostsDisplay/posts-display.php:585
+msgid "Custom Style"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:607
+#: widgets/MegaPostsDisplay/news-ticker.php:538
+#: widgets/MegaPostsDisplay/posts-display.php:598
+msgid "Main Color"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/carousel.php:791
+#: widgets/MegaPostsDisplay/carousel.php:824
+#: widgets/MegaPostsDisplay/posts-display.php:864
+#: widgets/MegaPostsDisplay/posts-display.php:888
+#: widgets/MegaPostsDisplay/posts-display.php:907
+msgid "Read More"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/news-ticker.php:46
+msgid "News Ticker"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/news-ticker.php:171
+msgid "News Ticker Type"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/news-ticker.php:184
+msgid "Item Views"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/posts-display.php:46
+msgid "Mega Posts Display"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/posts-display.php:171
+msgid "Post Display Type"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/posts-display.php:303
+msgid "Columns"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/posts-display.php:450
+msgid "Pagination Type"
+msgstr ""
+
+#: widgets/MegaPostsDisplay/posts-display.php:466
+msgid "Number Posts For Page"
+msgstr ""
+
+#: widgets/widgets-help-functions.php:54 widgets/widgets-help-functions.php:63
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: widgets/widgets-help-functions.php:141
+msgid "Views"
+msgstr ""
+
+#: widgets/widgets-help-functions.php:183
+msgid "Click to share this post on Facebook"
+msgstr ""
+
+#: widgets/widgets-help-functions.php:184
+msgid "Click to share this post on Twitter"
+msgstr ""
+
+#: widgets/widgets-help-functions.php:185
+msgid "Click to share this post on Linkedin"
+msgstr ""
+
+#: widgets/widgets-help-functions.php:186
+msgid "Click to share this post on Pinterest"
+msgstr ""

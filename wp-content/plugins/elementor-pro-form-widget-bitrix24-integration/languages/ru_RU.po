@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elementor Pro Form Widget - Bitrix24 CRM - Integration\n"
+"POT-Creation-Date: 2020-02-13 10:00+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr_e\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/IntegrationSettings.php:45 admin/IntegrationSettings.php:46
+msgid "Bitrix24"
+msgstr "Bitrix24"
+
+#: admin/IntegrationSettings.php:63 admin/IntegrationSettings.php:69
+#: admin/IntegrationSettings.php:85 admin/IntegrationSettings.php:91
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: admin/IntegrationSettings.php:64
+msgid "To integrate with Bitrix24, your must fill webhook field."
+msgstr "Для интеграции с Bitrix24 необходимо указать вебхук."
+
+#: admin/IntegrationSettings.php:70
+msgid "Web hook url is not valid."
+msgstr "Неверный url веб-хука."
+
+#: admin/IntegrationSettings.php:86
+msgid "Insufficient permissions. Check CRM settings."
+msgstr "Недостаточно прав. Проверьте настройки CRM."
+
+#: admin/IntegrationSettings.php:92
+msgid "Response CRM is not valid. Please check web hook link."
+msgstr "Неверный ответ CRM. Проверьте веб-хук."
+
+#: admin/IntegrationSettings.php:100
+msgid "Webhook check is successfully."
+msgstr "Проверка вебхука прошла успешно."
+
+#: admin/IntegrationSettings.php:135
+msgid "Fields cache updated successfully."
+msgstr "Кеш полей успешно обновлен."
+
+#: admin/IntegrationSettings.php:140
+msgid "Integration settings"
+msgstr "Настройка интеграции"
+
+#: admin/IntegrationSettings.php:145
+msgid "Plugin documentation: "
+msgstr "Документация плагина:"
+
+#: admin/IntegrationSettings.php:147
+msgid "open"
+msgstr "открыть"
+
+#: admin/IntegrationSettings.php:149
+msgid "Or open the folder `documentation` in the plugin and open index.html"
+msgstr "Или откройте папку `documentation` в плагине и откройте index.html"
+
+#: admin/IntegrationSettings.php:161
+msgid "Inbound web hook"
+msgstr "Входящий веб-хук"
+
+#: admin/IntegrationSettings.php:179
+msgid ""
+"The following permissions are required: CRM, Tasks, Tasks extended, Chat and "
+"Notifications."
+msgstr ""
+"Требуются следующие права: CRM, Tasks, Tasks extended и Chat and "
+"Notifications."
+
+#: admin/IntegrationSettings.php:189
+msgid "Enable logging"
+msgstr "Включить логирование"
+
+#: admin/IntegrationSettings.php:209
+msgid "Validate webhook"
+msgstr "Проверить вебхук"
+
+#: admin/IntegrationSettings.php:218
+msgid "Reload fields data from CRM"
+msgstr "Обновить кеш полей из CRM"
+
+#: admin/IntegrationSettings.php:279
+msgid "License verification"
+msgstr "Проверка лицензии"
+
+#: admin/IntegrationSettings.php:282
+msgid "verified"
+msgstr "проверен"
+
+#: admin/IntegrationSettings.php:286
+msgid "please verify your purchase code"
+msgstr "пожалуйста, укажите код покупки"
+
+#: admin/IntegrationSettings.php:295
+msgid "Purchase code"
+msgstr "Код покупки"
+
+#: admin/IntegrationSettings.php:313
+msgid "Where Is My Purchase Code?"
+msgstr "Где найти код покупки?"
+
+#: admin/IntegrationSettings.php:322
+msgid "Verify"
+msgstr "Активировать"
+
+#: admin/IntegrationSettings.php:327
+msgid "Unverify"
+msgstr "Деактивировать"
+
+#: includes/CompanyActionAfterSubmit.php:16
+msgid "Bitrix24 (Company)"
+msgstr "Bitrix24 (Компания)"
+
+#: includes/ContactActionAfterSubmit.php:16
+msgid "Bitrix24 (Contact)"
+msgstr "Bitrix24 (Контакт)"
+
+#: includes/ContactActionAfterSubmit.php:62
+#: includes/DealActionAfterSubmit.php:209
+#: includes/TaskActionAfterSubmit.php:153
+msgid "Update an existing"
+msgstr "Обновлять существующий"
+
+#: includes/ContactActionAfterSubmit.php:66
+#: includes/DealActionAfterSubmit.php:213
+#: includes/TaskActionAfterSubmit.php:157
+msgid "Update an existing contact (search by phone and mail)"
+msgstr "Обновлять существующий контакт (поиск по телефону и почте)"
+
+#: includes/Crm.php:106
+msgid "New lead"
+msgstr "Новый лид"
+
+#: includes/Crm.php:114 includes/Crm.php:226 includes/Crm.php:320
+msgid "from the site"
+msgstr "с сайта"
+
+#: includes/Crm.php:218
+msgid "New deal"
+msgstr "Новая сделка"
+
+#: includes/Crm.php:308
+msgid "New task"
+msgstr "Новая задача"
+
+#: includes/Crm.php:738
+msgid "Uploaded files"
+msgstr "Загруженные файлы"
+
+#: includes/CrmFields.php:71
+msgid "Street, building"
+msgstr "Улица, дом, корпус, строение"
+
+#: includes/CrmFields.php:72
+msgid "Suite / Apartment"
+msgstr "Квартира / офис"
+
+#: includes/CrmFields.php:73
+msgid "City"
+msgstr "Город"
+
+#: includes/CrmFields.php:74
+msgid "Zip"
+msgstr "Почтовый индекс"
+
+#: includes/CrmFields.php:75
+msgid "Region"
+msgstr "Район"
+
+#: includes/CrmFields.php:76
+msgid "State / Province"
+msgstr "Область"
+
+#: includes/CrmFields.php:77
+msgid "Country"
+msgstr "Страна"
+
+#: includes/CrmFields.php:78
+msgid "Birth date"
+msgstr "Дата рождения"
+
+#: includes/CrmFields.php:79
+msgid "Payment details"
+msgstr "Банковские реквизиты"
+
+#: includes/CrmFields.php:80
+msgid "Industry"
+msgstr "Сфера деятельности"
+
+#: includes/CrmFields.php:81
+msgid "Employees"
+msgstr "Кол-во сотрудников"
+
+#: includes/CrmFields.php:82
+msgid "Annual income"
+msgstr "Годовой оборот"
+
+#: includes/CrmFields.php:83
+msgid "Company Name"
+msgstr "Название компании"
+
+#: includes/CrmFields.php:84
+msgid "Company type"
+msgstr "Тип компании"
+
+#: includes/CrmFields.php:85
+msgid "Visible to everyone"
+msgstr "Доступно всем"
+
+#: includes/CrmFields.php:86
+msgid "Title"
+msgstr "Название"
+
+#: includes/CrmFields.php:87
+msgid "Type"
+msgstr "Тип"
+
+#: includes/CrmFields.php:88
+msgid "Stage"
+msgstr "Стадия"
+
+#: includes/CrmFields.php:89
+msgid "Probability, %"
+msgstr "Вероятность,%"
+
+#: includes/CrmFields.php:90
+msgid "First name"
+msgstr "Имя"
+
+#: includes/CrmFields.php:91
+msgid "Honorific"
+msgstr "Обращение"
+
+#: includes/CrmFields.php:92
+msgid "Last name"
+msgstr "Фамилия"
+
+#: includes/CrmFields.php:93
+msgid "Middle name"
+msgstr "Отчество"
+
+#: includes/CrmFields.php:94
+msgid "Position"
+msgstr "Должность"
+
+#: includes/CrmFields.php:95
+msgid "Responsible user ID"
+msgstr "ID ответственного пользователя"
+
+#: includes/CrmFields.php:96
+msgid "Comments"
+msgstr "Комментарий"
+
+#: includes/CrmFields.php:97
+msgid "Description"
+msgstr "Описание"
+
+#: includes/CrmFields.php:98
+msgid "Source Description"
+msgstr "Дополнительно об источнике"
+
+#: includes/CrmFields.php:99
+msgid "Status description"
+msgstr "Дополнительно о статусе"
+
+#: includes/CrmFields.php:100
+msgid "Opportunity"
+msgstr "Возможная сумма сделки"
+
+#: includes/CrmFields.php:101
+msgid "Currency"
+msgstr "Валюта"
+
+#: includes/CrmFields.php:102
+msgid "Product ID from CRM"
+msgstr "ID товара из CRM"
+
+#: includes/CrmFields.php:103
+msgid "Source"
+msgstr "Источник"
+
+#: includes/CrmFields.php:104
+msgid "Status"
+msgstr "Статус"
+
+#: includes/CrmFields.php:105
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/CrmFields.php:106
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/CrmFields.php:107
+msgid "Site"
+msgstr "Сайт"
+
+#: includes/CrmFields.php:108
+msgid "Tags"
+msgstr "Тэги"
+
+#: includes/CrmFields.php:109
+msgid "Deadline"
+msgstr "Крайний срок"
+
+#: includes/CrmFields.php:110
+msgid "Number of minutes for deadline"
+msgstr "Число минут до крайнего срока"
+
+#: includes/CrmFields.php:111
+msgid "Priority"
+msgstr "Приоритет"
+
+#: includes/CrmFields.php:113
+msgid "Responsible person can change deadline"
+msgstr "Разрешить ответственному менять сроки задачи"
+
+#: includes/CrmFields.php:116
+msgid "Approve task when completed"
+msgstr "Принять работу после завершения задачи"
+
+#: includes/CrmFields.php:117
+msgid "Task planned time"
+msgstr "Учет времени"
+
+#: includes/CrmFields.php:118
+msgid "Responsible"
+msgstr "Ответственный"
+
+#: includes/CrmFields.php:146
+msgid "use the date field type"
+msgstr "используйте тип поля `дата`"
+
+#: includes/CrmFields.php:155
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/CrmFields.php:159
+msgid "High Priority"
+msgstr "Важная"
+
+#: includes/DealActionAfterSubmit.php:21
+msgid "Bitrix24 (Deal)"
+msgstr "Bitrix24 (Сделка)"
+
+#: includes/DealActionAfterSubmit.php:82
+msgid "Deal"
+msgstr "Сделка"
+
+#: includes/DealActionAfterSubmit.php:91 includes/LeadActionAfterSubmit.php:85
+msgid "Send uploaded files"
+msgstr "Отправлять загруженные файлы"
+
+#: includes/DealActionAfterSubmit.php:182
+#: includes/LeadActionAfterSubmit.php:175
+msgid ""
+"you can specify several, separated by commas, then the requests will be "
+"distributed sequentially"
+msgstr ""
+"вы можете указать несколько, через запятую, тогда обращения будут "
+"распределяться последовательно"
+
+#: includes/DealActionAfterSubmit.php:201
+#: includes/TaskActionAfterSubmit.php:145
+msgid "Contact"
+msgstr "Контакт"
+
+#: includes/DealActionAfterSubmit.php:318
+#: includes/TaskActionAfterSubmit.php:262
+msgid "Company"
+msgstr "Компания"
+
+#: includes/DealActionAfterSubmit.php:430 includes/TaskActionAfterSubmit.php:72
+msgid "Task"
+msgstr "Задача"
+
+#: includes/Helper.php:31
+#, php-format
+msgid "Error code (%s): %s."
+msgstr "Код ошибки (%s): %s."
+
+#: includes/Helper.php:38
+msgid "An error occurred while writing the log file."
+msgstr "Произошла ошибка при записи лог файла."
+
+#: includes/Helper.php:76
+msgid ""
+"Please verify the purchase code on the plugin integration settings page - "
+msgstr "Пожалуйста, укажите код покупки на странице настройки интеграции - "
+
+#: includes/LeadActionAfterSubmit.php:21
+msgid "Bitrix24 (Lead)"
+msgstr "Bitrix24 (Лид)"
+
+#: includes/LeadActionAfterSubmit.php:76
+msgid "Lead fields"
+msgstr "Поля лида"
+
+#: includes/LeadActionAfterSubmit.php:92
+msgid "Create task"
+msgstr "Создать задачу"
+
+#: includes/LeadActionAfterSubmit.php:194
+msgid "Task fields"
+msgstr "Поля задачи"
+
+#: includes/RenderFields.php:19 includes/RenderFields.php:173
+msgid "Not chosen"
+msgstr "Не выбрано"
+
+#: includes/RenderFields.php:41
+msgid "Possible values: "
+msgstr "Возможные значения:"
+
+#: includes/RenderFields.php:103
+msgid ""
+"after how many minutes after creation the task should be completed. You can "
+"use this field instead `Deadline`."
+msgstr ""
+"через сколько минут после создания, задача должна быть завершена. Вы можете "
+"использовать это вместо `Крайний срок`."
+
+#: includes/RenderFields.php:152
+msgid "Default pipeline"
+msgstr "По умолчанию"
+
+#: includes/TaskActionAfterSubmit.php:21
+msgid "Bitrix24 (Task)"
+msgstr "Bitrix24 (Задача)"
+
+#~ msgid "Deadline (use the date field type)"
+#~ msgstr "Крайний срок (используйте с типом поля \"дата\")"
+
+#~ msgid "Bitix24 (Company)"
+#~ msgstr "Bitix24 (Компания)"
+
+#~ msgid "Bitix24 (Contact)"
+#~ msgstr "Bitix24 (Контакт)"
+
+#~ msgid "Bitix24 (Deal)"
+#~ msgstr "Bitix24 (Сделка)"
+
+#~ msgid "Bitix24 (Lead)"
+#~ msgstr "Bitix24 (Лид)"
+
+#~ msgid "Bitix24 (Task)"
+#~ msgstr "Bitix24 (Задача)"

@@ -1,0 +1,70 @@
+<?php
+/**
+ * Class description
+ *
+ * @package   package_name
+ * @author    Cherry Team
+ * @license   GPL-2.0+
+ */
+
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
+if ( ! class_exists( 'Jet_Engine_Listings_Ajax_Handlers' ) ) {
+
+	class Jet_Engine_Listings_Ajax_Handlers {
+
+		public function __construct() {
+			add_action( 'wp_ajax_jet_engine_ajax', array( $this, 'handle_ajax' ) );
+			add_action( 'wp_ajax_nopriv_jet_engine_ajax', array( $this, 'handle_ajax' ) );
+		}
+
+		/**
+		 * Handle AJAX request
+		 *
+		 * @return [type] [description]
+		 */
+		public function handle_ajax() {
+
+			if ( ! isset( $_REQUEST['handler'] ) || ! is_callable( array( $this, $_REQUEST['handler'] ) ) ) {
+				return;
+			}
+
+			call_user_func( array( $this, $_REQUEST['handler'] ) );
+
+		}
+
+		/**
+		 * Load more
+		 * @return [type] [description]
+		 */
+		public function listing_load_more() {
+
+			require jet_engine()->plugin_path( 'includes/components/elementor-views/ajax-handlers.php' );
+			$elementor_ajax = new Jet_Engine_Elementor_Ajax_Handlers();
+			$elementor_ajax->listing_load_more();
+
+		}
+
+		/**
+		 * Get whole listing through AJAX
+		 */
+		public function get_listing() {
+
+			$query           = ! empty( $_REQUEST['query'] ) ? $_REQUEST['query'] : array();
+			$widget_settings = ! empty( $_REQUEST['widget_settings'] ) ? $_REQUEST['widget_settings'] : array();
+
+			ob_start();
+			
+			$render_instance = jet_engine()->listings->get_render_instance( 'listing-grid', $widget_settings );
+
+			$render_instance->render();
+
+			wp_send_json_success( array( 'html' => ob_get_clean() ) );
+		}
+
+	}
+
+}

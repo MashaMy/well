@@ -1,0 +1,28 @@
+# Translation of Plugins - Disable XML-RPC Pingback - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Disable XML-RPC Pingback - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-11 15:33:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Disable XML-RPC Pingback - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "http://www.samuelaguilera.com"
+msgstr "http://www.samuelaguilera.com"
+
+#. Author of the plugin
+msgid "Samuel Aguilera"
+msgstr "Samuel Aguilera"
+
+#. Description of the plugin
+msgid "Stops abuse of your site's Pingback method from XML-RPC by simply removing it. While you can use the rest of XML-RPC methods."
+msgstr "Этот плагин останавливает злоупотребление методом Pingback уведомлений вашего сайта из XML-RPC, просто удалив его. Плагин не влияет на работу остальных методов XML-RPC. "
+
+#. Plugin Name of the plugin
+msgid "Disable XML-RPC Pingback"
+msgstr "Disable XML-RPC Pingback"

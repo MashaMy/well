@@ -1,0 +1,7279 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SEOPress\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-cloudy\n"
+"POT-Creation-Date: 2020-10-29 11:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Benjamin DENIS <contact@seopress.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;esc_attr__;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/functions/google-analytics\n"
+
+#: inc/action-scheduler/classes/ActionScheduler_ActionFactory.php:161
+msgid "Invalid action - must be a recurring action."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:60
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:75
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:76
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgid "Scheduled Actions"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "About"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:129
+#, php-format
+msgid "About Action Scheduler %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:131
+msgid ""
+"Action Scheduler is a scalable, traceable job queue for background "
+"processing large sets of actions. Action Scheduler works by triggering an "
+"action hook to run at some time in the future. Scheduled actions can also be "
+"scheduled to run on a recurring schedule."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:139
+msgid "Columns"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:141
+msgid "Scheduled Action Columns"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:143
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:143
+msgid "Name of the action hook that will be triggered."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:97
+#: inc/admin/bot.php:196
+msgid "Status"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:144
+msgid "Action statuses are Pending, Complete, Canceled, Failed"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:145
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:145
+msgid "Optional data array passed to the action hook."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:146
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:146
+msgid "Optional action group."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:147
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:100
+msgid "Recurrence"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:147
+msgid "The action's schedule frequency."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "Scheduled"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "The date/time the action is/was scheduled to run."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:149
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_AdminView.php:149
+msgid "Activity log for the action."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr ""
+
+#. translators: 1: action ID 2: schedule
+#: inc/action-scheduler/classes/ActionScheduler_InvalidActionException.php:21
+#, php-format
+msgid "Action [%1$s] has an invalid schedule: %2$s"
+msgstr ""
+
+#. translators: 1: action ID 2: arguments
+#: inc/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
+#, php-format
+msgid ""
+"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. "
+"$args = %2$s"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:122
+msgid "Claim ID"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:201
+msgid "Now!"
+msgstr ""
+
+#. translators: %s: time interval
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:237
+#, php-format
+msgid "Every %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:243
+msgid "Non-repeating"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:341
+msgid ""
+"It appears one or more database tables were missing. Attempting to re-create "
+"the missing table(s)."
+msgstr ""
+
+#. translators: %s: process URL
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:374
+#, php-format
+msgid ""
+"A new queue has begun processing. <a href=\"%s\">View actions in-progress "
+"&raquo;</a>"
+msgstr ""
+
+#. translators: %d: seconds
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:377
+#, php-format
+msgid "The next queue will begin processing in approximately %d seconds."
+msgstr ""
+
+#. translators: %s: action HTML
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:398
+#, php-format
+msgid "Successfully executed action: %s"
+msgstr ""
+
+#. translators: %s: action HTML
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:402
+#, php-format
+msgid "Successfully canceled action: %s"
+msgstr ""
+
+#. translators: %s: action HTML
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:406
+#, php-format
+msgid "Successfully processed change for action: %s"
+msgstr ""
+
+#. translators: 1: action HTML 2: action ID 3: error message
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:412
+#, php-format
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr ""
+
+#. translators: %s: date interval
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:458
+#, php-format
+msgid " (%s ago)"
+msgstr ""
+
+#. translators: %s: date interval
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:461
+#, php-format
+msgid " (%s)"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_ListTable.php:610
+msgid "Search hook, args and claim ID"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_QueueRunner.php:192
+msgid "Every minute"
+msgstr ""
+
+#. translators: %s: date interval
+#: inc/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
+#, php-format
+msgid "This data will be deleted in %s."
+msgstr ""
+
+#. translators: 1: next cleanup message 2: github issue URL
+#: inc/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
+#, php-format
+msgid ""
+"Action Scheduler has migrated data to custom tables; however, orphaned log "
+"entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn "
+"more &raquo;</a>"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:101
+msgid "Action Scheduler"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:101
+msgid "This section shows scheduled action counts."
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:104
+msgid "Version:"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:108
+msgid "Action Status"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:110
+#: inc/admin/bot.php:195 inc/admin/redirections.php:540
+msgid "Count"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "Oldest Scheduled Date"
+msgstr ""
+
+#: inc/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:112
+msgid "Newest Scheduled Date"
+msgstr ""
+
+#. translators: %s php class name
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: inc/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+#, php-format
+msgid "The %s class can only be run within WP CLI."
+msgstr ""
+
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid ""
+"There are too many concurrent batches, but the run is forced to continue."
+msgstr ""
+
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr ""
+
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+msgid "The claim has been lost. Aborting current batch."
+msgstr ""
+
+#. translators: %s refers to the action ID
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+#, php-format
+msgid "Started processing action %s"
+msgstr ""
+
+#. translators: 1: action ID 2: hook name
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+#, php-format
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr ""
+
+#. translators: 1: action ID 2: exception message
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+#, php-format
+msgid "Error processing action %1$s: %2$s"
+msgstr ""
+
+#. translators: %s refers to the exception error message
+#: inc/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:136
+#, php-format
+msgid "There was an error running the action scheduler: %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler.php:195
+#, php-format
+msgid "%s() was called before the Action Scheduler data store was initialized"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:467
+msgid "Filter"
+msgstr ""
+
+#. translators: %s: search query
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:567
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:672
+msgid "Search"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
+msgid "action created"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:134
+msgid "action canceled"
+msgstr ""
+
+#. translators: %s: context
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
+#, php-format
+msgid "action started via %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
+msgid "action started"
+msgstr ""
+
+#. translators: %s: context
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
+#, php-format
+msgid "action complete via %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
+msgid "action complete"
+msgstr ""
+
+#. translators: 1: context 2: exception message
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
+#, php-format
+msgid "action failed via %1$s: %2$s"
+msgstr ""
+
+#. translators: %s: exception message
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+#, php-format
+msgid "action failed: %s"
+msgstr ""
+
+#. translators: %s: amount of time
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr ""
+
+#. translators: 1: error message 2: filename 3: line
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr ""
+
+#. translators: %s: context
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:129
+#, php-format
+msgid "action ignored via %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:131
+msgid "action ignored"
+msgstr ""
+
+#. translators: %s: exception message
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:146
+#, php-format
+msgid "There was a failure fetching this action: %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:148
+msgid "There was a failure fetching this action"
+msgstr ""
+
+#. translators: %s: exception message
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:156
+#, php-format
+msgid "There was a failure scheduling the next instance of this action: %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Store.php:227
+#, php-format
+msgid ""
+"ActionScheduler_Action::$args too long. To ensure the args column can be "
+"indexed, action args should not be more than %d characters when encoded as "
+"JSON."
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Store.php:301
+msgid "Complete"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Store.php:302
+msgid "Pending"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Store.php:303
+msgid "In-progress"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Store.php:304
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgid "Failed"
+msgstr ""
+
+#: inc/action-scheduler/classes/abstracts/ActionScheduler_Store.php:305
+msgid "Canceled"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:67
+msgid "Database error."
+msgstr ""
+
+#. translators: %s: error message
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:75
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:25
+#, php-format
+msgid "Error saving action: %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:268
+msgid "Invalid value for select or count parameter. Cannot query actions."
+msgstr ""
+
+#. translators: %s: action ID
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:458
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:548
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:580
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:777
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:819
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:457
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:468
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:495
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:773
+#, php-format
+msgid "Unidentified action %s"
+msgstr ""
+
+#. translators: %s: group name
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:661
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:627
+#, php-format
+msgid "The group \"%s\" does not exist."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:675
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:607
+msgid "Unable to claim actions. Database error."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:838
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:740
+msgid "Invalid action ID. No status found."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
+msgid "Unknown status found for action."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:62
+msgid "Unable to save action."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:283
+msgid "Invalid schedule. Cannot save action."
+msgstr ""
+
+#. translators: %s: claim ID
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:689
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr ""
+
+#. translators: %s: action ID
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:704
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr ""
+
+#. translators: %s: action ID
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:716
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:840
+#, php-format
+msgid ""
+"%s Support for strings longer than this will be removed in a future version."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+msgid "In-Progress"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+#: inc/admin/admin-metaboxes-schemas.php:522
+msgid "Edit"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr ""
+
+#: inc/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr ""
+
+#: inc/action-scheduler/classes/migration/ActionMigrator.php:95
+#, php-format
+msgid "Unable to remove source migrated action %s"
+msgstr ""
+
+#: inc/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr ""
+
+#: inc/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr ""
+
+#: inc/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr ""
+
+#: inc/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr ""
+
+#: inc/action-scheduler/classes/migration/Controller.php:142
+msgid ""
+"Action Scheduler migration in progress. The list of scheduled actions may be "
+"incomplete."
+msgstr ""
+
+#. translators: 1: source action ID 2: source store class 3: destination action ID 4: destination store class
+#: inc/action-scheduler/classes/migration/Runner.php:107
+#, php-format
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr ""
+
+#: inc/admin/admin-columns/acp-column-sp_desc.php:10
+#: inc/admin/import/class-csv-controller.php:691
+#: inc/admin/import/class-csv-controller.php:739
+msgid "Meta description"
+msgstr ""
+
+#: inc/admin/admin-columns/acp-column-sp_nofollow.php:10
+msgid "nofollow?"
+msgstr ""
+
+#: inc/admin/admin-columns/acp-column-sp_noindex.php:14
+msgid "noindex?"
+msgstr ""
+
+#: inc/admin/admin-columns/acp-column-sp_target_kw.php:10
+msgid "Target keywords"
+msgstr ""
+
+#: inc/admin/admin-columns/acp-column-sp_title.php:10
+msgid "Meta title"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:73
+#, php-format
+msgid "You have <strong>%d</strong> automatic schema:"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:75
+#, php-format
+msgid "You have <strong>%d</strong> automatic schemas:"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:84
+msgid "Disable all automatic schemas for this post?"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:519
+msgid "Name: "
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:519
+msgid "Type: "
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:531
+msgid "Disable this automatic schema for this post?"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:539
+#: inc/admin/admin-metaboxes-schemas.php:541 inc/admin/admin-metaboxes.php:950
+#: inc/admin/admin-metaboxes.php:952 inc/admin/schemas.php:695
+msgid "Headline <em>(max limit: 110)</em>"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:540 inc/admin/admin-metaboxes.php:951
+msgid "Default value if empty: Post title"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:541 inc/admin/admin-metaboxes.php:952
+#: inc/admin/schemas.php:697
+msgid "The headline of the article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:547
+#: inc/admin/admin-metaboxes-schemas.php:549
+#: inc/admin/admin-metaboxes-schemas.php:601
+#: inc/admin/admin-metaboxes-schemas.php:959
+#: inc/admin/admin-metaboxes-schemas.php:960
+#: inc/admin/admin-metaboxes-schemas.php:1513 inc/admin/admin-metaboxes.php:959
+#: inc/admin/admin-metaboxes.php:963 inc/admin/admin-metaboxes.php:1160
+#: inc/admin/admin-metaboxes.php:1167 inc/admin/admin-metaboxes.php:1552
+#: inc/admin/admin-metaboxes.php:1554 inc/admin/schemas.php:700
+#: inc/admin/schemas.php:746 inc/admin/schemas.php:1112
+#: inc/admin/schemas.php:1216 inc/admin/schemas.php:1620
+msgid "Image"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:548 inc/admin/admin-metaboxes.php:961
+#: inc/admin/schemas.php:703
+msgid "Default value if empty: Post thumbnail (featured image)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:549
+#: inc/admin/admin-metaboxes-schemas.php:602
+#: inc/admin/admin-metaboxes-schemas.php:960
+#: inc/admin/admin-metaboxes-schemas.php:1196
+#: inc/admin/admin-metaboxes-schemas.php:1242
+#: inc/admin/admin-metaboxes-schemas.php:1411
+#: inc/admin/admin-metaboxes-schemas.php:1513
+#: inc/admin/admin-metaboxes-schemas.php:1714 inc/admin/admin-metaboxes.php:963
+#: inc/admin/admin-metaboxes.php:1167 inc/admin/admin-metaboxes.php:1554
+#: inc/admin/admin-metaboxes.php:1684 inc/admin/admin-metaboxes.php:1758
+#: inc/admin/admin-metaboxes.php:1828 inc/admin/admin-metaboxes.php:2005
+#: inc/admin/admin-metaboxes.php:2206 inc/admin/admin-metaboxes.php:2305
+msgid "Select your image"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:555
+#: inc/admin/admin-metaboxes-schemas.php:556 inc/admin/admin-metaboxes.php:970
+#: inc/admin/admin-metaboxes.php:972 inc/admin/schemas.php:708
+msgid "Coverage Start Date"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:556
+#: inc/admin/admin-metaboxes-schemas.php:570
+#: inc/admin/admin-metaboxes-schemas.php:1249
+#: inc/admin/admin-metaboxes-schemas.php:1263
+#: inc/admin/admin-metaboxes-schemas.php:1277
+#: inc/admin/admin-metaboxes-schemas.php:1427
+#: inc/admin/admin-metaboxes.php:1834 inc/admin/admin-metaboxes.php:1844
+#: inc/admin/admin-metaboxes.php:1854 inc/admin/admin-metaboxes.php:2018
+#: inc/admin/schemas.php:473 inc/admin/schemas.php:710
+#: inc/admin/schemas.php:722 inc/admin/schemas.php:1329
+#: inc/admin/schemas.php:1341 inc/admin/schemas.php:1353
+#: inc/admin/schemas.php:1514
+msgid "Eg: YYYY-MM-DD"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:562
+#: inc/admin/admin-metaboxes-schemas.php:563 inc/admin/admin-metaboxes.php:976
+#: inc/admin/admin-metaboxes.php:978 inc/admin/schemas.php:714
+msgid "Coverage Start Time"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:563
+#: inc/admin/admin-metaboxes-schemas.php:577
+#: inc/admin/admin-metaboxes-schemas.php:1256
+#: inc/admin/admin-metaboxes-schemas.php:1270
+#: inc/admin/admin-metaboxes-schemas.php:1284 inc/admin/admin-metaboxes.php:978
+#: inc/admin/admin-metaboxes.php:990 inc/admin/admin-metaboxes.php:1839
+#: inc/admin/admin-metaboxes.php:1849 inc/admin/admin-metaboxes.php:1859
+#: inc/admin/schemas.php:716 inc/admin/schemas.php:728
+#: inc/admin/schemas.php:1335 inc/admin/schemas.php:1347
+#: inc/admin/schemas.php:1359
+msgid "Eg: HH:MM"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:569
+#: inc/admin/admin-metaboxes-schemas.php:570 inc/admin/admin-metaboxes.php:982
+#: inc/admin/admin-metaboxes.php:984 inc/admin/schemas.php:720
+msgid "Coverage End Date"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:576
+#: inc/admin/admin-metaboxes-schemas.php:577 inc/admin/admin-metaboxes.php:988
+#: inc/admin/admin-metaboxes.php:990 inc/admin/schemas.php:726
+msgid "Coverage End Time"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:587
+#: inc/admin/admin-metaboxes-schemas.php:588 inc/admin/admin-metaboxes.php:999
+#: inc/admin/admin-metaboxes.php:1000 inc/admin/schemas.php:736
+msgid "Name of your business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:588 inc/admin/admin-metaboxes.php:1000
+#: inc/admin/schemas.php:738
+msgid "eg: Miremont"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:594
+#: inc/admin/admin-metaboxes-schemas.php:595 inc/admin/admin-metaboxes.php:1003
+#: inc/admin/schemas.php:741
+msgid "Select a business type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:595
+msgid "eg: TravelAgency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:608
+#: inc/admin/admin-metaboxes-schemas.php:609
+#: inc/admin/admin-metaboxes-schemas.php:1554
+#: inc/admin/admin-metaboxes-schemas.php:1555
+#: inc/admin/admin-metaboxes.php:1174 inc/admin/admin-metaboxes.php:1175
+#: inc/admin/admin-metaboxes.php:2237 inc/admin/admin-metaboxes.php:2238
+#: inc/admin/admin.php:422 inc/admin/admin.php:2083 inc/admin/schemas.php:756
+#: inc/admin/schemas.php:1649
+msgid "Street Address"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:609 inc/admin/admin-metaboxes.php:1175
+#: inc/admin/admin.php:2083 inc/admin/schemas.php:758
+msgid "eg: Place Bellevue"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:615
+#: inc/admin/admin-metaboxes-schemas.php:616
+#: inc/admin/admin-metaboxes-schemas.php:1561
+#: inc/admin/admin-metaboxes-schemas.php:1562
+#: inc/admin/admin-metaboxes.php:1179 inc/admin/admin-metaboxes.php:1180
+#: inc/admin/admin-metaboxes.php:2242 inc/admin/admin-metaboxes.php:2243
+#: inc/admin/admin.php:430 inc/admin/admin.php:2094 inc/admin/schemas.php:762
+#: inc/admin/schemas.php:1655
+msgid "City"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:616 inc/admin/admin-metaboxes.php:1180
+#: inc/admin/admin.php:2094 inc/admin/schemas.php:764
+msgid "eg: Biarritz"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:622
+#: inc/admin/admin-metaboxes-schemas.php:623
+#: inc/admin/admin-metaboxes-schemas.php:1568
+#: inc/admin/admin-metaboxes-schemas.php:1569
+#: inc/admin/admin-metaboxes.php:1184 inc/admin/admin-metaboxes.php:1185
+#: inc/admin/admin-metaboxes.php:2247 inc/admin/admin-metaboxes.php:2248
+#: inc/admin/admin.php:438 inc/admin/admin.php:2105 inc/admin/schemas.php:768
+#: inc/admin/schemas.php:1661
+msgid "State"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:623 inc/admin/admin-metaboxes.php:1185
+#: inc/admin/admin.php:2105 inc/admin/schemas.php:770
+msgid "eg: Pyrenees Atlantiques"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:629
+#: inc/admin/admin-metaboxes-schemas.php:630
+#: inc/admin/admin-metaboxes-schemas.php:1127
+#: inc/admin/admin-metaboxes-schemas.php:1128
+#: inc/admin/admin-metaboxes-schemas.php:1575
+#: inc/admin/admin-metaboxes-schemas.php:1576
+#: inc/admin/admin-metaboxes.php:1189 inc/admin/admin-metaboxes.php:1190
+#: inc/admin/admin-metaboxes.php:1706 inc/admin/admin-metaboxes.php:1707
+#: inc/admin/admin-metaboxes.php:2252 inc/admin/admin-metaboxes.php:2253
+#: inc/admin/admin.php:446 inc/admin/admin.php:2116 inc/admin/schemas.php:774
+#: inc/admin/schemas.php:1236 inc/admin/schemas.php:1238
+#: inc/admin/schemas.php:1667
+msgid "Postal code"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:630 inc/admin/admin-metaboxes.php:1190
+#: inc/admin/admin.php:2116 inc/admin/schemas.php:776
+msgid "eg: 64200"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:636
+#: inc/admin/admin-metaboxes-schemas.php:637
+#: inc/admin/admin-metaboxes-schemas.php:1134
+#: inc/admin/admin-metaboxes-schemas.php:1135
+#: inc/admin/admin-metaboxes-schemas.php:1582
+#: inc/admin/admin-metaboxes-schemas.php:1583
+#: inc/admin/admin-metaboxes.php:1194 inc/admin/admin-metaboxes.php:1195
+#: inc/admin/admin-metaboxes.php:1711 inc/admin/admin-metaboxes.php:1712
+#: inc/admin/admin-metaboxes.php:2257 inc/admin/admin-metaboxes.php:2258
+#: inc/admin/admin.php:454 inc/admin/admin.php:2127
+#: inc/admin/dashboard-google-analytics.php:147 inc/admin/schemas.php:780
+#: inc/admin/schemas.php:1241 inc/admin/schemas.php:1243
+#: inc/admin/schemas.php:1673
+msgid "Country"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:637 inc/admin/admin-metaboxes.php:1195
+#: inc/admin/admin.php:2127 inc/admin/schemas.php:782
+msgid "eg: France"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:643
+#: inc/admin/admin-metaboxes-schemas.php:644
+#: inc/admin/admin-metaboxes-schemas.php:1589
+#: inc/admin/admin-metaboxes-schemas.php:1590
+#: inc/admin/admin-metaboxes.php:1199 inc/admin/admin-metaboxes.php:1200
+#: inc/admin/admin-metaboxes.php:2262 inc/admin/admin-metaboxes.php:2263
+#: inc/admin/admin.php:462 inc/admin/admin.php:2138 inc/admin/schemas.php:786
+#: inc/admin/schemas.php:1679
+msgid "Latitude"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:644 inc/admin/admin-metaboxes.php:1200
+#: inc/admin/admin.php:2138 inc/admin/schemas.php:788
+msgid "eg: 43.4831389"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:650
+#: inc/admin/admin-metaboxes-schemas.php:651
+#: inc/admin/admin-metaboxes-schemas.php:1596
+#: inc/admin/admin-metaboxes-schemas.php:1597
+#: inc/admin/admin-metaboxes.php:1204 inc/admin/admin-metaboxes.php:1205
+#: inc/admin/admin-metaboxes.php:2267 inc/admin/admin-metaboxes.php:2268
+#: inc/admin/admin.php:470 inc/admin/admin.php:2149 inc/admin/schemas.php:792
+#: inc/admin/schemas.php:1685
+msgid "Longitude"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:651 inc/admin/admin-metaboxes.php:1205
+#: inc/admin/admin.php:2149 inc/admin/schemas.php:794
+msgid "eg: -1.5630987"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:657
+#: inc/admin/admin-metaboxes-schemas.php:658 inc/admin/admin-metaboxes.php:1209
+#: inc/admin/admin-metaboxes.php:1210 inc/admin/admin.php:478
+#: inc/admin/admin.php:2160 inc/admin/schemas.php:798
+msgid "URL"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:664
+#: inc/admin/admin-metaboxes-schemas.php:665
+#: inc/admin/admin-metaboxes-schemas.php:1603
+#: inc/admin/admin-metaboxes-schemas.php:1604
+#: inc/admin/admin-metaboxes.php:1214 inc/admin/admin-metaboxes.php:1215
+#: inc/admin/admin-metaboxes.php:2272 inc/admin/admin-metaboxes.php:2273
+#: inc/admin/admin.php:486 inc/admin/admin.php:2171 inc/admin/schemas.php:804
+#: inc/admin/schemas.php:1691
+msgid "Telephone"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:665 inc/admin/admin-metaboxes.php:1215
+#: inc/admin/admin.php:2171 inc/admin/schemas.php:806
+msgid "eg: +33559240138"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:671
+#: inc/admin/admin-metaboxes-schemas.php:672
+#: inc/admin/admin-metaboxes-schemas.php:1610
+#: inc/admin/admin-metaboxes-schemas.php:1611
+#: inc/admin/admin-metaboxes.php:1219 inc/admin/admin-metaboxes.php:2277
+#: inc/admin/admin-metaboxes.php:2278 inc/admin/admin.php:494
+#: inc/admin/admin.php:2182 inc/admin/schemas.php:810
+#: inc/admin/schemas.php:1697
+msgid "Price range"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:672 inc/admin/admin-metaboxes.php:1220
+#: inc/admin/admin.php:2182 inc/admin/schemas.php:812
+msgid "eg: $$, €€€, or ££££..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:677 inc/admin/admin-metaboxes.php:1229
+#: inc/admin/admin.php:510 inc/admin/schemas.php:822
+msgid "Opening hours"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:682 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin.php:2205 inc/admin/schemas.php:827
+#: inc/functions/options-local-business-widget.php:164
+msgid "Monday"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:682 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin.php:2205 inc/admin/schemas.php:827
+#: inc/functions/options-local-business-widget.php:167
+msgid "Tuesday"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:682 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin.php:2205 inc/admin/schemas.php:827
+#: inc/functions/options-local-business-widget.php:170
+msgid "Wednesday"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:682 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin.php:2205 inc/admin/schemas.php:827
+#: inc/functions/options-local-business-widget.php:173
+msgid "Thursday"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:682 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin.php:2205 inc/admin/schemas.php:827
+#: inc/functions/options-local-business-widget.php:176
+msgid "Friday"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:682 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin.php:2205 inc/admin/schemas.php:827
+#: inc/functions/options-local-business-widget.php:179
+msgid "Saturday"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:682 inc/admin/admin-metaboxes.php:1234
+#: inc/admin/admin.php:2205 inc/admin/schemas.php:827
+#: inc/functions/options-local-business-widget.php:182
+msgid "Sunday"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:714 inc/admin/admin-metaboxes.php:1266
+#: inc/admin/schemas.php:860
+msgid "Closed all the day?"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:727 inc/admin/admin-metaboxes.php:1279
+#: inc/admin/schemas.php:875
+msgid "Open in the morning?"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:802 inc/admin/admin-metaboxes.php:1354
+#: inc/admin/schemas.php:960
+msgid "Open in the afternoon?"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:888
+#: inc/admin/admin-metaboxes-schemas.php:889 inc/admin/admin-metaboxes.php:1459
+#: inc/admin/admin-metaboxes.php:1481 inc/admin/schemas.php:1053
+msgid "Question"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:889
+msgid "Your question"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:895
+#: inc/admin/admin-metaboxes-schemas.php:896 inc/admin/admin-metaboxes.php:1463
+#: inc/admin/admin-metaboxes.php:1485 inc/admin/schemas.php:1058
+msgid "Answer"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:896
+msgid "Your answer"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:906
+#: inc/admin/admin-metaboxes-schemas.php:907 inc/admin/admin-metaboxes.php:1508
+#: inc/admin/admin-metaboxes.php:1509
+#: inc/admin/import/class-csv-controller.php:738
+#: inc/admin/import/mapping.php:19 inc/admin/schemas.php:1068
+msgid "Title"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:907 inc/admin/admin-metaboxes.php:1509
+#: inc/admin/schemas.php:1070
+msgid "The title of your lesson, course..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:913
+#: inc/admin/admin-metaboxes-schemas.php:914 inc/admin/admin-metaboxes.php:1512
+#: inc/admin/admin-metaboxes.php:1513 inc/admin/schemas.php:1073
+msgid "Course description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:914 inc/admin/admin-metaboxes.php:1513
+#: inc/admin/schemas.php:1075
+msgid "Enter your course/lesson description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:920
+#: inc/admin/admin-metaboxes-schemas.php:921 inc/admin/admin-metaboxes.php:1521
+#: inc/admin/admin-metaboxes.php:1522 inc/admin/schemas.php:1079
+msgid "School/Organization"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:921 inc/admin/admin-metaboxes.php:1522
+#: inc/admin/schemas.php:1081
+msgid "Name of university, organization..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:927
+#: inc/admin/admin-metaboxes-schemas.php:928 inc/admin/admin-metaboxes.php:1526
+#: inc/admin/admin-metaboxes.php:1527 inc/admin/schemas.php:1085
+msgid "School/Organization Website"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:928 inc/admin/admin-metaboxes.php:1527
+#: inc/admin/schemas.php:1087 inc/admin/schemas.php:1213
+msgid "Enter the URL like https://example.com/"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:938
+#: inc/admin/admin-metaboxes-schemas.php:939 inc/admin/admin-metaboxes.php:1539
+#: inc/admin/admin-metaboxes.php:1540 inc/admin/schemas.php:1096
+msgid "Recipe name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:939 inc/admin/admin-metaboxes.php:1540
+#: inc/admin/schemas.php:1098
+msgid "The name of your dish"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:945
+#: inc/admin/admin-metaboxes-schemas.php:946 inc/admin/admin-metaboxes.php:1543
+#: inc/admin/admin-metaboxes.php:1544 inc/admin/schemas.php:1101
+msgid "Short recipe description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:946 inc/admin/admin-metaboxes.php:1544
+#: inc/admin/schemas.php:1103
+msgid "A short summary describing the dish."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:952
+#: inc/admin/admin-metaboxes-schemas.php:953 inc/admin/admin-metaboxes.php:1548
+#: inc/admin/admin-metaboxes.php:1549 inc/admin/schemas.php:1107
+msgid "Recipe category"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:953 inc/admin/admin-metaboxes.php:1549
+#: inc/admin/schemas.php:1109
+msgid "Eg: appetizer, entree, or dessert"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:966
+#: inc/admin/admin-metaboxes-schemas.php:967 inc/admin/admin-metaboxes.php:1559
+#: inc/admin/admin-metaboxes.php:1560 inc/admin/schemas.php:1118
+msgid "Preparation time (in minutes)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:967
+#: inc/admin/admin-metaboxes-schemas.php:1419
+#: inc/admin/admin-metaboxes.php:2012 inc/admin/schemas.php:1509
+msgid "Eg: 30"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:973
+#: inc/admin/admin-metaboxes-schemas.php:974 inc/admin/admin-metaboxes.php:1564
+#: inc/admin/admin-metaboxes.php:1565 inc/admin/schemas.php:1124
+msgid "Cooking time (in minutes)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:974
+msgid "Eg: 45"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:980
+#: inc/admin/admin-metaboxes-schemas.php:981 inc/admin/admin-metaboxes.php:1569
+#: inc/admin/admin-metaboxes.php:1570 inc/admin/schemas.php:1130
+msgid "Calories"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:981 inc/admin/admin-metaboxes.php:1570
+#: inc/admin/schemas.php:1132
+msgid "Number of calories"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:987
+#: inc/admin/admin-metaboxes-schemas.php:988 inc/admin/admin-metaboxes.php:1574
+#: inc/admin/admin-metaboxes.php:1575 inc/admin/schemas.php:1136
+msgid "Recipe yield"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:988 inc/admin/admin-metaboxes.php:1575
+#: inc/admin/schemas.php:1138
+msgid "Eg: number of people served, or number of servings"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:994
+msgid "Keywords (separated by commas)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:995 inc/admin/admin-metaboxes.php:1580
+#: inc/admin/schemas.php:1144
+msgid "Eg: winter apple pie, nutmeg crust (NOT recommended: dessert, American)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:995 inc/admin/admin-metaboxes.php:1579
+#: inc/admin/admin-metaboxes.php:1580
+#: inc/admin/dashboard-google-analytics.php:169 inc/admin/schemas.php:1142
+msgid "Keywords"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1001
+#: inc/admin/admin-metaboxes-schemas.php:1002
+#: inc/admin/admin-metaboxes.php:1584 inc/admin/admin-metaboxes.php:1585
+#: inc/admin/schemas.php:1148
+msgid "Recipe cuisine"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1002
+#: inc/admin/admin-metaboxes.php:1585 inc/admin/schemas.php:1150
+msgid ""
+"The region associated with your recipe. For example, \"French\", "
+"Mediterranean\", or \"American\"."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1008
+msgid "Recipe ingredients (one per line)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1009
+#: inc/admin/admin-metaboxes.php:1590 inc/admin/schemas.php:1156
+msgid ""
+"Ingredients used in the recipe. One ingredient per line. Include only the "
+"ingredient text that is necessary for making the recipe. Don't include "
+"unnecessary information, such as a definition of the ingredient."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1009
+#: inc/admin/admin-metaboxes.php:1589 inc/admin/admin-metaboxes.php:1590
+#: inc/admin/schemas.php:1154
+msgid "Recipe ingredients"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1015
+msgid "Recipe instructions (one per line)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1016
+#: inc/admin/admin-metaboxes.php:1595 inc/admin/schemas.php:1162
+msgid ""
+"eg: Heat oven to 425°F. Include only text on how to make the recipe and "
+"don't include other text such as \"Directions\", \"Watch the video\", \"Step "
+"1\"."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1016
+#: inc/admin/admin-metaboxes.php:1594 inc/admin/admin-metaboxes.php:1595
+#: inc/admin/schemas.php:1160
+msgid "Recipe instructions"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1026
+#: inc/admin/admin-metaboxes-schemas.php:1027
+#: inc/admin/admin-metaboxes.php:1604 inc/admin/admin-metaboxes.php:1605
+#: inc/admin/schemas.php:1171 inc/admin/schemas.php:1173
+msgid "Job title"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1027
+#: inc/admin/admin-metaboxes.php:1605
+msgid ""
+"The title of the job (not the title of the posting). For example, \"Software "
+"Engineer\" or \"Barista\"."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1033
+#: inc/admin/admin-metaboxes-schemas.php:1034
+#: inc/admin/admin-metaboxes.php:1609 inc/admin/admin-metaboxes.php:1610
+#: inc/admin/schemas.php:1176 inc/admin/schemas.php:1178
+msgid "Job description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1034
+#: inc/admin/admin-metaboxes.php:1610
+msgid "The full description of the job in HTML format."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1040
+#: inc/admin/admin-metaboxes-schemas.php:1041
+#: inc/admin/admin-metaboxes.php:1626 inc/admin/admin-metaboxes.php:1627
+#: inc/admin/schemas.php:1181
+msgid "Published date"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1041
+#: inc/admin/admin-metaboxes.php:1627 inc/admin/schemas.php:1183
+msgid ""
+"The original date that employer posted the job in ISO 8601 format. For "
+"example, \"2017-01-24\" or \"2017-01-24T19:33:17+00:00\"."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1047
+#: inc/admin/admin-metaboxes-schemas.php:1048
+#: inc/admin/admin-metaboxes.php:1631 inc/admin/admin-metaboxes.php:1632
+#: inc/admin/schemas.php:1186
+msgid "Expiration date"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1048
+#: inc/admin/admin-metaboxes.php:1632 inc/admin/schemas.php:1188
+msgid ""
+"The date when the job posting will expire in ISO 8601 format. For example, "
+"\"2017-02-24\" or \"2017-02-24T19:33:17+00:00\"."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1054
+#: inc/admin/admin-metaboxes-schemas.php:1055
+#: inc/admin/admin-metaboxes.php:1636 inc/admin/admin-metaboxes.php:1637
+#: inc/admin/schemas.php:1191
+msgid "Type of employment"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1055
+#: inc/admin/admin-metaboxes.php:1637
+msgid ""
+"Type of employment, You can include more than one employmentType property."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1057
+#: inc/admin/admin-metaboxes.php:1642
+msgid "FULL TIME"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1058
+#: inc/admin/admin-metaboxes.php:1643
+msgid "PART TIME"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1059
+#: inc/admin/admin-metaboxes.php:1644
+msgid "CONTRACTOR"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1060
+#: inc/admin/admin-metaboxes.php:1645
+msgid "TEMPORARY"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1061
+#: inc/admin/admin-metaboxes.php:1646
+msgid "INTERN"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1062
+#: inc/admin/admin-metaboxes.php:1647
+msgid "VOLUNTEER"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1063
+#: inc/admin/admin-metaboxes.php:1648
+msgid "PER_DIEM"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1064
+#: inc/admin/admin-metaboxes.php:1649
+msgid "OTHER"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1071
+#: inc/admin/admin-metaboxes-schemas.php:1072
+#: inc/admin/admin-metaboxes.php:1661 inc/admin/admin-metaboxes.php:1662
+#: inc/admin/schemas.php:1196
+msgid "Identifier name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1072
+#: inc/admin/admin-metaboxes.php:1662 inc/admin/schemas.php:1198
+msgid "The hiring organization's unique identifier name for the job"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1078
+#: inc/admin/admin-metaboxes-schemas.php:1079
+#: inc/admin/admin-metaboxes.php:1666 inc/admin/admin-metaboxes.php:1667
+#: inc/admin/schemas.php:1201
+msgid "Identifier value"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1079
+msgid "The hiring organization's unique identifier value for the job"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1085
+#: inc/admin/admin-metaboxes-schemas.php:1086
+#: inc/admin/admin-metaboxes.php:1671 inc/admin/admin-metaboxes.php:1673
+#: inc/admin/schemas.php:1206
+msgid "Organization that hires"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1086
+#: inc/admin/admin-metaboxes.php:1673 inc/admin/schemas.php:1208
+msgid ""
+"The organization offering the job position. This should be the name of the "
+"company."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1092
+#: inc/admin/admin-metaboxes-schemas.php:1093
+#: inc/admin/admin-metaboxes.php:1679
+msgid "Organization URL"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1093
+#: inc/admin/admin-metaboxes.php:1679
+msgid "The organization website URL offering the job position."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1099
+#: inc/admin/admin-metaboxes-schemas.php:1100
+#: inc/admin/admin-metaboxes.php:1682 inc/admin/admin-metaboxes.php:1684
+msgid "Organization logo"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1100
+msgid "The organization logo offering the job position."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1106
+#: inc/admin/admin-metaboxes-schemas.php:1107
+#: inc/admin/admin-metaboxes.php:1691 inc/admin/admin-metaboxes.php:1692
+#: inc/admin/schemas.php:1221 inc/admin/schemas.php:1223
+msgid "Street address"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1113
+#: inc/admin/admin-metaboxes-schemas.php:1114
+#: inc/admin/admin-metaboxes.php:1696 inc/admin/admin-metaboxes.php:1697
+#: inc/admin/schemas.php:1226 inc/admin/schemas.php:1228
+msgid "Locality address"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1120
+#: inc/admin/admin-metaboxes-schemas.php:1121
+#: inc/admin/admin-metaboxes.php:1701 inc/admin/admin-metaboxes.php:1702
+#: inc/admin/schemas.php:1231 inc/admin/schemas.php:1233
+msgid "Region"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1141
+#: inc/admin/admin-metaboxes-schemas.php:1142
+#: inc/admin/admin-metaboxes.php:1716 inc/admin/schemas.php:1246
+msgid "Remote job?"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1150
+#: inc/admin/admin-metaboxes-schemas.php:1151
+#: inc/admin/admin-metaboxes.php:1723 inc/admin/schemas.php:1251
+msgid "Salary"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1151
+msgid "50"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1157
+#: inc/admin/admin-metaboxes-schemas.php:1158
+#: inc/admin/admin-metaboxes-schemas.php:1672
+#: inc/admin/admin-metaboxes-schemas.php:1673
+#: inc/admin/admin-metaboxes.php:1724 inc/admin/admin-metaboxes.php:1728
+#: inc/admin/admin-metaboxes.php:1729 inc/admin/admin-metaboxes.php:2174
+#: inc/admin/admin-metaboxes.php:2175 inc/admin/schemas.php:1256
+#: inc/admin/schemas.php:1587
+msgid "Currency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1164
+#: inc/admin/admin-metaboxes.php:1732 inc/admin/schemas.php:1261
+msgid "Select your unit text"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1166
+#: inc/admin/admin-metaboxes.php:1734
+msgid "HOUR"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1167
+#: inc/admin/admin-metaboxes.php:1735
+msgid "DAY"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1168
+#: inc/admin/admin-metaboxes.php:1736
+msgid "WEEK"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1169
+#: inc/admin/admin-metaboxes.php:1737
+msgid "MONTH"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1170
+#: inc/admin/admin-metaboxes.php:1738
+msgid "YEAR"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1181
+#: inc/admin/admin-metaboxes-schemas.php:1182
+#: inc/admin/admin-metaboxes.php:1748 inc/admin/admin-metaboxes.php:1749
+#: inc/admin/schemas.php:1272
+msgid "Video name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1182
+#: inc/admin/admin-metaboxes.php:1749 inc/admin/schemas.php:1274
+msgid "The title of your video"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1188
+#: inc/admin/admin-metaboxes-schemas.php:1189
+#: inc/admin/admin-metaboxes.php:1752 inc/admin/admin-metaboxes.php:1753
+#: inc/admin/schemas.php:1277
+msgid "Video description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1189
+#: inc/admin/admin-metaboxes.php:1753 inc/admin/schemas.php:1279
+msgid "The description of the video"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1195
+#: inc/admin/admin-metaboxes-schemas.php:1196
+#: inc/admin/admin-metaboxes.php:1756 inc/admin/admin-metaboxes.php:1758
+#: inc/admin/schemas.php:1282
+msgid "Video thumbnail"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1202
+#: inc/admin/admin-metaboxes-schemas.php:1203
+#: inc/admin/admin-metaboxes.php:1765 inc/admin/admin-metaboxes.php:1766
+#: inc/admin/schemas.php:1288
+msgid "Duration of your video (format: hh:mm:ss)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1203
+msgid "eg: 00:12:00 for 12 mins"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1209
+#: inc/admin/admin-metaboxes-schemas.php:1210
+#: inc/admin/admin-metaboxes.php:1771 inc/admin/admin-metaboxes.php:1772
+#: inc/admin/schemas.php:1294
+msgid "Video URL"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1210
+#: inc/admin/admin-metaboxes.php:1772 inc/admin/schemas.php:1296
+msgid "Eg: https://example.com/video.mp4"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1220
+#: inc/admin/admin-metaboxes-schemas.php:1221
+msgid "Event type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1221
+#: inc/admin/admin-metaboxes.php:1792 inc/admin/schemas.php:1304
+msgid "Select your event type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1227
+#: inc/admin/admin-metaboxes-schemas.php:1228
+#: inc/admin/admin-metaboxes.php:1817 inc/admin/admin-metaboxes.php:1818
+#: inc/admin/schemas.php:1310
+msgid "Event name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1228
+#: inc/admin/admin-metaboxes.php:1818 inc/admin/schemas.php:1312
+msgid "The name of your event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1234
+#: inc/admin/admin-metaboxes-schemas.php:1235
+#: inc/admin/admin-metaboxes.php:1823
+msgid "Event description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1235
+#: inc/admin/admin-metaboxes.php:1823 inc/admin/schemas.php:1318
+msgid "Enter your event description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1241
+#: inc/admin/admin-metaboxes-schemas.php:1242
+#: inc/admin/admin-metaboxes.php:1826 inc/admin/admin-metaboxes.php:1828
+#: inc/admin/schemas.php:1321
+msgid "Image thumbnail"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1248
+#: inc/admin/admin-metaboxes-schemas.php:1249
+#: inc/admin/admin-metaboxes.php:1833 inc/admin/admin-metaboxes.php:1834
+#: inc/admin/schemas.php:1327
+msgid "Start date"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1255
+#: inc/admin/admin-metaboxes-schemas.php:1256
+#: inc/admin/admin-metaboxes.php:1838 inc/admin/admin-metaboxes.php:1839
+#: inc/admin/schemas.php:1333
+msgid "Start time"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1262
+#: inc/admin/admin-metaboxes-schemas.php:1263
+#: inc/admin/admin-metaboxes.php:1843 inc/admin/admin-metaboxes.php:1844
+#: inc/admin/schemas.php:1339
+msgid "End date"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1269
+#: inc/admin/admin-metaboxes-schemas.php:1270
+#: inc/admin/admin-metaboxes.php:1848 inc/admin/admin-metaboxes.php:1849
+#: inc/admin/schemas.php:1345
+msgid "End time"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1276
+#: inc/admin/admin-metaboxes-schemas.php:1277
+#: inc/admin/admin-metaboxes.php:1853 inc/admin/admin-metaboxes.php:1854
+msgid "Previous start date"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1283 inc/admin/schemas.php:1357
+msgid "Previous Start time"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1284
+#: inc/admin/admin-metaboxes.php:1858 inc/admin/admin-metaboxes.php:1859
+msgid "Previous start time"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1290
+#: inc/admin/admin-metaboxes-schemas.php:1291
+#: inc/admin/admin-metaboxes.php:1863 inc/admin/admin-metaboxes.php:1864
+#: inc/admin/schemas.php:1363
+msgid "Location name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1291
+#: inc/admin/admin-metaboxes.php:1864 inc/admin/schemas.php:1365
+msgid "Eg: Hotel du Palais"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1297
+#: inc/admin/admin-metaboxes-schemas.php:1298
+#: inc/admin/admin-metaboxes.php:1868 inc/admin/admin-metaboxes.php:1869
+#: inc/admin/schemas.php:1369
+msgid "Location Website"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1298
+#: inc/admin/admin-metaboxes.php:1869 inc/admin/schemas.php:1371
+msgid "Eg: http://www.hotel-du-palais.com/"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1304
+#: inc/admin/admin-metaboxes-schemas.php:1305
+#: inc/admin/admin-metaboxes.php:1873 inc/admin/admin-metaboxes.php:1874
+#: inc/admin/schemas.php:1375
+msgid "Location Address"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1305
+#: inc/admin/admin-metaboxes.php:1874 inc/admin/schemas.php:1377
+msgid "Eg: 1 Avenue de l'Imperatrice, 64200 Biarritz"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1311
+#: inc/admin/admin-metaboxes-schemas.php:1312
+#: inc/admin/admin-metaboxes.php:1878 inc/admin/admin-metaboxes.php:1879
+#: inc/admin/schemas.php:1381
+msgid "Offer name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1312
+#: inc/admin/admin-metaboxes.php:1879 inc/admin/schemas.php:1383
+msgid "Eg: General admission"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1318
+#: inc/admin/admin-metaboxes-schemas.php:1319
+msgid "Offer category"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1319
+#: inc/admin/admin-metaboxes.php:1882 inc/admin/schemas.php:1386
+msgid "Select your offer category"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1325
+#: inc/admin/admin-metaboxes-schemas.php:1326
+msgid "Offer price"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1326
+#: inc/admin/admin-metaboxes.php:1894 inc/admin/schemas.php:1394
+msgid "Eg: 10"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1332
+#: inc/admin/admin-metaboxes-schemas.php:1333
+msgid "Offer price currency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1333 inc/admin/schemas.php:1399
+#: inc/admin/schemas.php:1589
+msgid "Eg: USD, EUR..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1339
+#: inc/admin/admin-metaboxes-schemas.php:1340
+#: inc/admin/admin-metaboxes.php:1936 inc/admin/schemas.php:1402
+msgid "Availability"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1340 inc/admin/schemas.php:1404
+msgid "Eg: InStock, SoldOut, PreOrder"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1346
+#: inc/admin/admin-metaboxes-schemas.php:1347
+#: inc/admin/admin-metaboxes.php:1944 inc/admin/schemas.php:1407
+msgid "Valid From"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1347
+#: inc/admin/admin-metaboxes.php:1945 inc/admin/admin-metaboxes.php:1946
+#: inc/admin/schemas.php:1409
+msgid "The date when tickets go on sale"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1353
+#: inc/admin/admin-metaboxes-schemas.php:1354
+#: inc/admin/admin-metaboxes.php:1947 inc/admin/schemas.php:484
+#: inc/admin/schemas.php:1412
+msgid "Time"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1354
+#: inc/admin/admin-metaboxes.php:1948 inc/admin/admin-metaboxes.php:1949
+#: inc/admin/schemas.php:1414
+msgid "The time when tickets go on sale"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1360
+#: inc/admin/admin-metaboxes-schemas.php:1361
+#: inc/admin/admin-metaboxes.php:1953 inc/admin/admin-metaboxes.php:1954
+#: inc/admin/schemas.php:1418
+msgid "Website to buy tickets"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1361
+#: inc/admin/admin-metaboxes.php:1954 inc/admin/schemas.php:1420
+msgid "Eg: https://fnac.com/"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1367
+#: inc/admin/admin-metaboxes-schemas.php:1368
+#: inc/admin/admin-metaboxes.php:1958 inc/admin/admin-metaboxes.php:1959
+#: inc/admin/schemas.php:1424
+msgid "Performer name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1368
+#: inc/admin/admin-metaboxes.php:1959 inc/admin/schemas.php:1426
+msgid "Eg: Lana Del Rey"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1374
+#: inc/admin/admin-metaboxes-schemas.php:1375 inc/admin/schemas.php:1430
+msgid "Event status"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1375
+msgid "Eg: EventCancelled"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1376
+msgid ""
+"Possible values: \"EventCancelled\", \"EventMovedOnline\", \"EventPostponed"
+"\", \"EventRescheduled\", \"EventScheduled\""
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1382
+#: inc/admin/admin-metaboxes-schemas.php:1383 inc/admin/schemas.php:1436
+msgid "Event attendance mode"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1383
+msgid "Eg: OfflineEventAttendanceMode"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1384
+msgid ""
+"Possible values: \"OfflineEventAttendanceMode\", \"OnlineEventAttendanceMode"
+"\", \"MixedEventAttendanceMode\""
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1394
+#: inc/admin/admin-metaboxes-schemas.php:1395
+#: inc/admin/admin-metaboxes.php:1993 inc/admin/admin-metaboxes.php:1994
+#: inc/admin/schemas.php:1491
+msgid "Product name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1395
+#: inc/admin/admin-metaboxes.php:1994 inc/admin/schemas.php:1493
+msgid "The name of your product"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1396
+#: inc/admin/admin-metaboxes.php:1995
+msgid "Default: product title"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1402
+#: inc/admin/admin-metaboxes-schemas.php:1403
+#: inc/admin/admin-metaboxes.php:1998 inc/admin/admin-metaboxes.php:1999
+#: inc/admin/schemas.php:1496
+msgid "Product description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1403
+#: inc/admin/admin-metaboxes.php:1999 inc/admin/schemas.php:1498
+msgid "The description of the product"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1404
+#: inc/admin/admin-metaboxes.php:2000
+msgid "Default: product excerpt"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1410
+#: inc/admin/admin-metaboxes-schemas.php:1411
+#: inc/admin/admin-metaboxes-schemas.php:1512
+#: inc/admin/admin-metaboxes.php:2003 inc/admin/admin-metaboxes.php:2005
+#: inc/admin/admin-metaboxes.php:2205 inc/admin/admin-metaboxes.php:2206
+#: inc/admin/schemas.php:1501
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1412
+#: inc/admin/admin-metaboxes.php:2007
+msgid "Default: product image"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1418
+#: inc/admin/admin-metaboxes-schemas.php:1419
+#: inc/admin/admin-metaboxes.php:2011 inc/admin/admin-metaboxes.php:2012
+#: inc/admin/schemas.php:1507
+msgid "Product price"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1420
+#: inc/admin/admin-metaboxes.php:2013
+msgid "Default: active product price"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1426
+#: inc/admin/admin-metaboxes-schemas.php:1427
+#: inc/admin/admin-metaboxes.php:2017 inc/admin/admin-metaboxes.php:2018
+#: inc/admin/schemas.php:1512
+msgid "Product price valid until"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1428
+#: inc/admin/admin-metaboxes.php:2019
+msgid "Default: sale price dates To field"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1434
+#: inc/admin/admin-metaboxes-schemas.php:1435
+#: inc/admin/admin-metaboxes.php:2023 inc/admin/admin-metaboxes.php:2024
+#: inc/admin/schemas.php:1518
+msgid "Product SKU"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1435
+#: inc/admin/admin-metaboxes.php:2024 inc/admin/schemas.php:1520
+msgid "Eg: 0446310786"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1436
+#: inc/admin/admin-metaboxes.php:2025
+msgid "Default: product SKU"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1442
+#: inc/admin/admin-metaboxes-schemas.php:1443
+#: inc/admin/admin-metaboxes.php:2029 inc/admin/schemas.php:1524
+#: inc/functions/options-woocommerce-admin.php:17
+msgid "Product Global Identifiers type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1443 inc/admin/schemas.php:1526
+msgid "Eg: gtin8"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1449
+#: inc/admin/admin-metaboxes-schemas.php:1450
+#: inc/admin/admin-metaboxes.php:2042 inc/admin/schemas.php:1530
+#: inc/functions/options-woocommerce-admin.php:52
+msgid "Product Global Identifiers"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1450
+#: inc/admin/admin-metaboxes.php:2042 inc/admin/schemas.php:1532
+msgid "Eg: 925872"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1456
+#: inc/admin/admin-metaboxes-schemas.php:1457
+msgid "Select a brand"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1457
+msgid "eg: category"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1463
+#: inc/admin/admin-metaboxes-schemas.php:1464
+#: inc/admin/admin-metaboxes.php:2063 inc/admin/schemas.php:1542
+msgid "Product currency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1464 inc/admin/schemas.php:1544
+msgid "Eg: USD, EUR"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1465
+msgid "Default: USD"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1471
+#: inc/admin/admin-metaboxes-schemas.php:1472
+#: inc/admin/admin-metaboxes.php:2102 inc/admin/schemas.php:1547
+msgid "Product Condition"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1472
+msgid "Eg: NewCondition, UsedCondition..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1473
+#: inc/admin/admin-metaboxes.php:2109
+msgid "Default: new"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1479
+#: inc/admin/admin-metaboxes-schemas.php:1480
+#: inc/admin/admin-metaboxes.php:2112 inc/admin/schemas.php:1552
+msgid "Product Availability"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1480
+msgid "Eg: InStock, InStoreOnly..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1481
+msgid "Default: In Stock"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1491
+#: inc/admin/admin-metaboxes-schemas.php:1492
+#: inc/admin/admin-metaboxes.php:2189 inc/admin/admin-metaboxes.php:2190
+#: inc/admin/schemas.php:1604
+msgid "Service name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1492
+#: inc/admin/admin-metaboxes.php:2190 inc/admin/schemas.php:1606
+msgid "The name of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1498
+#: inc/admin/admin-metaboxes-schemas.php:1499
+#: inc/admin/admin-metaboxes.php:2195 inc/admin/admin-metaboxes.php:2196
+#: inc/admin/schemas.php:1610
+msgid "Service type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1499 inc/admin/schemas.php:1612
+msgid "The type of service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1505
+#: inc/admin/admin-metaboxes-schemas.php:1506
+#: inc/admin/admin-metaboxes.php:2200 inc/admin/admin-metaboxes.php:2201
+#: inc/admin/schemas.php:1615
+msgid "Service description"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1506
+#: inc/admin/admin-metaboxes.php:2201 inc/admin/schemas.php:1617
+msgid "The description of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1519
+#: inc/admin/admin-metaboxes-schemas.php:1520
+#: inc/admin/admin-metaboxes.php:2212 inc/admin/admin-metaboxes.php:2213
+#: inc/admin/schemas.php:1624
+msgid "Area served"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1520
+#: inc/admin/admin-metaboxes.php:2213 inc/admin/schemas.php:1626
+msgid "The area served by your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1526
+#: inc/admin/admin-metaboxes-schemas.php:1527
+#: inc/admin/admin-metaboxes.php:2217 inc/admin/admin-metaboxes.php:2218
+#: inc/admin/schemas.php:1629
+msgid "Provider name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1527
+#: inc/admin/admin-metaboxes.php:2218 inc/admin/schemas.php:1631
+msgid "The provider name of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1533
+#: inc/admin/admin-metaboxes-schemas.php:1534
+#: inc/admin/admin-metaboxes.php:2221 inc/admin/admin-metaboxes.php:2222
+#: inc/admin/schemas.php:1634
+msgid "Location image"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1534
+#: inc/admin/admin-metaboxes.php:2222
+msgid "Select your location image"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1540
+#: inc/admin/admin-metaboxes-schemas.php:1541
+#: inc/admin/admin-metaboxes.php:2227 inc/admin/schemas.php:1638
+msgid "Provider mobility (static or dynamic)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1541
+#: inc/admin/admin-metaboxes.php:2228 inc/admin/schemas.php:1640
+msgid "The provider mobility of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1547
+#: inc/admin/admin-metaboxes-schemas.php:1548
+#: inc/admin/admin-metaboxes.php:2232 inc/admin/admin-metaboxes.php:2233
+#: inc/admin/schemas.php:1643
+msgid "Slogan"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1548
+#: inc/admin/admin-metaboxes.php:2233 inc/admin/schemas.php:1645
+msgid "The slogan of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1555
+#: inc/admin/admin-metaboxes.php:2238 inc/admin/schemas.php:1651
+msgid "The street address of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1562
+#: inc/admin/admin-metaboxes.php:2243 inc/admin/schemas.php:1657
+msgid "The city of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1569
+#: inc/admin/admin-metaboxes.php:2248 inc/admin/schemas.php:1663
+msgid "The state of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1576
+#: inc/admin/admin-metaboxes.php:2253 inc/admin/schemas.php:1669
+msgid "The postal code of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1583
+#: inc/admin/admin-metaboxes.php:2258 inc/admin/schemas.php:1675
+msgid "The country of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1590
+#: inc/admin/admin-metaboxes.php:2263 inc/admin/schemas.php:1681
+msgid "The latitude of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1597
+#: inc/admin/admin-metaboxes.php:2268 inc/admin/schemas.php:1687
+msgid "The longitude of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1604
+#: inc/admin/admin-metaboxes.php:2273
+msgid "The telephone of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1611
+#: inc/admin/admin-metaboxes.php:2278 inc/admin/schemas.php:1699
+msgid "The price range of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1621
+#: inc/admin/admin-metaboxes.php:2132 inc/admin/schemas.php:1563
+msgid "Software name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1622
+#: inc/admin/admin-metaboxes.php:2133 inc/admin/schemas.php:1565
+msgid "The name of your app"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1622
+#: inc/admin/admin-metaboxes.php:2133
+msgid "App name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1628
+#: inc/admin/admin-metaboxes-schemas.php:1629
+#: inc/admin/admin-metaboxes.php:2137 inc/admin/admin-metaboxes.php:2138
+#: inc/admin/schemas.php:1569
+msgid "Operating system"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1629
+#: inc/admin/admin-metaboxes.php:2138 inc/admin/schemas.php:1571
+msgid "The operating system(s) required to use the app"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1635
+#: inc/admin/admin-metaboxes.php:2141 inc/admin/schemas.php:1575
+msgid "Application category"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1637
+#: inc/admin/admin-metaboxes.php:2143
+msgid "GameApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1638
+#: inc/admin/admin-metaboxes.php:2144
+msgid "SocialNetworkingApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1639
+#: inc/admin/admin-metaboxes.php:2145
+msgid "TravelApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1640
+#: inc/admin/admin-metaboxes.php:2146
+msgid "ShoppingApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1641
+#: inc/admin/admin-metaboxes.php:2147
+msgid "SportsApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1642
+#: inc/admin/admin-metaboxes.php:2148
+msgid "LifestyleApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1643
+#: inc/admin/admin-metaboxes.php:2149
+msgid "BusinessApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1644
+#: inc/admin/admin-metaboxes.php:2150
+msgid "DesignApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1645
+#: inc/admin/admin-metaboxes.php:2151
+msgid "DeveloperApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1646
+#: inc/admin/admin-metaboxes.php:2152
+msgid "DriverApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1647
+#: inc/admin/admin-metaboxes.php:2153
+msgid "EducationalApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1648
+#: inc/admin/admin-metaboxes.php:2154
+msgid "HealthApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1649
+#: inc/admin/admin-metaboxes.php:2155
+msgid "FinanceApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1650
+#: inc/admin/admin-metaboxes.php:2156
+msgid "SecurityApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1651
+#: inc/admin/admin-metaboxes.php:2157
+msgid "BrowserApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1652
+#: inc/admin/admin-metaboxes.php:2158
+msgid "CommunicationApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1653
+#: inc/admin/admin-metaboxes.php:2159
+msgid "DesktopEnhancementApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1654
+#: inc/admin/admin-metaboxes.php:2160
+msgid "EntertainmentApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1655
+#: inc/admin/admin-metaboxes.php:2161
+msgid "MultimediaApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1656
+#: inc/admin/admin-metaboxes.php:2162
+msgid "HomeApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1657
+#: inc/admin/admin-metaboxes.php:2163
+msgid "UtilitiesApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1658
+#: inc/admin/admin-metaboxes.php:2164
+msgid "ReferenceApplication"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1665
+#: inc/admin/admin-metaboxes.php:2169 inc/admin/schemas.php:1581
+msgid "Price of your app"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1666
+#: inc/admin/admin-metaboxes.php:2170 inc/admin/schemas.php:1583
+msgid "The price of your app (set \"0\" if the app is free of charge)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1666
+#: inc/admin/admin-metaboxes.php:1220 inc/admin/admin-metaboxes.php:1892
+#: inc/admin/admin-metaboxes.php:1894 inc/admin/admin-metaboxes.php:2170
+#: inc/admin/schemas.php:1392
+msgid "Price"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1679
+#: inc/admin/admin-metaboxes-schemas.php:1680
+#: inc/admin/admin-metaboxes-schemas.php:1720
+#: inc/admin/admin-metaboxes-schemas.php:1721
+#: inc/admin/admin-metaboxes.php:2179 inc/admin/admin-metaboxes.php:2180
+#: inc/admin/admin-metaboxes.php:2310 inc/admin/admin-metaboxes.php:2311
+#: inc/admin/schemas.php:1593 inc/admin/schemas.php:1725
+msgid "Your rating"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1680
+#: inc/admin/admin-metaboxes-schemas.php:1721
+#: inc/admin/admin-metaboxes.php:2180 inc/admin/admin-metaboxes.php:2311
+#: inc/admin/schemas.php:1595
+msgid "The item rating"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1690
+#: inc/admin/admin-metaboxes-schemas.php:1691
+#: inc/admin/admin-metaboxes.php:2287 inc/admin/admin-metaboxes.php:2288
+#: inc/admin/admin-metaboxes.php:2305 inc/admin/schemas.php:1708
+msgid "Review item name"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1691
+#: inc/admin/admin-metaboxes.php:2288 inc/admin/schemas.php:1710
+msgid "The item name reviewed"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1697
+#: inc/admin/admin-metaboxes.php:2291 inc/admin/schemas.php:1714
+msgid "Review item type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1699
+#: inc/admin/admin-metaboxes.php:2293
+msgid "CreativeWorkSeason"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1700
+#: inc/admin/admin-metaboxes.php:2294
+msgid "CreativeWorkSeries"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1701
+#: inc/admin/admin-metaboxes.php:2295
+msgid "Episode"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1702
+#: inc/admin/admin-metaboxes.php:2296
+msgid "Game"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1703
+#: inc/admin/admin-metaboxes.php:2297
+msgid "MediaObject"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1704
+#: inc/admin/admin-metaboxes.php:2298
+msgid "MusicPlaylist"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1705
+#: inc/admin/admin-metaboxes.php:2299
+msgid "MusicRecording"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1706
+#: inc/admin/admin-metaboxes.php:2300
+msgid "Organization"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1713
+#: inc/admin/admin-metaboxes-schemas.php:1714
+#: inc/admin/admin-metaboxes.php:2304 inc/admin/schemas.php:1719
+msgid "Review item image"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1731
+#: inc/admin/admin-metaboxes-schemas.php:1764
+#: inc/admin/admin-metaboxes.php:2321 inc/admin/admin-metaboxes.php:2354
+#: inc/admin/schemas.php:507 inc/admin/schemas.php:1734
+msgid "Custom schema"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1732
+#: inc/admin/admin-metaboxes.php:2322
+msgid ""
+"eg: <script type=\"application/ld+json\">{\n"
+"\t\t\t\t\t\t\t\"@context\": \"https://schema.org/\",\n"
+"\t\t\t\t\t\t\t\"@type\": \"Review\",\n"
+"\t\t\t\t\t\t\t\"itemReviewed\": {\n"
+"\t\t\t\t\t\t\t  \"@type\": \"Restaurant\",\n"
+"\t\t\t\t\t\t\t  \"image\": \"http://www.example.com/seafood-restaurant.jpg"
+"\",\n"
+"\t\t\t\t\t\t\t  \"name\": \"Legal Seafood\",\n"
+"\t\t\t\t\t\t\t  \"servesCuisine\": \"Seafood\",\n"
+"\t\t\t\t\t\t\t  \"telephone\": \"1234567\",\n"
+"\t\t\t\t\t\t\t  \"address\" :{\n"
+"\t\t\t\t\t\t\t\t\"@type\": \"PostalAddress\",\n"
+"\t\t\t\t\t\t\t\t\"streetAddress\": \"123 William St\",\n"
+"\t\t\t\t\t\t\t\t\"addressLocality\": \"New York\",\n"
+"\t\t\t\t\t\t\t\t\"addressRegion\": \"NY\",\n"
+"\t\t\t\t\t\t\t\t\"postalCode\": \"10038\",\n"
+"\t\t\t\t\t\t\t\t\"addressCountry\": \"US\"\n"
+"\t\t\t\t\t\t\t  }\n"
+"\t\t\t\t\t\t\t},\n"
+"\t\t\t\t\t\t\t\"reviewRating\": {\n"
+"\t\t\t\t\t\t\t  \"@type\": \"Rating\",\n"
+"\t\t\t\t\t\t\t  \"ratingValue\": \"4\"\n"
+"\t\t\t\t\t\t\t},\n"
+"\t\t\t\t\t\t\t\"name\": \"A good seafood place.\",\n"
+"\t\t\t\t\t\t\t\"author\": {\n"
+"\t\t\t\t\t\t\t  \"@type\": \"Person\",\n"
+"\t\t\t\t\t\t\t  \"name\": \"Bob Smith\"\n"
+"\t\t\t\t\t\t\t},\n"
+"\t\t\t\t\t\t\t\"reviewBody\": \"The seafood is great.\",\n"
+"\t\t\t\t\t\t\t\"publisher\": {\n"
+"\t\t\t\t\t\t\t  \"@type\": \"Organization\",\n"
+"\t\t\t\t\t\t\t  \"name\": \"Washington Times\"\n"
+"\t\t\t\t\t\t\t}\n"
+"\t\t\t\t\t\t  }</script>"
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1770
+msgid "No automatic schema created for this content."
+msgstr ""
+
+#: inc/admin/admin-metaboxes-schemas.php:1772
+msgid "Add a schema"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:634 inc/admin/admin.php:137
+msgid "Structured Data Types"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:860 inc/admin/admin-metaboxes.php:873
+msgid "Automatic"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:861 inc/admin/admin-metaboxes.php:872
+msgid "Manual"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:879
+msgid "Select your data type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:881 inc/admin/admin.php:2594
+#: inc/admin/admin.php:3077 inc/admin/redirections.php:701
+#: inc/admin/schemas.php:356 inc/admin/schemas.php:429
+#: inc/admin/schemas.php:572 inc/functions/options-woocommerce-admin.php:19
+msgid "None"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:882 inc/admin/schemas.php:573
+msgid "Article (WebPage)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:883 inc/admin/admin.php:135
+#: inc/admin/admin.php:1349 inc/admin/schemas.php:574
+msgid "Local Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:884 inc/admin/schemas.php:575
+msgid "FAQ"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:885 inc/admin/schemas.php:576
+msgid "Course"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:886 inc/admin/schemas.php:577
+msgid "Recipe"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:887 inc/admin/schemas.php:578
+msgid "Job"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:888 inc/admin/schemas.php:579
+msgid "Video"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:889 inc/admin/schemas.php:580
+msgid "Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:890 inc/admin/schemas.php:581
+msgid "Product"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:891 inc/admin/schemas.php:582
+msgid "Service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:892
+msgid "Software Application"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:893 inc/admin/schemas.php:584
+msgid "Review"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:894 inc/admin/schemas.php:585
+msgid "Custom"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:899
+msgid "WARNING"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:900
+msgid "Be sure to select the right structure data type for your content."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:901
+msgid "When you choose one, fill all fields with the right format."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:902
+msgid ""
+"Make sure you don't have already included structured data type with a theme "
+"or plugin (eg: the default WooCommerce Theme, Storefront, already implements "
+"this for single page products)."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:903
+msgid "You can test your page with Google Data Structure Test tool."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:903
+msgid "Make a test"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:910
+#, php-format
+msgid ""
+"If you need help with schema, <a href=\"%s\">read our full tutorial</a>."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:916
+msgid ""
+"Proper structured data in your news, blog, and sports article page can "
+"enhance your appearance in Google Search results."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:919 inc/admin/schemas.php:664
+msgid "You have set a publisher logo. Good!"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:922 inc/admin/schemas.php:667
+#, php-format
+msgid ""
+"You don't have set a <a href=\"%s\">publisher logo</a>. It's required for "
+"Article content types."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:928 inc/admin/schemas.php:673
+msgid "Select your article type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:930 inc/admin/schemas.php:675
+msgid "Article (generic)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:931 inc/admin/schemas.php:676
+msgid "Advertiser Content Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:932 inc/admin/schemas.php:677
+msgid "News Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:933 inc/admin/schemas.php:678
+msgid "Report"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:934 inc/admin/schemas.php:679
+msgid "Satirical Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:935 inc/admin/schemas.php:680
+msgid "Scholarly Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:936 inc/admin/schemas.php:681
+msgid "Social Media Posting"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:937 inc/admin/schemas.php:682
+msgid "Blog Posting"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:938 inc/admin/schemas.php:683
+msgid "Tech Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:939 inc/admin/schemas.php:684
+msgid "Analysis News Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:940 inc/admin/schemas.php:685
+msgid "Ask Public News Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:941 inc/admin/schemas.php:686
+msgid "Background News Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:942 inc/admin/schemas.php:687
+msgid "Opinion News Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:943 inc/admin/schemas.php:688
+msgid "Reportage News Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:944 inc/admin/schemas.php:689
+msgid "Review News Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:945 inc/admin/schemas.php:690
+msgid "Live Blog Posting"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:955
+msgid " (maximum limit)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:960 inc/admin/schemas.php:702
+msgid ""
+"The representative image of the article. Only a marked-up image that "
+"directly belongs to the article should be specified. "
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:962 inc/admin/schemas.php:704
+msgid ""
+"Minimum size: 696px wide, JPG, PNG or GIF, crawlable and indexable (default: "
+"post thumbnail if available)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:966 inc/admin/admin-metaboxes.php:1170
+#: inc/admin/admin-metaboxes.php:1555 inc/admin/admin-metaboxes.php:1687
+#: inc/admin/admin-metaboxes.php:1761 inc/admin/admin-metaboxes.php:1829
+#: inc/admin/admin-metaboxes.php:2006 inc/admin/admin-metaboxes.php:2208
+#: inc/admin/admin-metaboxes.php:2223 inc/admin/admin-metaboxes.php:2306
+#: inc/admin/admin.php:2551 inc/admin/schemas.php:461
+msgid "Upload an Image"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:971 inc/admin/admin-metaboxes.php:977
+#: inc/admin/admin-metaboxes.php:983 inc/admin/admin-metaboxes.php:989
+msgid "To use with Live Blog Posting article type"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:972
+msgid ""
+"The beginning of live coverage. For example, \"2017-01-24T19:33:17+00:00\"."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:984
+msgid "The end of live coverage. For example, \"2017-01-24T19:33:17+00:00\"."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:995
+msgid ""
+"When users search for businesses on Google Search or Maps, Search results "
+"may display a prominent Knowledge Graph card with details about a business "
+"that matched the query. "
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1007
+msgid "Local Business (default)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1008
+msgid "Animal Shelter"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1009
+msgid "Automotive Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1010
+msgid "|-Auto Body Shop"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1011
+msgid "|-Auto Dealer"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1012 inc/admin/admin-metaboxes.php:1119
+msgid "|-Auto Parts Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1013
+msgid "|-Auto Rental"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1014
+msgid "|-Auto Repair"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1015
+msgid "|-AutoWash"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1016
+msgid "|-Gas Station"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1017
+msgid "|-Motorcycle Dealer"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1018
+msgid "|-Motorcycle Repair"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1019
+msgid "Child Care"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1020
+msgid "Dentist"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1021
+msgid "Dry Cleaning Or Laundry"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1022
+msgid "Emergency Service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1023
+msgid "|-Fire Station"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1024
+msgid "|-Hospital"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1025
+msgid "|-Police Station"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1026
+msgid "Employment Agency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1027
+msgid "Entertainment Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1028
+msgid "|-Adult Entertainment"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1029
+msgid "|-Amusement Park"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1030
+msgid "|-Art Gallery"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1031
+msgid "|-Casino"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1032
+msgid "|-Comedy Club"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1033
+msgid "|-Movie Theater"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1034
+msgid "|-Night Club"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1035
+msgid "Financial Service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1036
+msgid "|-Accounting Service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1037
+msgid "|-Automated Teller"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1038
+msgid "|-Bank Or Credit Union"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1039
+msgid "|-Insurance Agency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1040
+msgid "Food Establishment"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1041
+msgid "|-Bakery"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1042
+msgid "|-Bar Or Pub"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1043
+msgid "|-Brewery"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1044
+msgid "|-Cafe Or Coffee Shop"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1045
+msgid "|-Fast Food Restaurant"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1046
+msgid "|-Ice Cream Shop"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1047
+msgid "|-Restaurant"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1048
+msgid "|-Winery"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1049
+msgid "Government Office"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1050
+msgid "|-PostOffice"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1051
+msgid "Health And Beauty Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1052
+msgid "|-Beauty Salon"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1053
+msgid "|-Day Spa"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1054
+msgid "|-Hair Salon"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1055 inc/admin/admin-metaboxes.php:1112
+msgid "|-Health Club"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1056
+msgid "|-Nail Salon"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1057
+msgid "|-Tattoo Parlor"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1058
+msgid "Home And Construction Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1059
+msgid "|-Electrician"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1060
+msgid "|-HVAC Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1061
+msgid "|-House Painter"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1062
+msgid "|-Locksmith"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1063
+msgid "|-Moving Company"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1064
+msgid "|-Plumber"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1065
+msgid "|-Roofing Contractor"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1066
+msgid "Internet Cafe"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1067
+msgid "Medical Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1068
+msgid "|-Community Health"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1069
+msgid "|-Dentist"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1070
+msgid "|-Dermatology"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1071
+msgid "|-Diet Nutrition"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1072
+msgid "|-Emergency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1073
+msgid "|-Gynecologic"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1074
+msgid "|-Medical Clinic"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1075
+msgid "|-Midwifery"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1076
+msgid "|-Nursing"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1077
+msgid "|-Obstetric"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1078
+msgid "|-Oncologic"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1079
+msgid "|-Optician"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1080
+msgid "|-Optometric"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1081
+msgid "|-Otolaryngologic"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1082
+msgid "|-Pediatric"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1083
+msgid "|-Pharmacy"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1084
+msgid "|-Physician"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1085
+msgid "|-Physiotherapy"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1086
+msgid "|-Plastic Surgery"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1087
+msgid "|-Podiatric"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1088
+msgid "|-Primary Care"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1089
+msgid "|-Psychiatric"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1090
+msgid "|-Public Health"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1091
+msgid "Legal Service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1092
+msgid "|-Attorney"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1093
+msgid "|-Notary"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1094
+msgid "Library"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1095
+msgid "Lodging Business"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1096
+msgid "|-Bed And Breakfast"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1097
+msgid "|-Campground"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1098
+msgid "|-Hostel"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1099
+msgid "|-Hotel"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1100
+msgid "|-Motel"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1101
+msgid "|-Resort"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1102
+msgid "Professional Service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1103
+msgid "Radio Station"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1104
+msgid "Real Estate Agent"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1105
+msgid "Recycling Center"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1106
+msgid "Real Self Storage"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1107
+msgid "Shopping Center"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1108
+msgid "Sports Activity Location"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1109
+msgid "|-Bowling Alley"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1110
+msgid "|-Exercise Gym"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1111
+msgid "|-Golf Course"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1113
+msgid "|-Public Swimming Pool"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1114
+msgid "|-Ski Resort"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1115
+msgid "|-Sports Club"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1116
+msgid "|-Stadium Or Arena"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1117
+msgid "|-Tennis Complex"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1118
+msgid "Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1120
+msgid "|-Bike Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1121
+msgid "|-Book Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1122
+msgid "|-Clothing Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1123
+msgid "|-Computer Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1124
+msgid "|-Convenience Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1125
+msgid "|-Department Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1126
+msgid "|-Electronics Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1127
+msgid "|-Florist"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1128
+msgid "|-Furniture Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1129
+msgid "|-Garden Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1130
+msgid "|-Grocery Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1131
+msgid "|-Hardware Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1132
+msgid "|-Hobby Shop"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1133
+msgid "|-Home Goods Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1134
+msgid "|-Jewelry Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1135
+msgid "|-Liquor Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1136
+msgid "|-Mens Clothing Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1137
+msgid "|-Mobile Phone Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1138
+msgid "|-Movie Rental Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1139
+msgid "|-Music Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1140
+msgid "|-Office Equipment Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1141
+msgid "|-Outlet Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1142
+msgid "|-Pawn Shop"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1143
+msgid "|-Pet Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1144
+msgid "|-Shoe Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1145
+msgid "|-Sporting Goods Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1146
+msgid "|-Tire Shop"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1147
+msgid "|-Toy Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1148 inc/admin/admin-metaboxes.php:1149
+msgid "|-Wholesale Store"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1150
+msgid "Tourist Information Center"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1151
+msgid "Travel Agency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1161
+msgid "An image of the business."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1162 inc/admin/schemas.php:748
+msgid ""
+"Every page must contain at least one image (whether or not you include "
+"markup). Google will pick the best image to display in Search results based "
+"on the aspect ratio and resolution.<br>\n"
+"Image URLs must be crawlable and indexable.<br>\n"
+"Images must represent the marked up content.<br>\n"
+"Images must be in .jpg, .png, or. gif format.<br>\n"
+"For best results, provide multiple high-resolution images (minimum of 50K "
+"pixels when multiplying width and height) with the following aspect ratios: "
+"16x9, 4x3, and 1x1."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1224 inc/admin/admin.php:502
+#: inc/admin/admin.php:2193 inc/admin/schemas.php:816
+msgid "Cuisine served"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1225 inc/admin/admin.php:2193
+msgid "eg: French, Italian, Indian, American"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1225
+msgid "The type of cuisine the restaurant serves."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1436
+msgid ""
+"Mark up your Frequently Asked Questions page with JSON-LD to try to get the "
+"position 0 in search results. "
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1458 inc/admin/admin-metaboxes.php:1480
+msgid "Question (required)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1459 inc/admin/admin-metaboxes.php:1481
+msgid "Enter your question"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1462 inc/admin/admin-metaboxes.php:1484
+msgid "Answer (required)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1463 inc/admin/admin-metaboxes.php:1485
+msgid "Enter your answer"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1466 inc/admin/admin-metaboxes.php:1488
+msgid "Remove question"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1495
+msgid "Add question"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1499
+msgid ""
+"Mark up your course lists with structured data so prospective students find "
+"you through Google Search."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1502
+msgid ""
+"Only use course markup for educational content that fits the following "
+"definition of a course: A series or unit of curriculum that contains "
+"lectures, lessons, or modules in a particular subject and/or topic."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1503
+msgid ""
+"A course must have an explicit educational outcome of knowledge and/or skill "
+"in a particular subject and/or topic, and be led by one or more instructors "
+"with a roster of students."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1504
+msgid ""
+"A general public event such as \"Astronomy Day\" is not a course, and a "
+"single 2-minute \"How to make a Sandwich Video\" is not a course."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1516
+msgid "(maximum limit)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1532
+msgid ""
+"Mark up your recipe content with structured data to provide rich cards and "
+"host-specific lists for your recipes, such as cooking and preparation times, "
+"nutrition information..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1535
+msgid ""
+"Use recipe markup for content about preparing a particular dish. For "
+"example, \"facial scrub\" or \"party ideas\" are not valid names for a dish."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1553 inc/admin/schemas.php:1114
+msgid "Minimum size: 185px by 185px, aspect ratio 1:1"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1560 inc/admin/schemas.php:1120
+msgid "Eg: 30 min"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1565 inc/admin/schemas.php:1126
+msgid "Eg: 45 min"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1600
+msgid ""
+"Adding structured data makes your job postings eligible to appear in a "
+"special user experience in Google Search results."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1612
+msgid ""
+"<strong>Google Guidelines:</strong> You must format the description in HTML."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1615
+msgid "At minimum, add paragraph breaks using <br>, <p>, or \\n."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1618
+msgid "The feature recognizes the following HTML tags: <p>, <ul>, and <li>."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1621
+msgid ""
+"The feature doesn't recognize header and character-level tags, such as <h1>, "
+"<strong>, and <em>. While the tags won't affect the formatting in the "
+"feature, you can safely include them on the page."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1667 inc/admin/schemas.php:1203
+msgid "The hiring organization's value identifier value for the job"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1672
+msgid ""
+"Default: Organization name from your Knowledge Graph (SEO > Social Networks "
+"> Knowledge Graph)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1677 inc/admin/schemas.php:1211
+msgid "Organization website"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1678
+msgid "Default: URL of your site"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1683 inc/admin/schemas.php:1218
+msgid ""
+"Default: Logo from your Knowledge Graph (SEO > Social Networks > Knowledge "
+"Graph)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1717
+msgid "Remote job"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1724 inc/admin/schemas.php:1253
+msgid "eg: 50.00"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1729 inc/admin/schemas.php:1258
+msgid "eg: USD"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1744
+msgid ""
+"Mark up your video content with structured data to make Google Search an "
+"entry point for discovering and watching videos. "
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1757 inc/admin/schemas.php:1284
+msgid ""
+"Minimum size: 160px by 90px - Max size: 1920x1080px - crawlable and indexable"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1766 inc/admin/schemas.php:1290
+msgid "eg: 00:04:30 for 4 minutes and 30 seconds"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1767
+msgid "You must respect the format of this field: hh:mm:ss"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1777
+msgid ""
+"Event markup describes the details of organized events. When you use it in "
+"your content, that event becomes relevant for enhanced search results for "
+"relevant queries."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1780
+msgid ""
+"<strong>Expired events.</strong> Events data for any feature will never be "
+"shown for expired events. However, you do not have to remove markup for "
+"expired events."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1781
+msgid ""
+"<strong>Indicate the performer.</strong> Each event item must specify a "
+"performer property corresponding to the event's performer; that is, a "
+"musician, musical group, presenter, actor, and so on."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1782
+msgid "<strong>Do not include promotional elements in the name.</strong>"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1784
+msgid ""
+"Promoting non-event products or services: \"Trip package: San Diego/LA, 7 "
+"nights\""
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1785
+msgid ""
+"Prices in event titles: \"Music festival - only $10!\" Instead, highlight "
+"ticket prices using the tickets property in your markup."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1786
+msgid "Using a non-event for a title, such as: \"Sale on dresses!\""
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1787
+msgid ""
+"Discounts or purchase opportunties, such as: \"Concert - buy your tickets "
+"now,\" or \"Concert - 50 percent off until Saturday!\""
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1789
+msgid ""
+"<strong>Multi-day events.</strong> If your event/ticket info is for the "
+"festival itself, specify both the start and end date of the festival. If "
+"your event/ticket info is for a specific performance that is part of the "
+"festival, specify the specific date of the performance. If the specific date "
+"is unavailable, specify both the start and end date of the festival."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1794
+msgid "Business Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1795
+msgid "Children's Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1796
+msgid "Comedy Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1797
+msgid "Course Instance"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1798
+msgid "Dance Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1799
+msgid "Delivery Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1800
+msgid "Education Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1801
+msgid "Exhibition Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1802
+msgid "Festival"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1803
+msgid "Food Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1804
+msgid "Literary Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1805
+msgid "Music Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1806
+msgid "Publication Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1807
+msgid "Sale Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1808
+msgid "Screening Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1809
+msgid "Social Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1810
+msgid "Sports Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1811
+msgid "Theater Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1812
+msgid "Visual Arts Event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1822 inc/admin/schemas.php:1316
+msgid "Event description (default excerpt, or beginning of the content)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1827 inc/admin/schemas.php:1323
+msgid ""
+"Minimum width: 720px - Recommended size: 1920px -  .jpg, .png, or. gif "
+"format - crawlable and indexable"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1884
+msgid "Primary"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1885
+msgid "Secondary"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1886
+msgid "Presale"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1887
+msgid "Premium"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1893
+msgid ""
+"The lowest available price, including service charges and fees, of this type "
+"of ticket."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1897 inc/admin/schemas.php:1397
+msgid "Select your currency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1899 inc/admin/admin-metaboxes.php:2065
+msgid "Select a Currency"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1900 inc/admin/admin-metaboxes.php:2066
+msgid "U.S. Dollar"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1901 inc/admin/admin-metaboxes.php:2067
+msgid "Pound Sterling"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1902 inc/admin/admin-metaboxes.php:2068
+msgid "Euro"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1903 inc/admin/admin-metaboxes.php:2069
+msgid "Argentina Peso"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1904 inc/admin/admin-metaboxes.php:2070
+msgid "Australian Dollar"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1905 inc/admin/admin-metaboxes.php:2071
+msgid "Brazilian Real"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1906 inc/admin/admin-metaboxes.php:2072
+msgid "Bulgarian lev"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1907 inc/admin/admin-metaboxes.php:2073
+msgid "Canadian Dollar"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1908 inc/admin/admin-metaboxes.php:2074
+msgid "Chilean Peso"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1909 inc/admin/admin-metaboxes.php:2075
+msgid "Czech Koruna"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1910 inc/admin/admin-metaboxes.php:2076
+msgid "Danish Krone"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1911 inc/admin/admin-metaboxes.php:2077
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1912 inc/admin/admin-metaboxes.php:2078
+msgid "Hungarian Forint"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1913 inc/admin/admin-metaboxes.php:2079
+msgid "Indian rupee"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1914 inc/admin/admin-metaboxes.php:2080
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1915 inc/admin/admin-metaboxes.php:2081
+msgid "Japanese Yen"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1916 inc/admin/admin-metaboxes.php:2082
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1917 inc/admin/admin-metaboxes.php:2083
+msgid "Mexican Peso"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1918 inc/admin/admin-metaboxes.php:2084
+msgid "Norwegian Krone"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1919 inc/admin/admin-metaboxes.php:2085
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1920 inc/admin/admin-metaboxes.php:2086
+msgid "Philippine Peso"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1921 inc/admin/admin-metaboxes.php:2087
+msgid "Polish Zloty"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1922 inc/admin/admin-metaboxes.php:2088
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1923 inc/admin/admin-metaboxes.php:2089
+msgid "Russian Ruble"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1924 inc/admin/admin-metaboxes.php:2090
+msgid "Singapore Dollar"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1925 inc/admin/admin-metaboxes.php:2091
+msgid "Sol"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1926 inc/admin/admin-metaboxes.php:2092
+msgid "South African Rand"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1927 inc/admin/admin-metaboxes.php:2093
+msgid "Swedish Krona"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1928 inc/admin/admin-metaboxes.php:2094
+msgid "Swiss Franc"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1929 inc/admin/admin-metaboxes.php:2095
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1930 inc/admin/admin-metaboxes.php:2096
+msgid "Thai Baht"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1931 inc/admin/admin-metaboxes.php:2097
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1932 inc/admin/admin-metaboxes.php:2098
+msgid "Vietnamese đồng"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1938 inc/admin/admin-metaboxes.php:2114
+msgid "In Stock"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1939 inc/admin/admin-metaboxes.php:2118
+msgid "Sold Out"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1940 inc/admin/admin-metaboxes.php:2121
+msgid "Pre Order"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1962
+msgid "Select your event status"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1964
+msgid "Select a status event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1965
+msgid "Event cancelled"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1966
+msgid "Event moved online"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1967
+msgid "Event postponed"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1968
+msgid "Event rescheduled"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1969
+msgid "Event scheduled"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1973 inc/admin/admin-metaboxes.php:1975
+msgid "Select your event attendance mode"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1976
+msgid "Offline event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1977
+msgid "Online event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1978
+msgid "Mixed event"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1984
+msgid ""
+"Add markup to your product pages so Google can provide detailed product "
+"information in rich Search results - including Image Search. Users can see "
+"price, availability... right on Search results."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1987
+msgid ""
+"<strong>Use markup for a specific product, not a category or list of "
+"products.</strong> For example, \"shoes in our shop\" is not a specific "
+"product."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1988
+msgid "<strong>Adult-related products are not supported.</strong>"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:1989
+msgid ""
+"<strong>Works best with WooCommerce: we automatically add aggregateRating "
+"properties from user reviews (you have to enable this option from "
+"WooCommerce settings).</strong>"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2004 inc/admin/schemas.php:1503
+msgid ""
+"Pictures clearly showing the product, e.g. against a white background, are "
+"preferred."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2031
+msgid "Select a global identifier"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2032
+#: inc/functions/options-woocommerce-admin.php:20
+msgid "gtin8"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2033
+#: inc/functions/options-woocommerce-admin.php:21
+msgid "gtin13"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2034
+#: inc/functions/options-woocommerce-admin.php:22
+msgid "gtin14"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2035
+#: inc/functions/options-woocommerce-admin.php:23
+msgid "mpn"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2036
+#: inc/functions/options-woocommerce-admin.php:24
+msgid "isbn"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2041
+msgid "Product Global Identifier value"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2046 inc/admin/schemas.php:1536
+msgid "Product Brand"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2052
+msgid "Select a taxonomy"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2104
+msgid "New"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2105
+msgid "Used"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2106
+msgid "Damaged"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2107
+msgid "Refurbished"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2115
+msgid "In Store Only"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2116
+msgid "Online Only"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2117
+msgid "Limited Availability"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2119
+msgid "Out Of Stock"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2120
+msgid "Discontinued"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2122
+msgid "Pre Sale"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2128
+msgid ""
+"Mark up software application information so that Google can provide detailed "
+"service information in rich Search results."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2175
+msgid "Currency: USD, EUR..."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2185
+msgid ""
+"Add markup to your service pages so that Google can provide detailed service "
+"information in rich Search results."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2191
+msgid "Default: post title"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2196
+msgid "The type of your service"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2202
+msgid "Default: post excerpt"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2207
+msgid "Default: post thumbnail"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2228
+msgid "Provider mobility"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2283
+msgid ""
+"A simple review about something. When Google finds valid reviews or ratings "
+"markup, they may show a rich snippet that includes stars and other summary "
+"info from reviews or ratings."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2317
+#, php-format
+msgid "Build your custom schema. Don't forget to include the script tag: %s"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2361 inc/admin/schemas.php:1744
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">You can use dynamic variables in your "
+"schema.</a>"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:2363
+msgid "Validate my schema"
+msgstr ""
+
+#: inc/admin/admin.php:85
+msgid "SEO Network settings"
+msgstr ""
+
+#: inc/admin/admin.php:91 inc/admin/admin.php:3635
+msgid "PRO"
+msgstr ""
+
+#: inc/admin/admin.php:93 inc/admin/admin.php:3638 inc/admin/schemas.php:53
+#: inc/admin/schemas.php:55 inc/admin/schemas.php:56 inc/admin/schemas.php:80
+msgid "Schemas"
+msgstr ""
+
+#: inc/admin/admin.php:96 inc/admin/admin.php:3636
+msgid "Redirections"
+msgstr ""
+
+#: inc/admin/admin.php:99 inc/admin/admin.php:3637 inc/admin/bot.php:12
+#: inc/admin/bot.php:13 inc/admin/bot.php:14 inc/admin/bot.php:15
+#: inc/admin/bot.php:39 inc/functions/bot/seopress-bot.php:69
+msgid "Broken links"
+msgstr ""
+
+#: inc/admin/admin.php:136 inc/admin/admin.php:1367
+msgid "Dublin Core"
+msgstr ""
+
+#: inc/admin/admin.php:138 inc/admin/admin.php:1424
+#: inc/admin/elementor/widget-breadcrumbs.php:46
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/admin/admin.php:139 inc/admin/admin.php:1361
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/admin.php:140 inc/admin/admin.php:1355
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: inc/admin/admin.php:141 inc/admin/admin.php:1378
+msgid "PageSpeed Insights"
+msgstr ""
+
+#: inc/admin/admin.php:142 inc/admin/admin.php:262 inc/admin/admin.php:1384
+msgid "robots.txt"
+msgstr ""
+
+#: inc/admin/admin.php:143 inc/admin/admin.php:1390
+msgid "Google News"
+msgstr ""
+
+#: inc/admin/admin.php:144 inc/admin/redirections.php:12
+#: inc/admin/redirections.php:13 inc/admin/redirections.php:14
+#: inc/admin/redirections.php:15
+msgid "404 / 301"
+msgstr ""
+
+#: inc/admin/admin.php:145 inc/admin/admin.php:263 inc/admin/admin.php:1401
+msgid ".htaccess"
+msgstr ""
+
+#: inc/admin/admin.php:146
+msgid "RSS"
+msgstr ""
+
+#: inc/admin/admin.php:147
+msgid "URL Rewriting"
+msgstr ""
+
+#: inc/admin/admin.php:148 inc/admin/admin.php:264 inc/admin/admin.php:1418
+msgid "White Label"
+msgstr ""
+
+#: inc/admin/admin.php:203
+msgid ""
+"You need to enable XML Sitemap feature, in order to use Google News Sitemap."
+msgstr ""
+
+#: inc/admin/admin.php:204
+msgid "Change this settings"
+msgstr ""
+
+#: inc/admin/admin.php:341
+msgid "Post types to scan"
+msgstr ""
+
+#: inc/admin/admin.php:349
+msgid "Find links in"
+msgstr ""
+
+#: inc/admin/admin.php:357
+msgid "Number of posts / pages / post types to scan"
+msgstr ""
+
+#: inc/admin/admin.php:365
+msgid "Scan link type (slow down the bot)"
+msgstr ""
+
+#: inc/admin/admin.php:373
+msgid "Scan 404 only"
+msgstr ""
+
+#: inc/admin/admin.php:381
+msgid "Request Timeout (default 5 sec)"
+msgstr ""
+
+#: inc/admin/admin.php:389
+msgid "Clean broken links list when requesting a new scan"
+msgstr ""
+
+#: inc/admin/admin.php:406
+msgid "Where to display the schema?"
+msgstr ""
+
+#: inc/admin/admin.php:414
+msgid "Business type"
+msgstr ""
+
+#: inc/admin/admin.php:527
+msgid "Cart page"
+msgstr ""
+
+#: inc/admin/admin.php:535
+msgid "Checkout page"
+msgstr ""
+
+#: inc/admin/admin.php:543
+msgid "Customer account pages"
+msgstr ""
+
+#: inc/admin/admin.php:551 inc/admin/admin.php:600
+msgid "OG Price"
+msgstr ""
+
+#: inc/admin/admin.php:559 inc/admin/admin.php:608
+msgid "OG Currency"
+msgstr ""
+
+#: inc/admin/admin.php:567
+msgid "Remove WooCommerce generator tag in your head"
+msgstr ""
+
+#: inc/admin/admin.php:575
+msgid "Remove WooCommerce Schemas"
+msgstr ""
+
+#: inc/admin/admin.php:583
+msgid "Remove WooCommerce breadcrumbs schemas only"
+msgstr ""
+
+#: inc/admin/admin.php:616
+msgid "Remove Easy Digital Downloads generator tag in your head"
+msgstr ""
+
+#: inc/admin/admin.php:633
+msgid "Enable Dublin Core"
+msgstr ""
+
+#: inc/admin/admin.php:650
+msgid "Enable Structured Data Types"
+msgstr ""
+
+#: inc/admin/admin.php:658 inc/admin/admin.php:2545
+msgid "Upload your publisher logo"
+msgstr ""
+
+#: inc/admin/admin.php:666
+msgid "Add SiteNavigationElement schema to your main menu"
+msgstr ""
+
+#: inc/admin/admin.php:683
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: inc/admin/admin.php:691 inc/admin/admin.php:2643
+msgid "Enable JSON-LD Breadcrumbs"
+msgstr ""
+
+#: inc/admin/admin.php:699 inc/admin/admin.php:2657
+msgid "Breadcrumbs Separator"
+msgstr ""
+
+#: inc/admin/admin.php:707
+msgid "Post type to show in Breadcrumbs for taxonomies"
+msgstr ""
+
+#: inc/admin/admin.php:715
+msgid "Taxonomy to show in Breadcrumbs for post types"
+msgstr ""
+
+#: inc/admin/admin.php:723
+msgid "Translation for homepage"
+msgstr ""
+
+#: inc/admin/admin.php:731
+msgid "Translation for \"Error 404\""
+msgstr ""
+
+#: inc/admin/admin.php:739
+msgid "Translation for \"Search results for\""
+msgstr ""
+
+#: inc/admin/admin.php:747
+msgid "Translation for \"No results\""
+msgstr ""
+
+#: inc/admin/admin.php:755
+msgid "Remove Posts page"
+msgstr ""
+
+#: inc/admin/admin.php:763
+msgid "Remove Shop page"
+msgstr ""
+
+#: inc/admin/admin.php:771
+msgid "Disable default breadcrumbs separator"
+msgstr ""
+
+#: inc/admin/admin.php:797 inc/admin/admin.php:819
+msgid "Enable Robots"
+msgstr ""
+
+#: inc/admin/admin.php:804 inc/admin/admin.php:826 inc/admin/admin.php:2908
+#: inc/admin/admin.php:2917
+msgid "Virtual Robots.txt file"
+msgstr ""
+
+#: inc/admin/admin.php:844 inc/admin/admin.php:2969
+msgid "Enable Google News Sitemap"
+msgstr ""
+
+#: inc/admin/admin.php:852 inc/admin/admin.php:2981
+msgid "Publication Name (must be the same as used in Google News)"
+msgstr ""
+
+#: inc/admin/admin.php:860
+msgid "Select your Custom Post Type to INCLUDE in your Google News Sitemap"
+msgstr ""
+
+#: inc/admin/admin.php:877
+msgid "404 log"
+msgstr ""
+
+#: inc/admin/admin.php:885
+msgid "404 cleaning"
+msgstr ""
+
+#: inc/admin/admin.php:893
+msgid "Redirect 404 to"
+msgstr ""
+
+#: inc/admin/admin.php:901 inc/admin/admin.php:3096
+msgid "Redirect to specific URL"
+msgstr ""
+
+#: inc/admin/admin.php:909
+msgid "Status code of redirections"
+msgstr ""
+
+#: inc/admin/admin.php:917
+msgid "Email notifications"
+msgstr ""
+
+#: inc/admin/admin.php:925 inc/admin/admin.php:3147
+msgid "Send emails to"
+msgstr ""
+
+#: inc/admin/admin.php:942 inc/admin/admin.php:3170
+msgid "Edit your htaccess file"
+msgstr ""
+
+#: inc/admin/admin.php:959 inc/admin/admin.php:3209
+msgid "Display content before each post"
+msgstr ""
+
+#: inc/admin/admin.php:967 inc/admin/admin.php:3224
+msgid "Display content after each post"
+msgstr ""
+
+#: inc/admin/admin.php:975
+msgid "Disable comments RSS feed"
+msgstr ""
+
+#: inc/admin/admin.php:983
+msgid "Disable posts RSS feed"
+msgstr ""
+
+#: inc/admin/admin.php:991
+msgid "Disable extra RSS feed"
+msgstr ""
+
+#: inc/admin/admin.php:999
+msgid "Disable all RSS feeds"
+msgstr ""
+
+#: inc/admin/admin.php:1015
+msgid "Connect with Google Analytics API"
+msgstr ""
+
+#: inc/admin/admin.php:1022 inc/admin/admin.php:3861
+msgid "Google Console Client ID"
+msgstr ""
+
+#: inc/admin/admin.php:1029 inc/admin/admin.php:3876
+msgid "Google Console Secret ID"
+msgstr ""
+
+#: inc/admin/admin.php:1045 inc/admin/admin.php:3893
+msgid "Measure purchases"
+msgstr ""
+
+#: inc/admin/admin.php:1052
+msgid "Add to cart event"
+msgstr ""
+
+#: inc/admin/admin.php:1059
+msgid "Remove from cart event"
+msgstr ""
+
+#: inc/admin/admin.php:1068
+msgid "Block Structured Data Types metabox to user roles"
+msgstr ""
+
+#: inc/admin/admin.php:1085
+msgid "Custom URL for search results"
+msgstr ""
+
+#: inc/admin/admin.php:1103 inc/admin/admin.php:1224
+msgid "Remove SEOPress admin header"
+msgstr ""
+
+#: inc/admin/admin.php:1111 inc/admin/admin.php:1232
+msgid "Remove SEOPress icons in header"
+msgstr ""
+
+#: inc/admin/admin.php:1119 inc/admin/admin.php:1240
+msgid "Filter SEO admin menu dashicons"
+msgstr ""
+
+#: inc/admin/admin.php:1127 inc/admin/admin.php:1248
+msgid "Edit SEOPress item in admin bar"
+msgstr ""
+
+#: inc/admin/admin.php:1135 inc/admin/admin.php:1256
+msgid "Add your custom logo in SEOPress admin header"
+msgstr ""
+
+#: inc/admin/admin.php:1143 inc/admin/admin.php:1264
+msgid "Remove SEOPress credits in footer admin pages"
+msgstr ""
+
+#: inc/admin/admin.php:1151 inc/admin/admin.php:1272
+msgid "Hide SEOPress links / help icons"
+msgstr ""
+
+#: inc/admin/admin.php:1159
+msgid "Remove SEOPress menu/submenu pages/dashboard items"
+msgstr ""
+
+#: inc/admin/admin.php:1166 inc/admin/admin.php:1279
+msgid "Change plugin title in plugins list"
+msgstr ""
+
+#: inc/admin/admin.php:1173 inc/admin/admin.php:1286
+msgid "Change plugin title (PRO) in plugins list"
+msgstr ""
+
+#: inc/admin/admin.php:1180 inc/admin/admin.php:1293
+msgid "Change plugin description in plugins list"
+msgstr ""
+
+#: inc/admin/admin.php:1187 inc/admin/admin.php:1300
+msgid "Change plugin description (PRO) in plugins list"
+msgstr ""
+
+#: inc/admin/admin.php:1194 inc/admin/admin.php:1307
+msgid "Change plugin author in plugins list"
+msgstr ""
+
+#: inc/admin/admin.php:1201 inc/admin/admin.php:1314
+msgid "Change plugin website in plugins list"
+msgstr ""
+
+#: inc/admin/admin.php:1208 inc/admin/admin.php:1321
+msgid "Remove View details in plugin list"
+msgstr ""
+
+#: inc/admin/admin.php:1337
+msgid ""
+"Configure your breadcrumbs, using schema.org markup, allowing it to appear "
+"in Google's search results."
+msgstr ""
+
+#: inc/admin/admin.php:1337
+msgid "Google developers website (new window)"
+msgstr ""
+
+#: inc/admin/admin.php:1337
+msgid "Lean more on Google developers website"
+msgstr ""
+
+#: inc/admin/admin.php:1350
+msgid "Optimizing WordPress sites for Google EAT (new window)"
+msgstr ""
+
+#: inc/admin/admin.php:1350
+msgid ""
+"Local Business data type for Google. This schema will be displayed on the "
+"homepage. <br>You can also display these informations using our <a href=\""
+msgstr ""
+
+#: inc/admin/admin.php:1356
+msgid "Improve Easy Digital Downloads SEO."
+msgstr ""
+
+#: inc/admin/admin.php:1362
+msgid ""
+"Improve WooCommerce SEO. By enabling this feature, we‘ll automatically add "
+"<strong>product identifiers type</strong> and <strong>product identifiers "
+"value</strong> fields to the WooCommerce product metabox (barcode) for the "
+"Product schema."
+msgstr ""
+
+#: inc/admin/admin.php:1368
+msgid ""
+"Dublin Core is a set of meta tags to describe your content.<br> These tags "
+"are automatically generated. Recognized by states / governements, they are "
+"used by directories, Bing, Baidu and Yandex."
+msgstr ""
+
+#: inc/admin/admin.php:1373
+msgid "Structured Data Types (schema.org)"
+msgstr ""
+
+#: inc/admin/admin.php:1374
+msgid ""
+"Add Structured Data Types support, mark your content, and get better Google "
+"Search Results."
+msgstr ""
+
+#: inc/admin/admin.php:1379
+msgid "Check your site performance with Google PageSpeed Insights."
+msgstr ""
+
+#: inc/admin/admin.php:1385
+msgid "Configure your virtual robots.txt file."
+msgstr ""
+
+#: inc/admin/admin.php:1391
+msgid "Enable your Google News Sitemap."
+msgstr ""
+
+#: inc/admin/admin.php:1396
+msgid "404 monitoring / Redirections"
+msgstr ""
+
+#: inc/admin/admin.php:1397
+msgid ""
+"Monitor 404 urls in your Dashboard. Crawlers (robots/spiders) will be "
+"automatically exclude (eg: Google Bot, Yahoo, Bing...)."
+msgstr ""
+
+#: inc/admin/admin.php:1402
+msgid "Edit your htaccess file."
+msgstr ""
+
+#: inc/admin/admin.php:1406
+msgid "RSS feeds"
+msgstr ""
+
+#: inc/admin/admin.php:1407
+msgid "Configure WordPress default feeds."
+msgstr ""
+
+#: inc/admin/admin.php:1412
+msgid "Rewrite"
+msgstr ""
+
+#: inc/admin/admin.php:1413
+msgid "Change the URL rewriting."
+msgstr ""
+
+#: inc/admin/admin.php:1419
+msgid ""
+"Enable White Label. By enabling this feature, the <strong>\"How-to get "
+"started notice\"</strong> will be removed from the SEOPress dashboard."
+msgstr ""
+
+#: inc/admin/admin.php:1447 inc/admin/admin.php:1451
+msgid "Click to disable this feature"
+msgstr ""
+
+#: inc/admin/admin.php:1448 inc/admin/admin.php:1450
+msgid "Click to enable this feature"
+msgstr ""
+
+#: inc/admin/admin.php:1543
+msgid ""
+"The bot scans links in your content to find errors (404...). We limit this "
+"search by default to the last 100 posts/pages/custom post types."
+msgstr ""
+
+#: inc/admin/admin.php:1545
+msgid "You can increase this value in the settings tab just below."
+msgstr ""
+
+#: inc/admin/admin.php:1553
+msgid "Check our guide"
+msgstr ""
+
+#: inc/admin/admin.php:1554
+msgid "View scan results"
+msgstr ""
+
+#: inc/admin/admin.php:1559
+msgid "<p>Broken links settings</p>"
+msgstr ""
+
+#: inc/admin/admin.php:1579
+msgid ""
+"You have to set an image in Knowledge Graph settings, otherwise, your Google "
+"Local Business data will not be valid."
+msgstr ""
+
+#: inc/admin/admin.php:1580 inc/functions/options.php:90
+msgid "Fix this!"
+msgstr ""
+
+#: inc/admin/admin.php:1583
+msgid "To edit your business name, visit this page."
+msgstr ""
+
+#: inc/admin/admin.php:1590 inc/admin/admin.php:1714
+msgid "You need to enable WooCommerce in order to view these settings."
+msgstr ""
+
+#: inc/admin/admin.php:1598
+msgid ""
+"You need to enable Easy Digital Downloads in order to view these settings."
+msgstr ""
+
+#: inc/admin/admin.php:1608
+msgid "View my automatic schemas"
+msgstr ""
+
+#: inc/admin/admin.php:1615
+msgid ""
+"Copy and paste this function into your theme (eg: header.php) to enable your "
+"breadcrumbs:"
+msgstr ""
+
+#: inc/admin/admin.php:1617
+msgid ""
+"This function accepts 1 parameter: <strong>true / false</strong> for "
+"<strong>echo / return</strong>. Default: <strong>true</strong>."
+msgstr ""
+
+#: inc/admin/admin.php:1618
+msgid ""
+"You can also use this shortcode in your content (post, page, post type...):"
+msgstr ""
+
+#: inc/admin/admin.php:1623
+msgid ""
+"We also provide a widget for <strong>Elementor users</strong> (Elementor "
+"Builder > Elements tab > Site section > Breadcrumbs widget). <a class="
+"\"seopress-help\" href=\"https://www.youtube.com/watch?v=ID4xm1UVikc\" "
+"target=\"_blank\">Click to watch the video tutorial</a><span class="
+"\"seopress-help dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/admin.php:1625
+msgid ""
+"<a class=\"seopress-help\" href=\"https://www.youtube.com/watch?"
+"v=G3_l5CDS8b8\" target=\"_blank\">Watch this video guide to easily integrate "
+"your breadcrumbs with your WordPress theme</a><span class=\"seopress-help "
+"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/admin.php:1632
+msgid ""
+"We recommend WP Rocket caching plugin to quickly and easily optimize your "
+"WordPress site. Starting from just $49."
+msgstr ""
+
+#: inc/admin/admin.php:1635
+msgid ""
+"Get an insightful audit of your website's quality for better performances "
+"with Dareboost."
+msgstr ""
+
+#: inc/admin/admin.php:1637
+msgid "Analyse homepage with PageSpeed Insights"
+msgstr ""
+
+#: inc/admin/admin.php:1639
+msgid "Remove last analysis"
+msgstr ""
+
+#: inc/admin/admin.php:1653
+msgid "View your robots.txt"
+msgstr ""
+
+#: inc/admin/admin.php:1655 inc/admin/admin.php:1681
+msgid "Flush permalinks"
+msgstr ""
+
+#: inc/admin/admin.php:1660
+#, php-format
+msgid ""
+"A robots.txt file lives at the root of your site. So, for site %1$s, the "
+"robots.txt file lives at %1$s/robots.txt. robots.txt is a plain text file "
+"that follows the Robots Exclusion Standard."
+msgstr ""
+
+#: inc/admin/admin.php:1662
+msgid ""
+"A robots.txt file consists of one or more rules. Each rule blocks (or or "
+"allows) access for a given crawler to a specified file path in that website."
+msgstr ""
+
+#: inc/admin/admin.php:1664
+msgid ""
+"Our robots.txt file is virtual (like the default WordPress one). It means "
+"it‘s not physically present on your server. It‘s generated via URL rewriting."
+msgstr ""
+
+#: inc/admin/admin.php:1666
+msgid ""
+"THIS VIRTUAL FILE WILL NOT BYPASS YOUR REAL ROBOTS.TXT FILE IF YOU HAVE ONE."
+msgstr ""
+
+#: inc/admin/admin.php:1672
+msgid ""
+"To view your sitemap, enable permalinks (not default one), and save settings "
+"to flush them."
+msgstr ""
+
+#: inc/admin/admin.php:1674
+msgid ""
+"We respect the rules of Google News: Only articles published during the "
+"previous two days, and, to a limit of 1000 articles, are visible in the "
+"sitemap."
+msgstr ""
+
+#: inc/admin/admin.php:1677
+msgid "View your sitemap"
+msgstr ""
+
+#: inc/admin/admin.php:1679
+msgid "Ping Google manually"
+msgstr ""
+
+#: inc/admin/admin.php:1687
+msgid "404 URLS are bad for:"
+msgstr ""
+
+#: inc/admin/admin.php:1689
+msgid "User experience"
+msgstr ""
+
+#: inc/admin/admin.php:1690
+msgid "Performances"
+msgstr ""
+
+#: inc/admin/admin.php:1691
+msgid "Crawl budget allocated by Google"
+msgstr ""
+
+#: inc/admin/admin.php:1693
+msgid "All these reasons degrade your SEO AND your conversion."
+msgstr ""
+
+#: inc/admin/admin.php:1694
+msgid ""
+"We recommend to enable this feature after a site migration for example, or "
+"after major content changes on your site for <strong>about 1 month max to "
+"avoid false positives (robots, SPAMS...)</strong>."
+msgstr ""
+
+#: inc/admin/admin.php:1700
+msgid "SAVE YOUR HTACCESS FILE BEFORE EDIT!"
+msgstr ""
+
+#: inc/admin/admin.php:1704
+msgid "Track your ecommerce metrics with Google Enhanced Ecommerce."
+msgstr ""
+
+#: inc/admin/admin.php:1711
+msgid "Learn how to setup Google Enhanced Ecommerce"
+msgstr ""
+
+#: inc/admin/admin.php:1731
+msgid ""
+"Connect your WordPress site with Google Analytics API and get statistics "
+"right in your Dashboard."
+msgstr ""
+
+#: inc/admin/admin.php:1732
+msgid ""
+"This feature is completely independent of user tracking. For example, "
+"statistical data will be collected even if you have not entered your API "
+"keys below."
+msgstr ""
+
+#: inc/admin/admin.php:1738
+msgid ""
+"Watch our video guide to connect your WordPress site with Google Analytics "
+"API + common errors"
+msgstr ""
+
+#: inc/admin/admin.php:1787
+msgid "Post content"
+msgstr ""
+
+#: inc/admin/admin.php:1787
+msgid "Body page (extremely slow)"
+msgstr ""
+
+#: inc/admin/admin.php:1826
+msgid "The higher the value, the more time it will take. Min 10. Default: 100"
+msgstr ""
+
+#: inc/admin/admin.php:1839 inc/admin/admin.php:1856 inc/admin/admin.php:1890
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/admin.php:1877
+msgid ""
+"If the request exceeds x seconds of delay, the link will be considered as "
+"down"
+msgstr ""
+
+#: inc/admin/admin.php:1903
+msgid "Enter your post, page or post type ID, eg: 64"
+msgstr ""
+
+#: inc/admin/admin.php:1903
+msgid "Post ID"
+msgstr ""
+
+#: inc/admin/admin.php:1907
+msgid ""
+"Default: homepage. Google recommends to include your business details "
+"(address, phone, website...) for your visitors too."
+msgstr ""
+
+#: inc/admin/admin.php:2160
+msgid "default:"
+msgstr ""
+
+#: inc/admin/admin.php:2198 inc/admin/schemas.php:818
+msgid ""
+"Only to be filled if the business type is: \"FoodEstablishment\", \"Bakery"
+"\", \"BarOrPub\", \"Brewery\", \"CafeOrCoffeeShop\", \"FastFoodRestaurant\", "
+"\"IceCreamShop\", \"Restaurant\" or \"Winery\"."
+msgstr ""
+
+#: inc/admin/admin.php:2229
+msgid "Closed?"
+msgstr ""
+
+#: inc/admin/admin.php:2318 inc/admin/admin.php:2335 inc/admin/admin.php:2352
+#: inc/admin/import/class-csv-controller.php:698
+msgid "noindex"
+msgstr ""
+
+#: inc/admin/admin.php:2369 inc/admin/admin.php:2457
+msgid "Add product:price:amount meta for product"
+msgstr ""
+
+#: inc/admin/admin.php:2386 inc/admin/admin.php:2474
+msgid "Add product:price:currency meta for product"
+msgstr ""
+
+#: inc/admin/admin.php:2403
+msgid "Remove WooCommerce meta generator"
+msgstr ""
+
+#: inc/admin/admin.php:2420
+msgid "Remove default JSON-LD structured data (WooCommerce 3+)"
+msgstr ""
+
+#: inc/admin/admin.php:2437
+msgid "Remove default breadcrumbs JSON-LD structured data (WooCommerce 3+)"
+msgstr ""
+
+#: inc/admin/admin.php:2439
+msgid ""
+"If \"Remove default JSON-LD structured data (WooCommerce 3+)\" option is "
+"already checked, the breadcrumbs schema is already removed from your source "
+"code."
+msgstr ""
+
+#: inc/admin/admin.php:2491
+msgid "Remove EDD meta generator"
+msgstr ""
+
+#: inc/admin/admin.php:2509
+msgid ""
+"Enable Dublin Core meta tags (dc.title, dc.description, dc.source, dc."
+"language, dc.relation, dc.subject)"
+msgstr ""
+
+#: inc/admin/admin.php:2527
+msgid ""
+"Enable Structured Data Types metabox for your posts, pages and custom post "
+"types"
+msgstr ""
+
+#: inc/admin/admin.php:2545
+msgid "Select your logo"
+msgstr ""
+
+#: inc/admin/admin.php:2572
+msgid "Make sure your image follow these Google guidelines"
+msgstr ""
+
+#: inc/admin/admin.php:2573
+msgid ""
+"Files must be raster, such as .jpg, .png, or .gif, not vector, such as .svg."
+msgstr ""
+
+#: inc/admin/admin.php:2574
+msgid "Animation is not allowed."
+msgstr ""
+
+#: inc/admin/admin.php:2575
+msgid "Use full wordmark or full logo; not an icon."
+msgstr ""
+
+#: inc/admin/admin.php:2576
+msgid "The graphic must be legible on a white or light background"
+msgstr ""
+
+#: inc/admin/admin.php:2577
+msgid "The logo should be a rectangle, not a square."
+msgstr ""
+
+#: inc/admin/admin.php:2578
+msgid ""
+"The logo should fit in a 600x60px rectangle, and either be exactly 60px high "
+"(preferred), or exactly 600px wide. <br/>For example, 450x45px would not be "
+"acceptable, even though it fits in the 600x60px rectangle."
+msgstr ""
+
+#: inc/admin/admin.php:2579
+msgid ""
+"The text in word-based logos should be at most 48px tall and centered "
+"vertically against the 60px image height. Additional space should be added "
+"to pad the height to 60px."
+msgstr ""
+
+#: inc/admin/admin.php:2580
+msgid ""
+"Logos with a solid background should include 6px minimum padding around the "
+"wordmark."
+msgstr ""
+
+#: inc/admin/admin.php:2582 inc/admin/report-page-speed.php:270
+#: inc/admin/report-page-speed.php:314 inc/admin/report-page-speed.php:363
+msgid "Learn more"
+msgstr ""
+
+#: inc/admin/admin.php:2608
+msgid ""
+"Select your primary navigation. This can help search engines better "
+"understand the structure of your site."
+msgstr ""
+
+#: inc/admin/admin.php:2626
+msgid "Enable HTML Breadcrumbs"
+msgstr ""
+
+#: inc/admin/admin.php:2645
+msgid ""
+"To avoid duplicated schemas, don't enable this option if HTML Breadcrumbs is "
+"ON. We automatically add the JSON-LD to the head of your document using the "
+"wp_head hook. You don't need to manually call the breadcrumbs function."
+msgstr ""
+
+#: inc/admin/admin.php:2657
+msgid "eg: \\ "
+msgstr ""
+
+#: inc/admin/admin.php:2663
+msgid "-"
+msgstr ""
+
+#: inc/admin/admin.php:2664
+msgid "–"
+msgstr ""
+
+#: inc/admin/admin.php:2665
+msgid ">"
+msgstr ""
+
+#: inc/admin/admin.php:2666
+msgid "<"
+msgstr ""
+
+#: inc/admin/admin.php:2667
+msgid "|"
+msgstr ""
+
+#: inc/admin/admin.php:2676
+msgid "Customize breadcrumbs separator with a hook"
+msgstr ""
+
+#: inc/admin/admin.php:2773 inc/functions/options-breadcrumbs.php:191
+msgid "Home"
+msgstr ""
+
+#: inc/admin/admin.php:2773
+msgid "default: Home"
+msgstr ""
+
+#: inc/admin/admin.php:2784 inc/functions/options-breadcrumbs.php:197
+msgid "404 error"
+msgstr ""
+
+#: inc/admin/admin.php:2784
+msgid "default: 404 error"
+msgstr ""
+
+#: inc/admin/admin.php:2795 inc/functions/options-breadcrumbs.php:203
+msgid "Search results for: "
+msgstr ""
+
+#: inc/admin/admin.php:2795
+msgid "default: Search results for: "
+msgstr ""
+
+#: inc/admin/admin.php:2805 inc/functions/options-breadcrumbs.php:209
+msgid "No results"
+msgstr ""
+
+#: inc/admin/admin.php:2805
+msgid "default: No results"
+msgstr ""
+
+#: inc/admin/admin.php:2821
+msgid "Remove static Posts page defined in WordPress Reading settings"
+msgstr ""
+
+#: inc/admin/admin.php:2838
+msgid "Remove the static Shop page defined in the WooCommerce settings"
+msgstr ""
+
+#: inc/admin/admin.php:2855
+msgid ""
+"My theme / Bootstrap is already displaying a separator in my breadcrumbs"
+msgstr ""
+
+#: inc/admin/admin.php:2876 inc/admin/admin.php:2890
+msgid "Enable robots.txt virtual file"
+msgstr ""
+
+#: inc/admin/admin.php:2901 inc/admin/admin.php:3157
+msgid "Access not allowed by the PHP define."
+msgstr ""
+
+#: inc/admin/admin.php:2908 inc/admin/admin.php:2917
+msgid "This is your robots.txt file!"
+msgstr ""
+
+#: inc/admin/admin.php:2927
+msgid "Block SemrushBot"
+msgstr ""
+
+#: inc/admin/admin.php:2930
+msgid "Block MajesticSEOBot"
+msgstr ""
+
+#: inc/admin/admin.php:2933
+msgid "Block AhrefsBot"
+msgstr ""
+
+#: inc/admin/admin.php:2935
+msgid "Link to your sitemap"
+msgstr ""
+
+#: inc/admin/admin.php:2938
+msgid "Allow Google AdSense bot"
+msgstr ""
+
+#: inc/admin/admin.php:2941
+msgid "Allow Google Image bot"
+msgstr ""
+
+#: inc/admin/admin.php:2945
+msgid "Default WP rules"
+msgstr ""
+
+#: inc/admin/admin.php:2955
+msgid "Guide to edit your robots.txt file - new window"
+msgstr ""
+
+#: inc/admin/admin.php:2981
+msgid "Enter your Google News Publication Name"
+msgstr ""
+
+#: inc/admin/admin.php:3038
+msgid "Enable 404 monitoring"
+msgstr ""
+
+#: inc/admin/admin.php:3040
+msgid "View your 404 / 301"
+msgstr ""
+
+#: inc/admin/admin.php:3057
+msgid ""
+"Automatically delete 404 after 30 days (useful if you have a lot of 404)"
+msgstr ""
+
+#: inc/admin/admin.php:3059
+msgid ""
+"You must deactivate and reactivate the plugin to enable the scheduled task "
+"(CRON)"
+msgstr ""
+
+#: inc/admin/admin.php:3061
+msgid "Clean manually your 404"
+msgstr ""
+
+#: inc/admin/admin.php:3080
+msgid "Homepage"
+msgstr ""
+
+#: inc/admin/admin.php:3083
+msgid "Custom URL"
+msgstr ""
+
+#: inc/admin/admin.php:3096
+msgid "Enter your custom url"
+msgstr ""
+
+#: inc/admin/admin.php:3111
+msgid "301 redirect"
+msgstr ""
+
+#: inc/admin/admin.php:3114
+msgid "302 redirect"
+msgstr ""
+
+#: inc/admin/admin.php:3117
+msgid "307 redirect"
+msgstr ""
+
+#: inc/admin/admin.php:3135
+msgid "1 mail each time a new 404 is created"
+msgstr ""
+
+#: inc/admin/admin.php:3147
+msgid "Enter your email"
+msgstr ""
+
+#: inc/admin/admin.php:3160
+msgid ""
+"Multisite is enabled, go to network SEO settings to manage your .htaccess "
+"file."
+msgstr ""
+
+#: inc/admin/admin.php:3170
+msgid "This is your htaccess file!"
+msgstr ""
+
+#: inc/admin/admin.php:3178
+msgid "Block directory browsing"
+msgstr ""
+
+#: inc/admin/admin.php:3183
+msgid "Protect wp-config.php file"
+msgstr ""
+
+#: inc/admin/admin.php:3185
+msgid "301 redirection"
+msgstr ""
+
+#: inc/admin/admin.php:3189
+msgid "Saves htaccess changes"
+msgstr ""
+
+#: inc/admin/admin.php:3192
+msgid "You don't have an htaccess file on your server."
+msgstr ""
+
+#: inc/admin/admin.php:3195
+msgid "Your server is running Nginx, you don't have htaccess file."
+msgstr ""
+
+#: inc/admin/admin.php:3209 inc/admin/admin.php:3224
+msgid "Enter your HTML content"
+msgstr ""
+
+#: inc/admin/admin.php:3212 inc/admin/admin.php:3227
+msgid "HTML tags allowed: strong, em, br, a href"
+msgstr ""
+
+#: inc/admin/admin.php:3214 inc/admin/admin.php:3228
+#, php-format
+msgid ""
+"Dynamic variables: %%sitetitle%%, %%tagline%%, %%post_author%%, "
+"%%post_permalink%%, %%post_title%%"
+msgstr ""
+
+#: inc/admin/admin.php:3241
+msgid "Remove feed link in source code"
+msgstr ""
+
+#: inc/admin/admin.php:3258
+msgid "Remove feed link in source code (default WordPress RSS feed)"
+msgstr ""
+
+#: inc/admin/admin.php:3275
+msgid ""
+"Remove feed link in source code (author, categories, custom taxonomies, "
+"custom post type, comments feed for a single post...)"
+msgstr ""
+
+#: inc/admin/admin.php:3292
+msgid ""
+"Disable all WordPress RSS feeds (all feeds will no longer be accessible)"
+msgstr ""
+
+#: inc/admin/admin.php:3305
+msgid "Search results base"
+msgstr ""
+
+#: inc/admin/admin.php:3305
+msgid "Search results base, eg: \"search-results\" without quotes"
+msgstr ""
+
+#: inc/admin/admin.php:3307
+msgid "Flush your permalinks each time you edit this setting."
+msgstr ""
+
+#: inc/admin/admin.php:3322 inc/admin/admin.php:3336
+msgid ""
+"Remove the SEOPress admin header including Notifications Center, SEO tools "
+"and Useful links"
+msgstr ""
+
+#: inc/admin/admin.php:3355 inc/admin/admin.php:3369
+msgid ""
+"Remove SEOPress icons on the right in header (changelog, YouTube, Twitter...)"
+msgstr ""
+
+#: inc/admin/admin.php:3383 inc/admin/admin.php:3388
+msgid "Enter your dashicons CSS class name"
+msgstr ""
+
+#: inc/admin/admin.php:3383 inc/admin/admin.php:3388
+msgid "CSS Dashicons class name without quotes"
+msgstr ""
+
+#: inc/admin/admin.php:3390
+msgid "Find your Dashicons CSS class name on the official website"
+msgstr ""
+
+#: inc/admin/admin.php:3399 inc/admin/admin.php:3404
+msgid ""
+"default value: <span class=\"ab-icon icon-seopress-seopress\"></span> SEO"
+msgstr ""
+
+#: inc/admin/admin.php:3399 inc/admin/admin.php:3404
+msgid "Enter the label of the link for admin bar"
+msgstr ""
+
+#: inc/admin/admin.php:3415 inc/admin/admin.php:3420
+msgid "eg: https://www.example.com/my-custom-image.png"
+msgstr ""
+
+#: inc/admin/admin.php:3415 inc/admin/admin.php:3420
+msgid "Enter the absolute URL to your logo"
+msgstr ""
+
+#: inc/admin/admin.php:3436 inc/admin/admin.php:3450
+msgid "Remove \"You like SEOPress? Don't forget to rate it 5 stars!\""
+msgstr ""
+
+#: inc/admin/admin.php:3469 inc/admin/admin.php:3483
+msgid "Hide help icons and SEOPress documentation links"
+msgstr ""
+
+#: inc/admin/admin.php:3498 inc/admin/admin.php:3503 inc/admin/admin.php:3514
+#: inc/admin/admin.php:3519
+msgid "eg: SEO plugin"
+msgstr ""
+
+#: inc/admin/admin.php:3498 inc/admin/admin.php:3503 inc/admin/admin.php:3514
+#: inc/admin/admin.php:3519
+msgid "Enter a plugin title"
+msgstr ""
+
+#: inc/admin/admin.php:3530 inc/admin/admin.php:3535 inc/admin/admin.php:3546
+#: inc/admin/admin.php:3551
+msgid "eg: Best SEO WordPress plugin"
+msgstr ""
+
+#: inc/admin/admin.php:3530 inc/admin/admin.php:3535 inc/admin/admin.php:3546
+#: inc/admin/admin.php:3551
+msgid "Enter a description"
+msgstr ""
+
+#: inc/admin/admin.php:3562 inc/admin/admin.php:3567
+msgid "eg: John Doe"
+msgstr ""
+
+#: inc/admin/admin.php:3562 inc/admin/admin.php:3567
+msgid "Enter the author name"
+msgstr ""
+
+#: inc/admin/admin.php:3569 inc/admin/admin.php:3586 inc/admin/admin.php:3620
+msgid "This option will apply to both SEOPress and SEOPress PRO."
+msgstr ""
+
+#: inc/admin/admin.php:3579 inc/admin/admin.php:3584
+msgid "eg: https://www.example.com/"
+msgstr ""
+
+#: inc/admin/admin.php:3579 inc/admin/admin.php:3584
+msgid "Enter a website URL"
+msgstr ""
+
+#: inc/admin/admin.php:3600 inc/admin/admin.php:3614
+msgid "Remove View details modal link"
+msgstr ""
+
+#: inc/admin/admin.php:3626
+msgid "SEO"
+msgstr ""
+
+#: inc/admin/admin.php:3627
+msgid "Titles & Metas"
+msgstr ""
+
+#: inc/admin/admin.php:3628
+msgid "XML / HTML Sitemap"
+msgstr ""
+
+#: inc/admin/admin.php:3629 inc/admin/dashboard-google-analytics.php:163
+msgid "Social Networks"
+msgstr ""
+
+#: inc/admin/admin.php:3630
+msgid "Analytics"
+msgstr ""
+
+#: inc/admin/admin.php:3631
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/admin.php:3632
+msgid "Tools"
+msgstr ""
+
+#: inc/admin/admin.php:3633 inc/functions/bot/seopress-bot.php:69
+msgid "BOT"
+msgstr ""
+
+#: inc/admin/admin.php:3634 inc/admin/updater/plugin-licence.php:6
+#: seopress-pro.php:524
+msgid "License"
+msgstr ""
+
+#: inc/admin/admin.php:3664
+msgid "Users with the \"manage_options\" capability will still see the menus."
+msgstr ""
+
+#: inc/admin/admin.php:3764
+msgid ""
+"To sign in with Google Analytics, you have to set a Client and Secret ID in "
+"the fields below:"
+msgstr ""
+
+#: inc/admin/admin.php:3798
+msgid "Connect with Google Analytics"
+msgstr ""
+
+#: inc/admin/admin.php:3818
+msgid "Log out from Google"
+msgstr ""
+
+#: inc/admin/admin.php:3826
+msgid ""
+"Your Google Analytics view is locked. Log out from Google to unlocked it."
+msgstr ""
+
+#: inc/admin/admin.php:3845
+msgid "Lock selection?"
+msgstr ""
+
+#: inc/admin/admin.php:3861
+msgid "Enter your client ID"
+msgstr ""
+
+#: inc/admin/admin.php:3867
+msgid "Guide to connect your WordPress site with Google Analytics - new window"
+msgstr ""
+
+#: inc/admin/admin.php:3876
+msgid "Enter your secret ID"
+msgstr ""
+
+#: inc/admin/admin.php:3910
+msgid "Measure additions to shopping carts"
+msgstr ""
+
+#: inc/admin/admin.php:3927
+msgid "Measure removals from shopping carts"
+msgstr ""
+
+#: inc/admin/admin.php:3965
+msgid ""
+"Hook to filter Structured data types metabox call by post type - new window"
+msgstr ""
+
+#: inc/admin/ajax.php:182
+msgid "Unable to request page: "
+msgstr ""
+
+#: inc/admin/ajax.php:224
+msgid "domain not found"
+msgstr ""
+
+#: inc/admin/ajax.php:331 inc/admin/updater/plugin-licence.php:266
+#: inc/admin/updater/plugin-licence.php:325
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: inc/admin/ajax.php:658 inc/admin/ajax.php:686
+#: inc/admin/dashboard-google-analytics.php:96
+#: inc/admin/dashboard-google-analytics.php:281
+msgid "Sessions"
+msgstr ""
+
+#: inc/admin/ajax.php:662 inc/admin/dashboard-google-analytics.php:102
+#: inc/admin/dashboard-google-analytics.php:284
+msgid "Users"
+msgstr ""
+
+#: inc/admin/ajax.php:666 inc/admin/dashboard-google-analytics.php:108
+msgid "Page Views"
+msgstr ""
+
+#: inc/admin/ajax.php:670
+msgid "Page Views Per Session"
+msgstr ""
+
+#: inc/admin/ajax.php:674
+msgid "Average Session Duration"
+msgstr ""
+
+#: inc/admin/ajax.php:678
+msgid "Bounce Rate"
+msgstr ""
+
+#: inc/admin/ajax.php:682 inc/admin/dashboard-google-analytics.php:299
+msgid "New Sessions"
+msgstr ""
+
+#: inc/admin/ajax.php:761
+msgid "Impossible to open file: "
+msgstr ""
+
+#: inc/admin/ajax.php:766
+msgid "Impossible to write in file: "
+msgstr ""
+
+#: inc/admin/ajax.php:770
+msgid "htaccess successfully updated!"
+msgstr ""
+
+#: inc/admin/ajax.php:775
+msgid "Your htaccess is not writable."
+msgstr ""
+
+#: inc/admin/bot.php:16
+msgid "Item Links"
+msgstr ""
+
+#: inc/admin/bot.php:17
+msgid "Parent Link:"
+msgstr ""
+
+#: inc/admin/bot.php:18
+msgid "All Broken links"
+msgstr ""
+
+#: inc/admin/bot.php:19
+msgid "Add New Link"
+msgstr ""
+
+#: inc/admin/bot.php:20
+msgid "Add link"
+msgstr ""
+
+#: inc/admin/bot.php:21
+msgid "New link"
+msgstr ""
+
+#: inc/admin/bot.php:22
+msgid "Edit link"
+msgstr ""
+
+#: inc/admin/bot.php:23
+msgid "Update Link"
+msgstr ""
+
+#: inc/admin/bot.php:24
+msgid "View Link"
+msgstr ""
+
+#: inc/admin/bot.php:25
+msgid "Search Link"
+msgstr ""
+
+#: inc/admin/bot.php:26 inc/admin/redirections.php:26 inc/admin/schemas.php:67
+msgid "Not found"
+msgstr ""
+
+#: inc/admin/bot.php:27 inc/admin/redirections.php:27 inc/admin/schemas.php:68
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/admin/bot.php:28 inc/admin/redirections.php:28 inc/admin/schemas.php:69
+msgid "Featured Image"
+msgstr ""
+
+#: inc/admin/bot.php:29 inc/admin/redirections.php:29 inc/admin/schemas.php:70
+msgid "Set featured image"
+msgstr ""
+
+#: inc/admin/bot.php:30 inc/admin/redirections.php:30 inc/admin/schemas.php:71
+msgid "Remove featured image"
+msgstr ""
+
+#: inc/admin/bot.php:31 inc/admin/redirections.php:31 inc/admin/schemas.php:72
+msgid "Use as featured image"
+msgstr ""
+
+#: inc/admin/bot.php:32 inc/admin/redirections.php:32 inc/admin/schemas.php:73
+msgid "Insert into item"
+msgstr ""
+
+#: inc/admin/bot.php:33 inc/admin/redirections.php:33 inc/admin/schemas.php:74
+msgid "Uploaded to this item"
+msgstr ""
+
+#: inc/admin/bot.php:34 inc/admin/redirections.php:34
+msgid "Redirections list"
+msgstr ""
+
+#: inc/admin/bot.php:35 inc/admin/redirections.php:35
+msgid "Redirections list navigation"
+msgstr ""
+
+#: inc/admin/bot.php:36 inc/admin/redirections.php:36
+msgid "Filter redirections list"
+msgstr ""
+
+#: inc/admin/bot.php:40
+msgid "List of broken links"
+msgstr ""
+
+#: inc/admin/bot.php:78
+msgid "Edit source to fix link"
+msgstr ""
+
+#: inc/admin/bot.php:103 inc/admin/redirections.php:286
+msgid "Show All"
+msgstr ""
+
+#: inc/admin/bot.php:139 inc/admin/bot.php:142 inc/admin/schemas.php:196
+#: inc/admin/schemas.php:199
+msgid " updated."
+msgstr ""
+
+#: inc/admin/bot.php:140 inc/admin/redirections.php:499
+#: inc/admin/schemas.php:197
+msgid "Custom field updated."
+msgstr ""
+
+#: inc/admin/bot.php:141 inc/admin/redirections.php:500
+#: inc/admin/schemas.php:198
+msgid "Custom field deleted."
+msgstr ""
+
+#: inc/admin/bot.php:143 inc/admin/redirections.php:502
+#: inc/admin/schemas.php:200
+#, php-format
+msgid " restored to revision from %s"
+msgstr ""
+
+#: inc/admin/bot.php:144 inc/admin/schemas.php:201
+msgid " published."
+msgstr ""
+
+#: inc/admin/bot.php:145
+msgid "Page saved."
+msgstr ""
+
+#: inc/admin/bot.php:146 inc/admin/redirections.php:505
+#: inc/admin/schemas.php:203
+msgid " submitted."
+msgstr ""
+
+#: inc/admin/bot.php:147 inc/admin/redirections.php:506
+#: inc/admin/schemas.php:204
+#, php-format
+msgid " scheduled for: <strong>%1$s</strong>. "
+msgstr ""
+
+#: inc/admin/bot.php:147 inc/admin/redirections.php:506
+#: inc/admin/schemas.php:204
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: inc/admin/bot.php:148 inc/admin/redirections.php:507
+#: inc/admin/schemas.php:205
+msgid " draft updated."
+msgstr ""
+
+#: inc/admin/bot.php:179
+msgid "Scan broken links"
+msgstr ""
+
+#: inc/admin/bot.php:179
+msgid "Export to CSV"
+msgstr ""
+
+#: inc/admin/bot.php:194
+msgid "Broken link"
+msgstr ""
+
+#: inc/admin/bot.php:197 inc/admin/redirections.php:542
+msgid "Type"
+msgstr ""
+
+#: inc/admin/bot.php:198
+msgid "Anchor text"
+msgstr ""
+
+#: inc/admin/bot.php:199 inc/admin/dashboard-google-analytics.php:172
+msgid "Source"
+msgstr ""
+
+#: inc/admin/bot.php:200 inc/admin/schemas.php:240
+msgid "Post type"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:83
+msgid "Main"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:84
+msgid "Audience"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:85
+msgid "Acquisition"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:86
+msgid "Behavior"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:87
+msgid "Events"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:114
+msgid "Page view / session"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:120
+#: inc/admin/dashboard-google-analytics.php:293
+msgid "Average session duration"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:126
+#: inc/admin/dashboard-google-analytics.php:296
+msgid "Bounce rate"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:132
+msgid "New sessions"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:141
+msgid "Device category"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:144
+msgid "Language"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:150
+msgid "Operating System"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:153
+msgid "Browser"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:156
+msgid "Screen resolution"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:166
+msgid "Channels"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:175
+msgid "Referrals"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:178
+msgid "Medium"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:187
+#: inc/admin/dashboard-google-analytics.php:287
+msgid "Page views"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:197
+msgid "Total events"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:203
+msgid "Total unique events"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:208
+msgid "Event category"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:211
+msgid "Event action"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:214
+msgid "Event label"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:221
+msgid "You need to login to Google Analytics"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:222
+msgid "Authenticate"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:247
+msgid "Period"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:252
+msgid "Today"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:255
+msgid "Yesterday"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:258
+msgid "7 days ago"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:261
+msgid "30 days ago"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:264
+msgid "90 days ago"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:267
+msgid "180 days ago"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:270
+msgid "360 days ago"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:276
+msgid "Stats"
+msgstr ""
+
+#: inc/admin/dashboard-google-analytics.php:290
+msgid "Page views per session"
+msgstr ""
+
+#: inc/admin/elementor/faq-schema.php:131
+msgid "Enable FAQ Schema"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:90 inc/admin/schemas.php:365
+msgid "Content"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:98
+msgid "Alignment"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:102
+msgid "Left"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:106
+msgid "Center"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:110
+msgid "Right"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:126
+msgid "Style"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:142
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:153
+msgid "Link Color"
+msgstr ""
+
+#: inc/admin/elementor/widget-breadcrumbs.php:164
+msgid "Link hover Color"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:112
+msgid "Upload CSV file"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:117
+msgid "Column mapping"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:122
+msgid "Import"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:127
+msgid "Done!"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:183
+msgid "Import metadata from a CSV file"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:298
+msgid ""
+"This tool allows you to import SEO metadata to your site from a CSV file "
+"<strong>(separator: \";\" )</strong>."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:299
+msgid "Existing posts / terms that match by ID will be updated."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:300
+msgid ""
+"Posts, pages, custom post types or term taxonomies that do not exist will be "
+"skipped."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:308
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:314
+msgid "Choose a CSV file from your computer:"
+msgstr ""
+
+#. translators: %s: maximum upload size
+#: inc/admin/import/class-csv-controller.php:326
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:338
+msgid "Next step"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:374
+msgid ""
+"File is empty. Please upload something more substantial. This error could "
+"also be caused by uploads being disabled in your php.ini or by post_max_size "
+"being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:378
+#: inc/admin/import/class-csv-controller.php:414
+#: inc/admin/import/class-csv-controller.php:509
+#: inc/admin/import/class-csv-importer.php:383
+msgid "Invalid file type. The importer supports CSV and TXT file formats."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:419
+msgid "Please upload or provide the link to a valid CSV file."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:439
+msgid ""
+"The file is empty or using a different encoding than UTF-8, please try again "
+"with a new file."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:443
+msgid "Upload a new file"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:452
+msgid "Map CSV fields to post metas"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:454
+msgid ""
+"Select fields from your CSV file to map against posts / terms fields, or to "
+"ignore during import."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:460
+msgid "Column name"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:461
+msgid "Map to field"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:471
+msgid "Sample:"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:477
+msgid "Do not import"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:491
+msgid "Run the importer"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:515
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:543
+msgid "Importing"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:544
+msgid "Your metadata are now being imported..."
+msgstr ""
+
+#. translators: %d: import results
+#: inc/admin/import/class-csv-controller.php:567
+#: inc/admin/import/class-csv-controller.php:612
+msgid "Import complete!"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:608
+msgid "View import log"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:619
+msgid "Post"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:620
+msgid "Reason for failure"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:653
+msgid "View posts"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:654
+msgid "Make another import"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:689
+#: inc/admin/import/class-csv-controller.php:737
+msgid "ID"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:690
+msgid "Meta Title"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:692
+#: inc/admin/import/class-csv-controller.php:740
+msgid "Facebook title"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:693
+#: inc/admin/import/class-csv-controller.php:741
+msgid "Facebook description"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:694
+#: inc/admin/import/class-csv-controller.php:742
+msgid "Facebook thumbnail"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:695
+#: inc/admin/import/class-csv-controller.php:743
+msgid "Twitter title"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:696
+#: inc/admin/import/class-csv-controller.php:744
+msgid "Twitter description"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:697
+#: inc/admin/import/class-csv-controller.php:745
+msgid "Twitter thumbnail"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:699
+msgid "nofollow"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:700
+msgid "noodp"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:701
+msgid "noimageindex"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:702
+msgid "noarchive"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:703
+msgid "nosnippet"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:704
+#: inc/admin/import/class-csv-controller.php:752
+msgid "Canonical URL"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:705
+#: inc/admin/import/class-csv-controller.php:753
+msgid "Active redirect"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:706
+#: inc/admin/import/class-csv-controller.php:754 inc/admin/redirections.php:699
+msgid "Redirection type"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:707
+#: inc/admin/import/class-csv-controller.php:755 inc/admin/redirections.php:543
+msgid "URL redirect"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:708
+#: inc/admin/import/class-csv-controller.php:756
+msgid "Target Keyword"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:746
+msgid "noindex? (yes)"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:747
+msgid "nofollow? (yes)"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:748
+msgid "noodp? (yes)"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:749
+msgid "noimageindex? (yes)"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:750
+msgid "noarchive? (yes)"
+msgstr ""
+
+#: inc/admin/import/class-csv-controller.php:751
+msgid "nosnippet? (yes)"
+msgstr ""
+
+#. translators: %d: metadata ID
+#: inc/admin/import/class-csv-importer.php:650
+#, php-format
+msgid "ID %d"
+msgstr ""
+
+#: inc/admin/import/class-csv-wizard.php:63
+msgid "CSV Import"
+msgstr ""
+
+#: inc/admin/import/class-csv-wizard.php:141
+msgid "SEO metadata (CSV)"
+msgstr ""
+
+#: inc/admin/import/class-csv-wizard.php:141
+msgid ""
+"Import <strong>metadata</strong> (title, meta description, social metas...) "
+"to your site via a csv file."
+msgstr ""
+
+#: inc/admin/import/class-csv-wizard.php:153
+msgid "Insufficient privileges to import metadata."
+msgstr ""
+
+#: inc/admin/redirections.php:16 inc/admin/schemas.php:57
+msgid "Item Archives"
+msgstr ""
+
+#: inc/admin/redirections.php:17 inc/admin/schemas.php:58
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/admin/redirections.php:18
+msgid "All 404 / 301"
+msgstr ""
+
+#: inc/admin/redirections.php:19
+msgid "Add New redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:20
+msgid "Add redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:21
+msgid "New redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:22
+msgid "Edit redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:23
+msgid "Update redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:24
+msgid "View redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:25
+msgid "Search redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:39 inc/admin/redirections.php:583
+msgid "404"
+msgstr ""
+
+#: inc/admin/redirections.php:40
+msgid "Monitoring 404"
+msgstr ""
+
+#: inc/admin/redirections.php:130 inc/admin/redirections.php:132
+msgid "Categories"
+msgstr ""
+
+#: inc/admin/redirections.php:131
+msgid "Category"
+msgstr ""
+
+#: inc/admin/redirections.php:133
+msgid "All Categories"
+msgstr ""
+
+#: inc/admin/redirections.php:134
+msgid "Parent Category"
+msgstr ""
+
+#: inc/admin/redirections.php:135
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/admin/redirections.php:136
+msgid "New Category Name"
+msgstr ""
+
+#: inc/admin/redirections.php:137
+msgid "Add New Category"
+msgstr ""
+
+#: inc/admin/redirections.php:138
+msgid "Edit Category"
+msgstr ""
+
+#: inc/admin/redirections.php:139
+msgid "Update Category"
+msgstr ""
+
+#: inc/admin/redirections.php:140
+msgid "View Category"
+msgstr ""
+
+#: inc/admin/redirections.php:141
+msgid "Separate categories with commas"
+msgstr ""
+
+#: inc/admin/redirections.php:142
+msgid "Add or remove categories"
+msgstr ""
+
+#: inc/admin/redirections.php:143
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/admin/redirections.php:144
+msgid "Popular Categories"
+msgstr ""
+
+#: inc/admin/redirections.php:145
+msgid "Search Categories"
+msgstr ""
+
+#: inc/admin/redirections.php:146
+msgid "Not Found"
+msgstr ""
+
+#: inc/admin/redirections.php:147
+msgid "No items"
+msgstr ""
+
+#: inc/admin/redirections.php:148
+msgid "Categories list"
+msgstr ""
+
+#: inc/admin/redirections.php:149
+msgid "Categories list navigation"
+msgstr ""
+
+#: inc/admin/redirections.php:176
+msgid "Manage categories redirects"
+msgstr ""
+
+#: inc/admin/redirections.php:178
+msgid "Import your redirects"
+msgstr ""
+
+#: inc/admin/redirections.php:180
+msgid "Export your redirects"
+msgstr ""
+
+#: inc/admin/redirections.php:182
+msgid "Clean your 404"
+msgstr ""
+
+#: inc/admin/redirections.php:184
+msgid "Clean all entries"
+msgstr ""
+
+#: inc/admin/redirections.php:200
+msgid "Your redirections and 404 errors will appear here."
+msgstr ""
+
+#: inc/admin/redirections.php:204
+msgid "Create a redirect"
+msgstr ""
+
+#: inc/admin/redirections.php:205
+msgid "Start Import"
+msgstr ""
+
+#: inc/admin/redirections.php:238 inc/admin/redirections.php:493
+msgid "Test redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:258
+msgid "All categories"
+msgstr ""
+
+#: inc/admin/redirections.php:293
+msgid "All status"
+msgstr ""
+
+#: inc/admin/redirections.php:378
+msgid "Enable redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:414
+msgid "Disable redirection"
+msgstr ""
+
+#: inc/admin/redirections.php:454
+msgid "Enter the old URL here without domain name"
+msgstr ""
+
+#: inc/admin/redirections.php:470
+msgid ""
+"Enter your <strong>relative</strong> URL above. Do not use anchors, they are "
+"not sent by your browser."
+msgstr ""
+
+#: inc/admin/redirections.php:471
+msgid ""
+"Eg: <strong>\"my-custom-permalink\"</strong>. If you have a permalink "
+"structure like <strong>/%category%/%postname%/</strong>, make sure to "
+"include the categories: <strong>\"category/sub-category/my-custom-permalink"
+"\".</strong>"
+msgstr ""
+
+#: inc/admin/redirections.php:498 inc/admin/redirections.php:501
+#, php-format
+msgid " updated. %s"
+msgstr ""
+
+#: inc/admin/redirections.php:503
+#, php-format
+msgid " published. %s"
+msgstr ""
+
+#: inc/admin/redirections.php:504
+msgid "Redirection saved."
+msgstr ""
+
+#: inc/admin/redirections.php:541
+msgid "Enable?"
+msgstr ""
+
+#: inc/admin/redirections.php:544
+msgid "Last time loaded"
+msgstr ""
+
+#: inc/admin/redirections.php:545
+msgid "User agent"
+msgstr ""
+
+#: inc/admin/redirections.php:546
+msgid "IP address"
+msgstr ""
+
+#: inc/admin/redirections.php:689
+msgid "New URL"
+msgstr ""
+
+#: inc/admin/redirections.php:702
+msgid "301 Moved Permanently"
+msgstr ""
+
+#: inc/admin/redirections.php:703
+msgid "302 Found / Moved Temporarily"
+msgstr ""
+
+#: inc/admin/redirections.php:704
+msgid "307 Moved Temporarily"
+msgstr ""
+
+#: inc/admin/redirections.php:705
+msgid "410 Gone"
+msgstr ""
+
+#: inc/admin/redirections.php:706
+msgid "451 Unavailable For Legal Reasons"
+msgstr ""
+
+#: inc/admin/redirections.php:713
+msgid "Redirection settings"
+msgstr ""
+
+#: inc/admin/redirections.php:716
+msgid "Enable redirection?"
+msgstr ""
+
+#: inc/admin/redirections.php:1273
+msgid "404 alert"
+msgstr ""
+
+#: inc/admin/redirections.php:1291
+msgid ""
+"You are receiving this email because a new 404 error has been logged on your "
+"site. See below:"
+msgstr ""
+
+#: inc/admin/redirections.php:1540
+#, php-format
+msgid ""
+"<p>We were unable to create the redirection you requested (<code>%s</code> "
+"to <code>%s</code>).</p>"
+msgstr ""
+
+#: inc/admin/redirections.php:1546
+#, php-format
+msgid "<p>This URL has already a redirection: <a href=\"%s\">%s</a> </p>"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:27
+msgid "Google Page Speed Score (Mobile)"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:46
+msgid "URL: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:47
+msgid "Title: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:49
+msgid "The speed score is based on the lab data analyzed by Lighthouse."
+msgstr ""
+
+#: inc/admin/report-page-speed.php:53
+msgid "Analysis time: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:53
+msgid " at "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:56
+msgid ""
+"<strong>Scale:</strong><span class=\"slow\"></span>0-49 (slow) <span class="
+"\"average\"></span>50-89 (average) <span class=\"fast\"></span>90-100 (fast)"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:68
+msgid "Screenshot"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:88
+msgid "Field Data"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:89
+#, php-format
+msgid ""
+"Over the last 30 days, the field data shows that this page has a <span>%s</"
+"span> speed compared to other pages in the Chrome User Experience Report. We "
+"are showing the 90th percentile of FCP and the 95th percentile of FID."
+msgstr ""
+
+#. translators: Do not translate
+#: inc/admin/report-page-speed.php:99
+msgid "First Contentful Paint (FCP): "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:99 inc/admin/report-page-speed.php:124
+#: inc/admin/report-page-speed.php:149 inc/admin/report-page-speed.php:203
+#: inc/admin/report-page-speed.php:210 inc/admin/report-page-speed.php:216
+#: inc/admin/report-page-speed.php:223 inc/admin/report-page-speed.php:229
+#: inc/admin/report-page-speed.php:246
+msgid " s"
+msgstr ""
+
+#. translators: Do not translate
+#: inc/admin/report-page-speed.php:124
+msgid "First Input Delay (FID): "
+msgstr ""
+
+#. translators: Do not translate
+#: inc/admin/report-page-speed.php:149
+msgid "Largest Contentful Paint (LCP): "
+msgstr ""
+
+#. translators: Do not translate
+#: inc/admin/report-page-speed.php:174
+msgid "Cumulative Layout Shift (CLS): "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:195
+msgid "Lab Data"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:196
+msgid ""
+"Lighthouse analysis of the current page on an emulated mobile network. "
+"Values are estimated and may vary."
+msgstr ""
+
+#: inc/admin/report-page-speed.php:203
+msgid "First Contentful Paint: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:210
+msgid "First Meaningful Paint: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:216
+msgid "Speed Index: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:223
+msgid "First CPU Idle: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:229
+msgid "Time to Interactive: "
+msgstr ""
+
+#. translators: Do not translate
+#: inc/admin/report-page-speed.php:235
+msgid "Estimated Input Latency: "
+msgstr ""
+
+#: inc/admin/report-page-speed.php:235 inc/admin/report-page-speed.php:283
+#: inc/admin/report-page-speed.php:376
+msgid " ms"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:254
+msgid "Opportunities"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:255
+msgid "These optimizations can speed up your page load."
+msgstr ""
+
+#: inc/admin/report-page-speed.php:280 inc/admin/report-page-speed.php:286
+#: inc/admin/report-page-speed.php:373 inc/admin/report-page-speed.php:379
+msgid " KB"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:298
+msgid "Diagnostics"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:299
+msgid "More information about the performance of your application."
+msgstr ""
+
+#: inc/admin/report-page-speed.php:347
+msgid "Passed audits"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:393
+msgid ""
+"We can't retrieve your Google Page Speed. Make sure your site is accessible "
+"from everyone, and try again."
+msgstr ""
+
+#: inc/admin/schemas.php:16
+msgid "is equal to"
+msgstr ""
+
+#: inc/admin/schemas.php:16
+msgid "is NOT equal to"
+msgstr ""
+
+#: inc/admin/schemas.php:30
+msgid "Post Type"
+msgstr ""
+
+#: inc/admin/schemas.php:30
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/admin/schemas.php:54
+msgid "Schema"
+msgstr ""
+
+#: inc/admin/schemas.php:59
+msgid "All schemas"
+msgstr ""
+
+#: inc/admin/schemas.php:60
+msgid "Add New schema"
+msgstr ""
+
+#: inc/admin/schemas.php:61
+msgid "Add schema"
+msgstr ""
+
+#: inc/admin/schemas.php:62
+msgid "New schema"
+msgstr ""
+
+#: inc/admin/schemas.php:63
+msgid "Edit schema"
+msgstr ""
+
+#: inc/admin/schemas.php:64
+msgid "Update schema"
+msgstr ""
+
+#: inc/admin/schemas.php:65
+msgid "View schema"
+msgstr ""
+
+#: inc/admin/schemas.php:66
+msgid "Search schema"
+msgstr ""
+
+#: inc/admin/schemas.php:75
+msgid "Schemas list"
+msgstr ""
+
+#: inc/admin/schemas.php:76
+msgid "Schemas list navigation"
+msgstr ""
+
+#: inc/admin/schemas.php:77
+msgid "Filter schema list"
+msgstr ""
+
+#: inc/admin/schemas.php:81
+msgid "List of Schemas"
+msgstr ""
+
+#: inc/admin/schemas.php:108
+msgid "Enter the name of your schema"
+msgstr ""
+
+#: inc/admin/schemas.php:125
+msgid ""
+"Boost your visibility in search results and increase your traffic and "
+"conversions."
+msgstr ""
+
+#: inc/admin/schemas.php:129
+msgid "Create a schema"
+msgstr ""
+
+#: inc/admin/schemas.php:137
+msgid "Learn more about schemas"
+msgstr ""
+
+#: inc/admin/schemas.php:202
+msgid "Schema saved."
+msgstr ""
+
+#: inc/admin/schemas.php:239
+msgid "Data type"
+msgstr ""
+
+#: inc/admin/schemas.php:275 inc/admin/schemas.php:278
+#: inc/admin/schemas.php:283
+msgid "and"
+msgstr ""
+
+#: inc/admin/schemas.php:284 inc/admin/schemas.php:286
+#: inc/admin/schemas.php:652
+msgid "or"
+msgstr ""
+
+#: inc/admin/schemas.php:298
+msgid "Your schema"
+msgstr ""
+
+#: inc/admin/schemas.php:358
+msgid "Site Title"
+msgstr ""
+
+#: inc/admin/schemas.php:359
+msgid "Tagline"
+msgstr ""
+
+#: inc/admin/schemas.php:360
+msgid "Site URL"
+msgstr ""
+
+#: inc/admin/schemas.php:363
+msgid "Post Title / Product title"
+msgstr ""
+
+#: inc/admin/schemas.php:364
+msgid "Excerpt / Product short description"
+msgstr ""
+
+#: inc/admin/schemas.php:366
+msgid "Permalink"
+msgstr ""
+
+#: inc/admin/schemas.php:367
+msgid "Author"
+msgstr ""
+
+#: inc/admin/schemas.php:368
+msgid "Publish date"
+msgstr ""
+
+#: inc/admin/schemas.php:369
+msgid "Last update"
+msgstr ""
+
+#: inc/admin/schemas.php:372
+msgid "Regular Price"
+msgstr ""
+
+#: inc/admin/schemas.php:373
+msgid "Sale Price"
+msgstr ""
+
+#: inc/admin/schemas.php:374
+msgid "Sale price dates \"From\""
+msgstr ""
+
+#: inc/admin/schemas.php:375
+msgid "Sale price dates \"To\""
+msgstr ""
+
+#: inc/admin/schemas.php:376
+msgid "SKU"
+msgstr ""
+
+#: inc/admin/schemas.php:377
+msgid "Product Global Identifier type"
+msgstr ""
+
+#: inc/admin/schemas.php:378
+msgid "Product Global Identifier"
+msgstr ""
+
+#: inc/admin/schemas.php:379
+msgid "Product category"
+msgstr ""
+
+#: inc/admin/schemas.php:380
+msgid "Product availability"
+msgstr ""
+
+#: inc/admin/schemas.php:383
+msgid "Select your custom taxonomy / product attribute"
+msgstr ""
+
+#: inc/admin/schemas.php:386 inc/admin/schemas.php:438
+msgid "Select your custom field"
+msgstr ""
+
+#: inc/admin/schemas.php:418
+msgid "Manual text"
+msgstr ""
+
+#: inc/admin/schemas.php:419 inc/admin/schemas.php:443
+msgid "Manual text on each post"
+msgstr ""
+
+#: inc/admin/schemas.php:424 inc/admin/schemas.php:449
+msgid "Enter a global value here"
+msgstr ""
+
+#: inc/admin/schemas.php:424
+msgid "Manual value"
+msgstr ""
+
+#: inc/admin/schemas.php:431
+msgid "Knowledge Graph logo (SEO > Social)"
+msgstr ""
+
+#: inc/admin/schemas.php:434
+msgid "Featured image / Product image"
+msgstr ""
+
+#: inc/admin/schemas.php:435
+msgid "Post author picture"
+msgstr ""
+
+#: inc/admin/schemas.php:441 inc/admin/schemas.php:449
+#: inc/admin/schemas.php:455
+msgid "Manual Image URL"
+msgstr ""
+
+#: inc/admin/schemas.php:442
+msgid "Manual Image from Library"
+msgstr ""
+
+#: inc/admin/schemas.php:455
+msgid "Select your global image from the media library"
+msgstr ""
+
+#: inc/admin/schemas.php:467
+msgid "Manual date"
+msgstr ""
+
+#: inc/admin/schemas.php:468
+msgid "Manual date on each post"
+msgstr ""
+
+#: inc/admin/schemas.php:473
+msgid "Global date"
+msgstr ""
+
+#: inc/admin/schemas.php:478
+msgid "Manual time"
+msgstr ""
+
+#: inc/admin/schemas.php:479
+msgid "Manual time on each post"
+msgstr ""
+
+#: inc/admin/schemas.php:484
+msgid "HH:MM"
+msgstr ""
+
+#: inc/admin/schemas.php:489
+msgid "Manual rating"
+msgstr ""
+
+#: inc/admin/schemas.php:490
+msgid "Manual rating on each post"
+msgstr ""
+
+#: inc/admin/schemas.php:495
+msgid "Rating"
+msgstr ""
+
+#: inc/admin/schemas.php:501
+msgid "Manual custom schema"
+msgstr ""
+
+#: inc/admin/schemas.php:502
+msgid "Manual custom schema on each post"
+msgstr ""
+
+#: inc/admin/schemas.php:570
+msgid "Select your data type:"
+msgstr ""
+
+#: inc/admin/schemas.php:583
+msgid "Software Application "
+msgstr ""
+
+#: inc/admin/schemas.php:590
+msgid "Show this schema if is:"
+msgstr ""
+
+#: inc/admin/schemas.php:654
+msgid "Add a rule"
+msgstr ""
+
+#: inc/admin/schemas.php:659
+msgid "Map all schema properties to a value:"
+msgstr ""
+
+#: inc/admin/schemas.php:661
+#, php-format
+msgid ""
+"Learn more about the <strong>Article schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:733
+#, php-format
+msgid ""
+"Learn more about the <strong>Local Business schema</strong> from the <a href="
+"\"%s\" target=\"_blank\">Google official documentation website</a><span "
+"class=\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:744
+msgid "All business types (new window)"
+msgstr ""
+
+#: inc/admin/schemas.php:744
+msgid "Full list of business types available on schema.org"
+msgstr ""
+
+#: inc/admin/schemas.php:800
+msgid "eg: "
+msgstr ""
+
+#: inc/admin/schemas.php:1050
+#, php-format
+msgid ""
+"Learn more about the <strong>FAQ schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1064
+#, php-format
+msgid ""
+"Learn more about the <strong>Course schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1092
+#, php-format
+msgid ""
+"Learn more about the <strong>Recipe schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1167
+#, php-format
+msgid ""
+"Learn more about the <strong>Job Posting schema</strong> from the <a href="
+"\"%s\" target=\"_blank\">Google official documentation website</a><span "
+"class=\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1193
+msgid ""
+"Type of employment, You can include more than one employmentType property. "
+"Authorized values: \"FULL_TIME\", \"PART_TIME\", \"CONTRACTOR\", \"TEMPORARY"
+"\", \"INTERN\", \"VOLUNTEER\", \"PER_DIEM\", \"OTHER\""
+msgstr ""
+
+#: inc/admin/schemas.php:1248
+msgid ""
+"If a value exists (eg: \"yes\"), the job offer will be marked as fully "
+"remote. Don't mark up jobs that allow occasional work-from-home, jobs for "
+"which remote work is a negotiable benefit, or have other arrangements that "
+"are not 100% remote. The \"gig economy\" nature of a job doesn't imply that "
+"it is or is not remote."
+msgstr ""
+
+#: inc/admin/schemas.php:1263
+msgid "Authorized values: \"HOUR\", \"DAY\", \"WEEK\", \"MONTH\", \"YEAR\""
+msgstr ""
+
+#: inc/admin/schemas.php:1268
+#, php-format
+msgid ""
+"Learn more about the <strong>Video schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1301
+#, php-format
+msgid ""
+"Learn more about the <strong>Events schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1306
+msgid ""
+"<strong>Authorized values:</strong> \"BusinessEvent\", \"ChildrensEvent\", "
+"\"ComedyEvent\", \"CourseInstance\", \"DanceEvent\", \"DeliveryEvent\", "
+"\"EducationEvent\", \"ExhibitionEvent\", \"Festival\", \"FoodEvent\", "
+"\"LiteraryEvent\", \"MusicEvent\", \"PublicationEvent\", \"SaleEvent\", "
+"\"ScreeningEvent\", \"SocialEvent\", \"SportsEvent\", \"TheaterEvent\", "
+"\"VisualArtsEvent\""
+msgstr ""
+
+#: inc/admin/schemas.php:1351
+msgid "Previous Start date"
+msgstr ""
+
+#: inc/admin/schemas.php:1388
+msgid ""
+"<strong>Authorized values: </strong>\"Primary\", \"Secondary\", \"Presale\", "
+"\"Premium\""
+msgstr ""
+
+#: inc/admin/schemas.php:1432
+msgid ""
+"<strong>Authorized values:</strong> \"EventCancelled\", \"EventMovedOnline"
+"\", \"EventPostponed\", \"EventRescheduled\", \"EventScheduled\""
+msgstr ""
+
+#: inc/admin/schemas.php:1438
+msgid ""
+"<strong>Authorized values:</strong> \"OfflineEventAttendanceMode\", "
+"\"OnlineEventAttendanceMode\", \"MixedEventAttendanceMode\""
+msgstr ""
+
+#: inc/admin/schemas.php:1443
+#, php-format
+msgid ""
+"Learn more about the <strong>Product schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1449
+msgid ""
+"To automatically add <strong>aggregateRating</strong> and <strong>Review</"
+"strong> properties to your schema, you have to enable <strong>User Reviews</"
+"strong> from WooCommerce settings."
+msgstr ""
+
+#: inc/admin/schemas.php:1450
+#, php-format
+msgid ""
+"Please activate these options from <strong>WC settings</strong>, "
+"<strong>Products</strong>, <a href=\"%s\"><strong>General tab</strong></a>:"
+msgstr ""
+
+#: inc/admin/schemas.php:1453
+msgid "Enable product reviews"
+msgstr ""
+
+#: inc/admin/schemas.php:1456
+msgid "Enable star rating on reviews"
+msgstr ""
+
+#: inc/admin/schemas.php:1459
+msgid "Star ratings should be required, not optional"
+msgstr ""
+
+#: inc/admin/schemas.php:1482
+#, php-format
+msgid ""
+"You have not deactivated the default WooCommerce structured data type from "
+"our <a href=\"%s\"><strong>PRO settings > WooCommerce tab</strong></a>. It's "
+"recommended to disable it to avoid any conflicts with your product schemas."
+msgstr ""
+
+#: inc/admin/schemas.php:1486
+msgid ""
+"WooCommerce is not enabled on your site. Some properties like "
+"<strong>aggregateRating</strong> and <strong>Review</strong> will not work "
+"out of the box."
+msgstr ""
+
+#: inc/admin/schemas.php:1538
+msgid "eg: Apple"
+msgstr ""
+
+#: inc/admin/schemas.php:1549
+msgid ""
+"<strong>Authorized values:</strong> \"NewCondition\", \"UsedCondition\", "
+"\"DamagedCondition\", \"RefurbishedCondition\""
+msgstr ""
+
+#: inc/admin/schemas.php:1554
+msgid ""
+"<strong>Authorized values:</strong> \"InStock\", \"InStoreOnly\", "
+"\"OnlineOnly\", \"LimitedAvailability\", \"SoldOut\", \"OutOfStock\", "
+"\"Discontinued\", \"PreOrder\", \"PreSale\""
+msgstr ""
+
+#: inc/admin/schemas.php:1559
+#, php-format
+msgid ""
+"Learn more about the <strong>Software App schema</strong> from the <a href="
+"\"%s\" target=\"_blank\">Google official documentation website</a><span "
+"class=\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1577
+msgid ""
+"<strong>Authorized values:</strong> \"GameApplication\", "
+"\"SocialNetworkingApplication\", \"TravelApplication\", \"ShoppingApplication"
+"\", \"SportsApplication\", \"LifestyleApplication\", \"BusinessApplication"
+"\", \"DesignApplication\", \"DeveloperApplication\", \"DriverApplication\", "
+"\"EducationalApplication\", \"HealthApplication\", \"FinanceApplication\", "
+"\"SecurityApplication\", \"BrowserApplication\", \"CommunicationApplication"
+"\", \"DesktopEnhancementApplication\", \"EntertainmentApplication\", "
+"\"MultimediaApplication\", \"HomeApplication\", \"UtilitiesApplication\", "
+"\"ReferenceApplication\""
+msgstr ""
+
+#: inc/admin/schemas.php:1600
+#, php-format
+msgid ""
+"Learn more about the <strong>Service schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Schema.org official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1693
+msgid "The telephone of your service (international format)"
+msgstr ""
+
+#: inc/admin/schemas.php:1704
+#, php-format
+msgid ""
+"Learn more about the <strong>Review schema</strong> from the <a href=\"%s\" "
+"target=\"_blank\">Google official documentation website</a><span class="
+"\"dashicons dashicons-external\"></span>"
+msgstr ""
+
+#: inc/admin/schemas.php:1716
+msgid ""
+"<strong>Authorized values:</strong> \"CreativeWorkSeason\", "
+"\"CreativeWorkSeries\", \"Episode\", \"Game\", \"MediaObject\", "
+"\"MusicPlaylist\", \"MusicRecording\", \"Organization\""
+msgstr ""
+
+#: inc/admin/schemas.php:1721
+msgid "Review item image URL"
+msgstr ""
+
+#: inc/admin/schemas.php:1727
+msgid "Your rating: scale from 1 to 5"
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:40
+msgid "Optimization of your database in progress!"
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:42
+#, php-format
+msgid "We migrate a total of %s items."
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:56
+#, php-format
+msgid "We are currently dealing with the <strong>%s element</strong>"
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:84
+msgid "We have finished optimizing your database."
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:85
+msgid ""
+"As a security measure, we still have your old data so that we can go back if "
+"you find an error."
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:86
+msgid ""
+"In which case, you can also delete this old information by clicking on the "
+"following button to complete the optimization."
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:88
+msgid "Clean database"
+msgstr ""
+
+#: inc/admin/updater/migrate-schema.php:97 inc/admin/watchers/index.php:154
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:12
+msgid ""
+"<strong>Steps to follow to activate your license:</strong> <ul><li>1/ Paste "
+"your license key</li> <li>2/ Save changes</li> <li>3/ Activate License.</li> "
+"<li>That's it! Do NOT save changes after that!</li></ul>"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:16
+msgid "Enable your license"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:23
+#: inc/admin/updater/plugin-licence.php:31
+msgid "Browse our guides"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:24
+#: inc/admin/updater/plugin-licence.php:32
+msgid "Read our FAQ"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:25
+#: inc/admin/updater/plugin-licence.php:33
+msgid "Check our website"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:57
+msgid "Plugin License Options"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:86
+msgid "The license key is used to access automatic updates and support."
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:88
+msgid "View my account"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:89
+msgid "Reset your license"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:91
+msgid "<strong>Steps to follow to activate your license:</strong>"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:92
+msgid ""
+"<li>1/ Paste your license key</li> <li>2/ Save changes</li> <li>3/ Activate "
+"License.</li> <li>That's it! Do NOT save changes after that!</li>"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:95
+msgid "Download unauthorized? - Can‘t activate?"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:103
+msgid "License Key"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:107
+msgid "Enter your license key"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:113
+#: inc/admin/updater/plugin-licence.php:123
+msgid "Activate License"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:117
+msgid "active"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:119
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:131
+msgid "License status"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:146
+msgid "Your license has been successfully activated!"
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:219
+msgid "An error occurred, please try again. Response code: "
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:232
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:240
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:245
+msgid "Invalid license."
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:251
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:256
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:261
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: inc/admin/updater/plugin-updater.php:262
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: inc/admin/updater/plugin-updater.php:270
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: inc/admin/updater/plugin-updater.php:514
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: inc/admin/updater/plugin-updater.php:514
+msgid "Error"
+msgstr ""
+
+#: inc/admin/watchers/index.php:115
+#, php-format
+msgid "We have %s redirections that needs your attention"
+msgstr ""
+
+#: inc/admin/watchers/index.php:116
+#, php-format
+msgid "View all notices (%s)"
+msgstr ""
+
+#: inc/admin/watchers/index.php:129
+msgid "Remove all notices"
+msgstr ""
+
+#: inc/admin/watchers/index.php:167
+msgid "Create a redirection"
+msgstr ""
+
+#: inc/admin/watchers/post-watcher.php:45
+#, php-format
+msgid "<p>We have detected that you have deleted a post (<code>%s</code>).</p>"
+msgstr ""
+
+#: inc/admin/watchers/post-watcher.php:49
+msgid ""
+"We suggest you to redirect this URL to avoid any SEO issues, and keep an "
+"optimal user experience."
+msgstr ""
+
+#: inc/admin/watchers/post-watcher.php:128
+#, php-format
+msgid ""
+"<p>We have detected that you have changed a slug (<code>%s</code>) to (<code>"
+"%s</code>).</p>"
+msgstr ""
+
+#: inc/admin/watchers/post-watcher.php:133
+msgid "We suggest you to redirect this URL."
+msgstr ""
+
+#: inc/async/wp-background-process.php:428
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:98
+msgid "Scan"
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:99 seopress-pro.php:518
+msgid "Settings"
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:117
+msgid "Latest scan: "
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:120
+msgid "Links found: "
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:127
+msgid "Export CSV"
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:133
+msgid "No scan"
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:138
+msgid "Launch the bot!"
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:142
+msgid "---Scan in progress (don't close this window)---"
+msgstr ""
+
+#: inc/functions/options-breadcrumbs.php:242
+msgid "Attachments"
+msgstr ""
+
+#: inc/functions/options-breadcrumbs.php:503
+msgid "Author: "
+msgstr ""
+
+#: inc/functions/options-breadcrumbs.php:602
+msgid "Page "
+msgstr ""
+
+#: inc/functions/options-breadcrumbs.php:658
+msgid "breadcrumb"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:16
+msgid "Display local business informations"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:72
+msgid "View this local business on Google Maps (new window)"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:72
+msgid "View on Google Maps"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:199
+msgid "Closed"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:208
+#: inc/functions/options-local-business-widget.php:214
+msgid ":"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:212
+msgid " - "
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:262
+msgid "Edit your Local Business information here"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:267
+msgid "Title:"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:273
+msgid "Description:"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:274
+msgid "Description about your local business"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:274
+msgid "Add additional information here."
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:281
+msgid "Show street address?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:289
+msgid "Show city?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:297
+msgid "Show state?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:305
+msgid "Show postal code?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:313
+msgid "Show country?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:321
+msgid "Show map link (new window)?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:329
+msgid "Show phone number?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:337
+msgid "Show opening hours?"
+msgstr ""
+
+#: inc/functions/options-local-business-widget.php:345
+msgid "Hide closed days?"
+msgstr ""
+
+#: inc/functions/options-rss.php:62
+msgid "No feed available."
+msgstr ""
+
+#: inc/functions/options-woocommerce-admin.php:56
+msgid ""
+"A valid product identifier to be used in the product schema (accepted types: "
+"gtin8 | gtin13 | gtin14 | mpn | isbn)"
+msgstr ""
+
+#: inc/functions/options.php:89
+msgid ""
+"Please enable <strong>Structured Data Types metabox for your posts, pages "
+"and custom post types</strong> option in order to use automatic schemas. "
+"(SEO > PRO > Structured Data Types (schema.org)"
+msgstr ""
+
+#: seopress-pro.php:495
+msgid "Please enable <strong>SEOPress</strong> in order to use SEOPress PRO."
+msgstr ""
+
+#: seopress-pro.php:496
+msgid "Enable / Download now!"
+msgstr ""
+
+#: seopress-pro.php:519
+msgid "Support"
+msgstr ""
+
+#: seopress-pro.php:522
+msgid "Activate your license"
+msgstr ""

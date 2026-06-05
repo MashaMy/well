@@ -1,0 +1,198 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width: 1530px) {
+    .hero .container {
+        max-width: 900px;
+    }
+    .hero-title br {
+        display: none;
+    }
+    .hero-sub-title,
+    .hero-desc {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .action-box {
+        padding-right: 30%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section--actions:after {
+        right: -175px;
+    }
+    .site-box {
+        overflow: hidden;
+    }
+    .profit-item-box {
+        width: 50%;
+        margin: 5px auto;
+    }
+    .section--more-info {
+        padding: 80px 0;
+    }
+    .more-info {
+        padding-left: 65px;
+    }
+    .more-info:before {
+        left: 65px;
+    }
+    .site-footer .grid {
+        display: block;
+    }
+    .site-footer .col-third {
+        width: 100%;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .socials {
+        position: static;
+        text-align: center;
+    }
+    .socials h3 {
+        margin-bottom: 15px;
+    }
+    .contacts-box {
+        position: static;
+        margin: -300px auto 50px;
+    }
+    .map {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section--actions:after {
+        right: -220px;
+    }
+    .action-box {
+        padding-right: 45%;
+    }
+    .price-desc br {
+        display: none;
+    }
+    .price-box {
+        min-height: auto;
+    }
+    .profit-item-full {
+        padding-left: 0;
+    }
+    .profit-item-full img {
+        right: -130px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .top-panel {
+        padding: 20px 0;
+    }
+    .top-panel .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .top-panel .col-xs-6 {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .contact {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .contact small {
+        display: block;
+    }
+    .contact-item {
+        margin-top: 10px;
+    }
+    .hero {
+        margin-top: 0;
+    }
+    .section--actions {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .section--actions:after {
+        content: none;
+    }
+    .action-box {
+        padding-right: 0;
+    }
+    .price-box {
+        margin-top: 60px;
+    }
+    .section--dark .col-md-8,
+    .section--dark .col-md-4 {
+        text-align: center;
+    }
+    .section--dark .button {
+        margin-top: 40px;
+    }
+    .social-item {
+        margin-left: 15px;
+    }
+    .call-back-form .form-box {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .profit-item-box {
+        width: 100%;
+    }
+    .profit-item-full {
+        padding: 0;
+        margin-top: 50px;
+    }
+    .profit-item-full img {
+        position: static;
+        margin: 0 auto;
+        max-width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero-title {
+        font-size: 35px;
+    }
+    .hero-sub-title {
+        font-size: 24px;
+    }
+    .hero .container {
+        width: 100%;
+    }
+    .price-table {
+        max-width: 300px;
+    }
+    .site-footer .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contacts-box {
+        padding: 50px 30px 50px 10px;
+    }
+    .price-table thead td {
+      font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .prices .button {
+        width: 100%;
+    }
+    .faq-item {
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .more-info-item {
+        font-size: 14px;
+    }
+}

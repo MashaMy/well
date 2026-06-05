@@ -1,0 +1,165 @@
+.admegaposts article,
+.admegaposts aside,
+.admegaposts details,
+.admegaposts figcaption,
+.admegaposts figure,
+.admegaposts footer,
+.admegaposts hgroup,
+.admegaposts main,
+.admegaposts menu,
+.admegaposts nav,
+.admegaposts section,
+.admegaposts summary {
+  display: block;
+}
+.admegaposts audio,
+.admegaposts canvas,
+.admegaposts progress,
+.admegaposts video {
+  display: inline-block; 
+  vertical-align: baseline;
+}
+.admegaposts audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.admegaposts [hidden],
+.admegaposts template {
+  display: none;
+}
+.admegaposts a:active,
+.admegaposts a:hover {
+  outline: 0;
+}
+.admegaposts abbr[title] {
+  border-bottom: 1px dotted;
+}
+.admegaposts b,
+.admegaposts strong {
+  font-weight: bold;
+}
+.admegaposts dfn {
+  font-style: italic;
+}
+.admegaposts mark {
+  background: #ff0;
+  color: #000;
+}
+.admegaposts small {
+  font-size: 80%;
+}
+.admegaposts sub,
+.admegaposts sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.admegaposts sup {
+  top: -0.5em;
+}
+.admegaposts sub {
+  bottom: -0.25em;
+}
+.admegaposts img {
+  border: 0;
+  max-width:100%;
+}
+.admegaposts svg:not(:root) {
+  overflow: hidden;
+}
+.admegaposts figure {
+  margin: 1em 40px;
+}
+.admegaposts hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.admegaposts pre {
+  overflow: auto;
+}
+.admegaposts code,
+.admegaposts kbd,
+.admegaposts pre,
+.admegaposts samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.admegaposts button,
+.admegaposts input,
+.admegaposts optgroup,
+.admegaposts select,
+.admegaposts textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.admegaposts button {
+  overflow: visible;
+}
+.admegaposts button,
+.admegaposts select {
+  text-transform: none;
+}
+.admegaposts button,
+.admegaposts html input[type="button"],
+.admegaposts input[type="reset"],
+.admegaposts input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.admegaposts button[disabled],
+.admegaposts html input[disabled] {
+  cursor: default;
+}
+.admegaposts button::-moz-focus-inner,
+.admegaposts input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.admegaposts input {
+  line-height: normal;
+}
+.admegaposts input[type="checkbox"],
+.admegaposts input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.admegaposts input[type="number"]::-webkit-inner-spin-button,
+.admegaposts input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.admegaposts input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.admegaposts input[type="search"]::-webkit-search-cancel-button,
+.admegaposts input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.admegaposts fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.admegaposts legend {
+  border: 0;
+  padding: 0;
+}
+.admegaposts textarea {
+  overflow: auto;
+}
+.admegaposts optgroup {
+  font-weight: bold;
+}
+.admegaposts table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.admegaposts td,
+.admegaposts th {
+  padding: 0;
+}

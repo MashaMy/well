@@ -1,0 +1,69 @@
+/* ie fix */
+.ie9 .grid,
+.ie8 .grid {
+  display: block; }
+  .ie9 .grid:after,
+  .ie8 .grid:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.ie9 .col-half,
+.ie9 .col-third,
+.ie9 .col-fourth,
+.ie8 .col-half,
+.ie8 .col-third,
+.ie8 .col-fourth {
+  float: left; }
+
+.ie9 .col-third,
+.ie8 .col-third {
+  width: 30%;
+  vertical-align: top; }
+
+.ie9 .col-half,
+.ie8 .col-half {
+  vertical-align: middle;
+  width: 48%; }
+
+.ie8 .play {
+  display: none; }
+
+.ie8 .more-info-numb,
+.ie8 .action-list__numb {
+  position: static; }
+
+.ie8 .more-info-numb:before {
+  content: none; }
+
+.ie8 .action-list__numb {
+  line-hegiht: 1.2;
+  border: none;
+  height: 0;
+  display: inline-block;
+  width: auto; }
+
+.ie8 section,
+.ie8 header,
+.ie8 footer {
+  display: block; }
+
+.ie8 .social-link[href*="vk"] {
+  background-image: url(../img/icons/png/vk.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ie8 .social-link[href*="youtube"] {
+  background-image: url(../img/icons/png/youtube.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ie8 .social-link[href*="facebook"] {
+  background-image: url(../img/icons/png/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.ie8 .social-link[href*="instagram"] {
+  background-image: url(../img/icons/png/instagram.png);
+  background-repeat: no-repeat;
+  background-position: center; }

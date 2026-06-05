@@ -1,0 +1,531 @@
+# Translation of Plugins - Events Tracker for Elementor - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Events Tracker for Elementor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-22 15:13:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Events Tracker for Elementor - Stable (latest release)\n"
+
+#: includes/class-main.php:81
+msgid "VK"
+msgstr "ВКонтакте"
+
+#: includes/class-options.php:104
+msgid "See Google Tag Manager <a href=\"https://developers.google.com/tag-manager/quickstart\" target=\"_blank\">Quick Start Guide</a>"
+msgstr "Смотрите <a href=\"https://developers.google.com/tag-manager/quickstart/?hl=ru\" target=\"_blank\">Руководство по быстрому старту</a> для Google Tag Manager"
+
+#: includes/class-options.php:101
+msgid "GTM ID"
+msgstr "ID Google Tag Manager"
+
+#: includes/class-options.php:98
+msgid "Google Tag Manager"
+msgstr "Google Tag Manager"
+
+#: includes/class-main.php:548
+msgid "Without #"
+msgstr "Без #"
+
+#: includes/class-main.php:545
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: includes/class-main.php:534
+msgid "Track with Google Tag Manager"
+msgstr "Отслеживать с помощью Google Tag Manager"
+
+#: includes/class-main.php:440
+msgid "South African Rand"
+msgstr "Южноафриканский рэнд"
+
+#: includes/class-main.php:439
+msgid "Vietnamese Dong"
+msgstr "Вьетнамский донг"
+
+#: includes/class-main.php:438
+msgid "Venezuela Bolivar Fuerte"
+msgstr "Венесуэльский боливар"
+
+#: includes/class-main.php:437
+msgid "Ukrainian Hryvnia"
+msgstr "Украинская гривна"
+
+#: includes/class-main.php:436
+msgid "New Taiwan Dollar"
+msgstr "Новый тайваньский доллар"
+
+#: includes/class-main.php:435
+msgid "Turkish Lira"
+msgstr "Турецкая лира"
+
+#: includes/class-main.php:434
+msgid "Thai Baht"
+msgstr "Тайский бат"
+
+#: includes/class-main.php:433
+msgid "Singapore Dollars"
+msgstr "Сингапурский доллар"
+
+#: includes/class-main.php:432
+msgid "Sweden Kronor"
+msgstr "Шведская крона"
+
+#: includes/class-main.php:431
+msgid "Saudi Riyal"
+msgstr "Саудовский риял"
+
+#: includes/class-main.php:430
+msgid "Russian Ruble"
+msgstr "Российский рубль"
+
+#: includes/class-main.php:429
+msgid "Serbian Dinar"
+msgstr "Сербский динар"
+
+#: includes/class-main.php:428
+msgid "New Romanian Leu"
+msgstr "Румынский лей"
+
+#: includes/class-main.php:427
+msgid "Polish New Zloty"
+msgstr "Польский злотый"
+
+#: includes/class-main.php:426
+msgid "Pakistan Rupee"
+msgstr "Пакистанская рупия"
+
+#: includes/class-main.php:425
+msgid "Philippine Peso"
+msgstr "Филиппинское песо"
+
+#: includes/class-main.php:424
+msgid "Peruvian Nuevo Sol"
+msgstr "Перуанский новый соль"
+
+#: includes/class-main.php:423
+msgid "New Zealand Dollars"
+msgstr "Новозеландский доллар"
+
+#: includes/class-main.php:422
+msgid "Norway Kroner"
+msgstr "Норвежская крона"
+
+#: includes/class-main.php:421
+msgid "Malaysian Ringgit"
+msgstr "Малазийский ринггит"
+
+#: includes/class-main.php:420
+msgid "Mexican Peso"
+msgstr "Мексиканское песо"
+
+#: includes/class-main.php:419
+msgid "Moroccan Dirham"
+msgstr "Марокканский дирхам"
+
+#: includes/class-main.php:418
+msgid "Lithuanian Litas"
+msgstr "Литовский лит"
+
+#: includes/class-main.php:417
+msgid "South Korean Won"
+msgstr "Южнокорейская вона"
+
+#: includes/class-main.php:416
+msgid "Japanese Yen"
+msgstr "Японская иена"
+
+#: includes/class-main.php:415
+msgid "Indian Rupee"
+msgstr "Индийская рупия"
+
+#: includes/class-main.php:414
+msgid "Israeli Shekel"
+msgstr "Израильский шекель"
+
+#: includes/class-main.php:413
+msgid "Indonesian Rupiah"
+msgstr "Индонезийская рупия"
+
+#: includes/class-main.php:412
+msgid "Hungarian Forint"
+msgstr "Венгерский форинт"
+
+#: includes/class-main.php:411
+msgid "Croatian Kuna"
+msgstr "Хорватская куна"
+
+#: includes/class-main.php:410
+msgid "Hong Kong Dollars"
+msgstr "Гонконгский доллар"
+
+#: includes/class-main.php:409
+msgid "British Pounds"
+msgstr "Фунт стерлингов"
+
+#: includes/class-main.php:408
+msgid "French Francs"
+msgstr "Французский франк"
+
+#: includes/class-main.php:407
+msgid "Euros"
+msgstr "Евро"
+
+#: includes/class-main.php:406
+msgid "Egyptian Pound"
+msgstr "Египетский фунт"
+
+#: includes/class-main.php:405
+msgid "Denmark Kroner"
+msgstr "Датская крона"
+
+#: includes/class-main.php:404
+msgid "Czech Koruna"
+msgstr "Чешская крона"
+
+#: includes/class-main.php:403
+msgid "Colombian Peso"
+msgstr "Колумбийское песо"
+
+#: includes/class-main.php:402
+msgid "Yuan Renminbi"
+msgstr "Китайский юань"
+
+#: includes/class-main.php:401
+msgid "Chilean Peso"
+msgstr "Чилийское песо"
+
+#: includes/class-main.php:400
+msgid "Swiss Francs"
+msgstr "Швейцарский франк"
+
+#: includes/class-main.php:399
+msgid "Canadian Dollars"
+msgstr "Канадский доллар"
+
+#: includes/class-main.php:398
+msgid "Brazilian Real"
+msgstr "Бразильский реал"
+
+#: includes/class-main.php:397
+msgid "Bolivian Boliviano"
+msgstr "Боливийский боливиано"
+
+#: includes/class-main.php:396
+msgid "Bulgarian Lev"
+msgstr "Болгарский лев"
+
+#: includes/class-main.php:395
+msgid "Australian Dollars"
+msgstr "Австралийский доллар"
+
+#: includes/class-main.php:394
+msgid "Argentine Pesos"
+msgstr "Аргентинский песо"
+
+#: includes/class-main.php:393
+msgid "United Arab Emirates Dirham"
+msgstr "Дирхам ОАЭ"
+
+#: includes/class-main.php:392
+msgid "US Dollars"
+msgstr "Доллар США"
+
+#: includes/class-options.php:148
+msgid "Vkontakte"
+msgstr "Вконтакте"
+
+#: includes/class-options.php:141
+msgid "Add YM Webvisor, scroll map and forms analytics"
+msgstr "Добавить Вебвизор, карту скроллинга и аналитику форм"
+
+#: includes/class-options.php:140
+msgid "Add YM simple tracking code"
+msgstr "Добавить простой код отслеживания Яндекс Метрики"
+
+#: includes/class-options.php:123
+msgid "Yandex Metrika"
+msgstr "Яндекс Метрика"
+
+#: includes/class-options.php:111
+msgid "Facebook Pixel"
+msgstr "Пиксель Facebook"
+
+#: includes/class-options.php:90
+msgid "Add analytics simple tracking code"
+msgstr "Добавить код отслеживания Google Аналитики"
+
+#: includes/class-options.php:76
+msgid "Google Analytics"
+msgstr "Google Аналитика"
+
+#: includes/class-options.php:55
+msgid "Google Adwords"
+msgstr "Google Adwords"
+
+#: includes/class-options.php:48
+msgid "Add gtag simple tracking code"
+msgstr "Добавить код отслеживания gtag"
+
+#: includes/class-options.php:34
+msgid "Global Site Tag"
+msgstr "Глобальный тег отслеживания"
+
+#: includes/class-main.php:640
+msgid "Track with Vkontakte"
+msgstr "Отслеживать во Вконтакте"
+
+#: includes/class-main.php:629 includes/class-main.php:652
+msgid "i.e Lead"
+msgstr "например, Lead"
+
+#: includes/class-main.php:88 includes/class-main.php:626
+#: includes/class-main.php:649
+msgid "Event Name"
+msgstr "Название события"
+
+#: includes/class-main.php:617
+msgid "Track with Yandex Metrika"
+msgstr "Отслеживать в Яндекс Метрике"
+
+#: includes/class-main.php:605
+msgid "i.e Whatsapp"
+msgstr "например, Whatsapp"
+
+#: includes/class-main.php:602
+msgid "Custom Event"
+msgstr "Пользовательское событие"
+
+#: includes/class-main.php:589
+msgid "Custom"
+msgstr "Пользовательское событие"
+
+#: includes/class-main.php:588
+msgid "ViewContent"
+msgstr "Просмотр контента"
+
+#: includes/class-main.php:587
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: includes/class-main.php:586
+msgid "SubmitApplication"
+msgstr "Отправить заявку"
+
+#: includes/class-main.php:585
+msgid "StartTrial"
+msgstr "Начало пробного периода"
+
+#: includes/class-main.php:584
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/class-main.php:583
+msgid "Schedule"
+msgstr "График"
+
+#: includes/class-main.php:582
+msgid "Purchase"
+msgstr "Покупка"
+
+#: includes/class-main.php:581
+msgid "Lead"
+msgstr "Лид"
+
+#: includes/class-main.php:580
+msgid "InitiateCheckout"
+msgstr "Инициация оформления заказа"
+
+#: includes/class-main.php:579
+msgid "FindLocation"
+msgstr "Поиск места"
+
+#: includes/class-main.php:578
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: includes/class-main.php:577
+msgid "CustomizeProduct"
+msgstr "Персонализация товара"
+
+#: includes/class-main.php:576
+msgid "Contact"
+msgstr "Связаться"
+
+#: includes/class-main.php:575
+msgid "CompleteRegistration"
+msgstr "Выполнение регистрации"
+
+#: includes/class-main.php:574
+msgid "AddToWishlist"
+msgstr "Добавление в список желаний"
+
+#: includes/class-main.php:573
+msgid "AddToCart"
+msgstr "Добавление в корзину"
+
+#: includes/class-main.php:572
+msgid "AddPaymentInfo"
+msgstr "Добавление платежной информации"
+
+#: includes/class-main.php:569
+msgid "Facebook Event"
+msgstr "Событие Facebook"
+
+#: includes/class-main.php:560
+msgid "Track with Facebook"
+msgstr "Отслеживать в Facebook"
+
+#: includes/class-main.php:480
+msgid "Tracking events with old Google Analytics code (analytics.js)"
+msgstr "Отслеживание событий с помощью старого кода Google Analytics (analytics.js)"
+
+#: includes/class-main.php:469
+msgid "Track with Google Analytics (analytics.js)"
+msgstr "Отслеживать в Google Analytics (analytics.js)"
+
+#: includes/class-main.php:457
+msgid "i.e 100"
+msgstr "например, 100"
+
+#: includes/class-main.php:454
+msgid "Event Value"
+msgstr "Значение события"
+
+#: includes/class-main.php:389
+msgid "Event Currency"
+msgstr "Валюта события"
+
+#: includes/class-main.php:375
+msgid "bC-D_efG-h12_34-567"
+msgstr "bC-D_efG-h12_34-567"
+
+#: includes/class-main.php:363
+msgid "Track Adwords Conversion (gtag.js)"
+msgstr "Отслеживать конверсию Adwords (gtag.js)"
+
+#: includes/class-main.php:352 includes/class-main.php:523
+msgid "i.e Fall Campaign"
+msgstr "например, осенние скидки"
+
+#: includes/class-main.php:349 includes/class-main.php:372
+#: includes/class-main.php:520
+msgid "Event Label"
+msgstr "Ярлык события"
+
+#: includes/class-main.php:338 includes/class-main.php:509
+msgid "i.e click"
+msgstr "например, Клик"
+
+#: includes/class-main.php:335 includes/class-main.php:506
+msgid "Event Action"
+msgstr "Действие события"
+
+#: includes/class-main.php:324 includes/class-main.php:495
+msgid "i.e Outbound Link"
+msgstr "например, Исходящая ссылка"
+
+#: includes/class-main.php:321 includes/class-main.php:492
+msgid "Event Category"
+msgstr "Категорий события"
+
+#: includes/class-main.php:309
+msgid "Tracking events with new Google Analytics code (gtag.js)"
+msgstr "Отслеживание событий с помощью нового кода Google Analytics (gtag.js)"
+
+#: includes/class-main.php:298
+msgid "Track with Google Universal Tag (gtag.js)"
+msgstr "Отслеживание с помощью универсального тега Google (gtag.js)"
+
+#: includes/class-main.php:290
+msgid "Events Tracking"
+msgstr "Отслеживание событий"
+
+#: includes/class-options.php:154
+msgid "See <a href=\"https://vk.com/faq12142\" target=\"_blank\">VK FAQ</a> to create pixel and get code"
+msgstr "Смотрите <a href=\"https://vk.com/faq12142\" target=\"_blank\">FAQ Вконтакте</a> чтобы создать пиксель и получить код"
+
+#: includes/class-options.php:151
+msgid "Vkontakte Pixel ID"
+msgstr "ID пикселя вконтакте"
+
+#: includes/class-options.php:132
+msgid "See Yandex Metrika <a href=\"https://yandex.ru/support/metrica/quick-start.html?lang=en\" target=\"_blank\">Quick Start Guide</a>"
+msgstr "Смотрите <a href=\"https://yandex.ru/support/metrica/quick-start.html?lang=ru\" target=\"_blank\">Реководство по быстрому старту</a> Яндекс Метрики"
+
+#: includes/class-options.php:129
+msgid "Yandex Metrika ID"
+msgstr "ID Яндекс Метрики"
+
+#: includes/class-options.php:117
+msgid "Know how to create a <a href=\"https://www.facebook.com/business/help/952192354843755?id=1205376682832142\" target=\"_blank\">Facebook Pixel</a> and get a code."
+msgstr "Узнайте как создать <a href=\"https://www.facebook.com/business/help/952192354843755?id=1205376682832142\" target=\"_blank\">Пиксель Facebook</a> и получить код."
+
+#: includes/class-options.php:114
+msgid "Facebook Pixel ID"
+msgstr "ID пикселя Facebook"
+
+#: includes/class-options.php:82
+msgid "Know how to add <a href=\"https://developers.google.com/analytics/devguides/collection/analyticsjs\" target=\"_blank\">Analytics.js code</a> and <a href=\"https://support.google.com/analytics/answer/1008080?hl=en\" target=\"_blank\">where to get</a> the tracking code"
+msgstr "Узнайте как добавить <a href=\"https://developers.google.com/analytics/devguides/collection/analyticsjs?hl=ru\" target=\"_blank\">Код Analytics.js</a> и <a href=\"https://support.google.com/analytics/answer/1008080?hl=en\" target=\"_blank\">где взять</a> код отслеживания"
+
+#: includes/class-options.php:79
+msgid "Google Analytics ID (analytics.js)"
+msgstr "ID Google Аналитики (analytics.js)"
+
+#: includes/class-options.php:61
+msgid "Learn where to find <a href=\"https://support.google.com/google-ads/thread/1449693?hl=en\" target=\"_blank\">Google Ads Conversion ID</a>"
+msgstr "Узнайте где найти <a href=\"https://support.google.com/google-ads/thread/1449693?hl=en\" target=\"_blank\">ID конверсии Google Ads</a>"
+
+#: includes/class-options.php:58
+msgid "Adwords Converion ID (gtag.js)"
+msgstr "ID конверсии Adwords (gtag.js)"
+
+#: includes/class-options.php:40
+msgid "Learn <a href=\"https://support.google.com/analytics/answer/1008080?hl=en\" target=\"_blank\">how to set up the Analytics tag</a> and where to get the code"
+msgstr "Узнайте <a href=\"https://support.google.com/analytics/answer/1008080?hl=ru\" target=\"_blank\">как установить тег Аналитики</a> и где взять код"
+
+#: includes/class-options.php:37
+msgid "Global Site Tag ID (gtag.js)"
+msgstr "ID глобального тега (gtag.js)"
+
+#: includes/class-options.php:31
+msgid "Events Tracker"
+msgstr "Events Tracker"
+
+#: events-tracker-for-elementor.php:70
+msgid "Elementor"
+msgstr "Elementor"
+
+#: events-tracker-for-elementor.php:69
+msgid "Events Tracker For Elementor"
+msgstr "Events Tracker For Elementor"
+
+#. translators: 1: Plugin name 2: Elementor
+#: events-tracker-for-elementor.php:68
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "\"%1$s\" требуется, чтобы был установлен и активирован \"%2$s\"."
+
+#. Author URI of the plugin
+msgid "https://wpl.agency/"
+msgstr "https://wpl.agency/"
+
+#. Author of the plugin
+msgid "wpl.agency"
+msgstr "wpl.agency"
+
+#. Description of the plugin
+msgid "Track Click or Submit events and conversions for any Elementor widget with Google Analytics, Facebook, Yandex Metrika, Vkontakte."
+msgstr "Отслеживайте Клики или Заполнения форм и конверсии для любого виджета Elementor с помощью Google Analytics, Facebook, Яндекс Метрика, Вконтакте."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/events-tracker-for-elementor/"
+msgstr "https://wordpress.org/plugins/events-tracker-for-elementor/"
+
+#. Plugin Name of the plugin
+msgid "Events Tracker for Elementor"
+msgstr "Events Tracker for Elementor"
